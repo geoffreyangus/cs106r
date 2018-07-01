@@ -9,7 +9,7 @@ If you have any questions regarding the assignments themselves, open up a [GitHu
 ---
 
 ### Week 1:
-- Introduction to Python
+- [Introduction to Python] (https://github.com/geoffreyangus/CS106R/blob/master/notes.md#introduction-to-python)
 - [Variables and operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/notes/week1.md)
 
 HW:
