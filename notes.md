@@ -12,16 +12,18 @@ Simply put, computer science is **the art of using computers to solve problems**
 ## What is a Computer and what is Computer Programming? 
 Computers come in many forms. If you're reading these notes on a laptop, you are, of course, using a computer. If you're reading on a smartphone, you are using a computer as well. Computers can be large and powerful, like [IBM's Summit supercomputer](https://techcrunch.com/2018/06/08/ibms-new-summit-supercomputer-for-the-doe-delivers-200-petaflops/), or very small and specialized, like the computer in a [pacemaker](https://www.nhlbi.nih.gov/node/3465). Computers can be old: [Ada Lovelace](https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html) was the first to program a computer – she did so in 1837. Computers show up in places you might not expect them: microwave ovens, digital watches, traffic lights, microscopes, and MRI machines all have computers embedded inside them. So what ties all of these machines together? What makes them **computers**? 
 
-Computers are **programmable** machines – without changing their physical design, they can perform new tasks by following written instructions. A **computer program** is a set of instructions for a computer. Computers consist of a few basic physical components that allow them to do four simple things:
-1. Accept information as input
+Computers are **programmable** machines – without changing their physical design, they can perform new tasks by following a set of written instructions. A **computer program** is a set of instructions for a computer. Computers consist of a few basic physical components that allow them to do four simple things:
+1. _Accept information as input_
 
-   We input information into our computers through our keyboard. We can also input information with a camera or microphone. With an internet connection, a computer can receive input from other computers. 
+   We input information into our computers through our keyboard. We can also input information with a camera or microphone. With an internet connection, a computer can receive information from other computers. Computers also receive input from permanent storage devices like hard drives and 
    
-2. Store information (in memory)
+2. _Store information_
+
+   A computer can hold information in temporary memory for later access. A computer's temporary memory is distinct from its permanent storage (i.e. hard drive, USB drive). When the computer is turned off, this memory dissapears, but it can be accessed much more rapidly than the information stored in a hard drive or USB drive. 
    
-
-
-3. Process information (
+3. _Process information_ 
+   
+   
 
 4. Output information
    A computer shows us information through the computer screen or speakers. Computers also output information to other computers via the internet. 
