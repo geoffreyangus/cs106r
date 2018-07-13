@@ -10,7 +10,7 @@ When you hear the words "computer science", what comes to mind? Do you think of 
 Simply put, computer science is **the art of using computers to solve problems**. Computers can be used to solve a remarkably diverse set of problems, and that is why the visions of computer science listed above are so varied. The bottom line is: if we are getting a computer to solve a problem that it couldn't before, then we are practicing computer science – it doesn't matter what that problem is. So, as you begin this course, we'd recommend that you don't dwell too much on preconceived notions of what you think computer science is or isnt. Rather, come with an open mind and along the way consider: what problems would I like a computer to solve? 
 
 ## What is a Computer and what is Computer Programming? 
-Computers come in many forms. If you're reading these notes on a laptop, you are, of course, using a computer. If you're reading on a smartphone, you are using a computer as well. Computers can be large and powerful, like [IBM's Summit supercomputer](https://techcrunch.com/2018/06/08/ibms-new-summit-supercomputer-for-the-doe-delivers-200-petaflops/), or very small and specialized, like the computer in a [pacemaker](https://www.nhlbi.nih.gov/node/3465). Computers can be old: [Ada Lovelace](https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html) was the first to program a – she did so in 1837. Computers show up in places you might not expect them: microwave ovens, digital watches, traffic lights, microscopes, and MRI machines all have computers embedded inside them. So what ties all of these machines together? What makes them **computers**? 
+Computers come in many forms. If you're reading these notes on a laptop, you are, of course, using a computer. If you're reading on a smartphone, you are using a computer as well. Computers can be large and powerful, like [IBM's Summit supercomputer](https://techcrunch.com/2018/06/08/ibms-new-summit-supercomputer-for-the-doe-delivers-200-petaflops/), or very small and specialized, like the computer in a [pacemaker](https://www.nhlbi.nih.gov/node/3465). Computers can be old: [Ada Lovelace](https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html) was the first to program a computer – she did so in 1837. Computers show up in places you might not expect them: microwave ovens, digital watches, traffic lights, microscopes, and MRI machines all have computers embedded inside them. So what ties all of these machines together? What makes them **computers**? 
 
 Computers are **programmable** machines – without changing their physical design, they can perform new tasks by following written instructions. A **computer program** is a set of instructions for a computer. Computers consist of a few basic physical components that allow them to do four simple things:
 1. Accept information as input
@@ -25,6 +25,8 @@ Computers are **programmable** machines – without changing their physical desi
 
 4. Output information
    A computer shows us information through the computer screen or speakers. Computers also output information to other computers via the internet. 
+   
+<img class="computer_diagram" align="right" src="figures/notes/fig_computer_diagram.png">
    
    
 Furthermore, computers store, process and output information according to the written instructions they are given.  A machine is **programmable** if it can follow written instructions. 
