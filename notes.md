@@ -1,7 +1,7 @@
 ---
 title: Course Notes 
 ---
-Hiya! Welcome to the course notes for CS 106R. On this page, you'll find all of the material we'll cover in the class. We designed these course notes to be as lightweight as possible – that is, they cover all the essentials but won't dive into material too deeply. Throughout you will find links to external resources we've found helpful in understanding concepts. 
+Hiya! Welcome to the course notes for CS 106R. On this page, you'll find all of the material we'll cover in the class. We designed these course notes to be as lightweight as possible – that is, they will cover all the essentials but won't dive into material too deeply. Throughout you will find links to external resources we've found helpful in understanding concepts. 
 
 ---
 ## What is Computer Science? 
@@ -38,18 +38,96 @@ computer program is a set of written instructions for a computer are called a co
 ## Simple Functions
 How do we get Python to If we want to print something we can call print(). 
 
-## Basic Types  
-| Type        | Description   | Example  |
-| ------------- |-------------| -----|
-| **int**           | Positive and negative integers.              |           1, 345, -6         |
-| **float**         | Real numbers i.e. numbers with decimal points      | 1.0, 3.14, 1e-2, -0.22|
-| **string**        | Text | "Colegio Bom Jesus", "Winter is coming." |
-| **bool**          | True or false               | True, False        |
+## Basic Types 
+Learning Objectives
+1. Show them the python interpreter
+2. Get them comfortable with the interpreter
+    a. Show them `control + C` and `control  + D`
+3. Get them comfortable with floats, integers, booleans, and strings
 
-### int
+### Variables
 
-### float 
+The fundamental building block of all programming languages is the *variable*. **A _variable_ is a word that stores a value.** Here are some examples of some variables and how they are used:
 
-### string
+```python
+x = 5
+y = 4
 
-### bool
+z = x + y
+```
+
+Here, `x`, `y`, and `z` are all examples of variables.
+
+### Types
+There are four fundamental variable types in Python:
+
+1. Integer
+2. Float
+3. String
+4. Boolean
+
+We will get into the definitions of these words below.
+
+##### Integers
+
+An _integer_ is a whole number...
+
+```python
+numPatients = 5
+count = 0
+```
+
+##### Floats
+
+A float a number that has decimal values...
+
+They are initialized like integers, except with the addition of the decimal point and numbers that follow.
+
+```python
+volumeLevel = 0.93
+totalScore = 100.0
+```
+
+##### Strings
+
+Strings are _strings_ of characters of any kind. Look at the following examples:
+
+```python
+sentence1 = 'CS106R is awesome!'
+emailDomain = '@gmail.com'
+jerseyNumber = '9'
+```
+
+Here, `sentence1`, `emailDomain`, and `jerseyNumber` are all examples of Strings. Notice that a number can be a string.
+
+##### Boolean
+
+Booleans are variables that represent True or False values.
+
+_Why not use strings that say "True" or "False" instead?_
+
+We use booleans because they take up less space in the computer. Instead of storing a string of characters, we can store a 0 for a False value, and a 1 for a True value.
+
+```python
+isGirl = True
+isBoy = False
+```
+
+Now that we have gone through the different variables, let us talk about the operators...
+
+### Operators
+
+##### Arithmetic Operators
+
+1. `**`
+2. `*` or `/`
+3. `+` or `-`
+
+##### Boolean Operators
+
+- `==`
+- `!=`
+- `>`
+- `>=`
+- `<`
+- `<=`
