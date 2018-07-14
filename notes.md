@@ -37,7 +37,7 @@ Computer programs are written in **programming languages**. A programming langua
 
 ## Introduction to Python 
 In this course we'll be working with a programming lanugage called Python. We chose Python because it is powerful, popular and fun to work with. That being said, this is an introductory course in Computer Science, not Python – the ideas and concepts we cover can be applied to programming in almost any language.  
-
+####Exercise: 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1211151/65629c184c91c55555e68086ece937d5"></iframe>
 
 ## Simple Functions
