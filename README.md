@@ -1,9 +1,10 @@
-CS 106R is a pioneer, 7-week course developed by two master's students from Stanford University as a means to show high-school students the applications of Computer Science in the world of academia and research. The course balances emphasis on both the theory and applications of Computer Science by teaching the core principles of computational theory with a project-based curriculum. 
-By the end of the course, students will have a basic understanding of the skills necessary to build their own data science projects. Students will be able to process and analyze large datasets and create powerful programs capable of visualizing the nature of the data at hand.
-
+CS 106R is a pioneer, 7-week course meant to introduce high-school students to the world of Computer Science. The course is based on Stanford's wildly popular introductory Computer Science course, CS 106A. Students will be introduced to the core principles of software engineering through hands-on exercises and projects in the Python programming language. We'll also cover fundamental ideas in Computer Science theory and study exciting applications of Computer Science in fields from medicine to music.
 ---
 ## Course Logistics
-The course is a 7-week introductory Computer Science course that meets two days a week. We will be meeting with two sections (class groups) every week during the afternoon free period. Each class will consist of a lecture and a work session. Please email the teaching staff at cs106r@gmail.com if you have any questions.
+The course will last 7-week and meet once a week.
+Each class will consist of a lecture and a work session. 
+Please email the teaching staff at cs106r@gmail.com if you have any questions.
+
 ### Where:
 Building A, Room 206 (Computer Lab)
 ### When:
