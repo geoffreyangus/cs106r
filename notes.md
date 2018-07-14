@@ -12,10 +12,11 @@ Simply put, computer science is **the art of using computers to solve problems**
 ## What is a Computer and what is Computer Programming? 
 Computers come in many forms. If you're reading these notes on a laptop, you are, of course, using a computer. If you're reading on a smartphone, you are using a computer as well. Computers can be large and powerful, like [IBM's Summit supercomputer](https://techcrunch.com/2018/06/08/ibms-new-summit-supercomputer-for-the-doe-delivers-200-petaflops/), or very small and specialized, like the computer in a [pacemaker](https://www.nhlbi.nih.gov/node/3465). Computers can be old: [Ada Lovelace](https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html) was the first to program a computer – she did so in 1837. Computers show up in places you might not expect them: microwave ovens, digital watches, traffic lights, microscopes, and MRI machines all have computers embedded inside them. So what ties all of these machines together? What makes them **computers**? 
 
-Computers are **programmable** machines – without changing their physical design, they can perform new tasks by following a set of written instructions. A **computer program** is a set of instructions for a computer. Computers consist of a few basic physical components that allow them to do four simple things:
+Computers consist of a few basic physical components that allow them to do four simple things: 
+<img class="computer_diagram" align="right" src="figures/notes/fig_computer_diagram.png">
 1. _Accept information as input_
 
-   We input information into our computers through our keyboard. We can also input information with a camera or microphone. With an internet connection, a computer can receive information from other computers. Computers also receive input from permanent storage devices like hard drives and 
+   We input information into our computers through our keyboard. We can also input information with a camera or microphone. With an internet connection, a computer can receive information from other computers. Computers also receive input from permanent storage devices like hard drives. 
    
 2. _Store information_
 
@@ -23,17 +24,11 @@ Computers are **programmable** machines – without changing their physical desi
    
 3. _Process information_ 
    
+   Computers are **programmable** machines – without changing their physical design, they can perform new tasks by following a set of written instructions. A **computer program** is a set of instructions for a computer. The central processing unit (CPU) reads these instructions and processes the information stored in memory. The CPU can, for example, add together two numbers stored in memory. The operations that a CPU can perform are very elementary – think: adding 
    
+4. _Output information_
 
-4. Output information
    A computer shows us information through the computer screen or speakers. Computers also output information to other computers via the internet. 
-   
-<img class="computer_diagram" align="right" src="figures/notes/fig_computer_diagram.png">
-   
-   
-Furthermore, computers store, process and output information according to the written instructions they are given.  A machine is **programmable** if it can follow written instructions. 
-
-computer program is a set of written instructions for a computer are called a computer program  very   programmed to process information   historian of Computer programming is an important part of computer science, **but**, computer programming is only part of the work of a computer scientist more computer science than writing is  
 
 ## Introduction to Python 
 
