@@ -49,8 +49,10 @@ python filename.py
 ``` 
 In repl.it, you can run a Python file by simply clicking **Run**.  
 
-### Simple Functions 
-Let's write our first Python program. We'd like it to  
+### Our First Pytho Program 
+Let's write our first Python program. We'd like our program to output a simple message: I am Python program!
+
+To output text in Python, we can use the `print()` function which is built into Python. In the example below, we call the print function and include the message we'd like to print in quotes within the parantheses that follow the function name. **Remember**: the itself message needs be written within quotes.  
 
 _Python Code_
 ```python
@@ -60,18 +62,20 @@ _Output_
 ```
 > Hello, world!
 ```
-We've been talking a lot, let's write our first Python program. Before we can,  we need to introduce 
-> **Function**    A sequence of commands that are grouped together and given a name, so that they can be called together. 
 
-Python comes with  program can output text . 
-
-Let's write our first program in Python. 
+Let's give it a try: 
  
 #### Exercise:  
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1211151/65629c184c91c55555e68086ece937d5"></iframe>
 
 ## Simple Functions
-How do we get Python to If we want to print something we can call print(). 
+Using `print()` function above got the job done. But what exactly is a function. 
+
+> **Function**    A sequence of commands that are grouped together and given a name, so that they can be called together. 
+
+Python comes with  program can output text . 
+
+Let's write our first program in Python. 
 
 ## Basic Types 
 Learning Objectives
