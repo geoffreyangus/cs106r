@@ -50,8 +50,18 @@ python filename.py
 In repl.it, you can run a Python file by simply clicking **Run**.  
 
 ### Simple Functions 
-Let's write our first Python program.
-> **Function**    A sequence of commands that are grouped together and given a name, so that they can be calle 
+Let's write our first Python program. We'd like it to  
+
+_Python Code_
+```python
+print("Hello, world!")
+```
+_Output_
+```
+> Hello, world!
+```
+We've been talking a lot, let's write our first Python program. Before we can,  we need to introduce 
+> **Function**    A sequence of commands that are grouped together and given a name, so that they can be called together. 
 
 Python comes with  program can output text . 
 
