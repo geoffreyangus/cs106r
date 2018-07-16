@@ -9,10 +9,10 @@ When you hear the words "computer science", what comes to mind? Do you think of 
 
 Simply put, computer science is **the art of using computers to solve problems**. Computers can be used to solve a remarkably diverse set of problems, and that is why the visions of computer science listed above are so varied. The bottom line is: if we are getting a computer to solve a problem that it couldn't before, then we are practicing computer science – it doesn't matter what that problem is. So, as you begin this course, we'd recommend that you don't dwell too much on preconceived notions of what you think computer science is or isnt. Rather, come with an open mind and along the way consider: what problems would I like a computer to solve? 
 
-## What is Computer Programming? 
-Computers come in many forms. If you're reading these notes on a laptop, you are, of course, using a computer. If you're reading on a smartphone, you are using a computer as well. Computers can be large and powerful, like [IBM's Summit supercomputer](https://techcrunch.com/2018/06/08/ibms-new-summit-supercomputer-for-the-doe-delivers-200-petaflops/), or very small and specialized, like the computer in a [pacemaker](https://www.nhlbi.nih.gov/node/3465). Computers can be old: [Ada Lovelace](https://www.nytimes.com/interactive/2018/obituaries/overlooked-ada-lovelace.html) was the first to program a computer – she did so in 1837. Computers show up in places you might not expect them: microwave ovens, digital watches, traffic lights, microscopes, and MRI machines all have computers embedded inside them. So what ties all of these machines together? What makes them **computers**? 
+## What is a Computer and what is Computer Programming?
+Let's nail down exactly what we mean when we say "computer". In everyday speech, the word computer usually refers to laptops and desktops, like the one you're reading these notes on. However, in reality, a computer is a much more general concept and most computers hardly resemble laptops. The most powerful computers in the world, like [IBM's Summit supercomputer](https://techcrunch.com/2018/06/08/ibms-new-summit-supercomputer-for-the-doe-delivers-200-petaflops/), can take up a full-room's worth of space. Other computers are incredibly small and specialized, like the computer inside a [pacemaker](https://www.nhlbi.nih.gov/node/3465). Computers show up in places you might not expect them: microwave ovens, digital watches, traffic lights, microscopes, and MRI machines all have computers embedded inside them. If most computers lack screens or keyboards and don't resemble the computers to we're familiar with, what makes them computers? What ties all of these machines together?
 
-A computer consists only of a few physical components that allow it to perform four basic functions: 
+A **computer** is a programmable, information-processing machine. It consists of a few physical components that allow it to perform four basic functions: 
 1. _Input information_
 
    This is how the computer gets information from the world. We input information into our computers through our keyboard when we type. We're also inputting information into computers when we use a video camera or microphone. When we log onto a website, our computer receives input from an internet connection. Computers also receive input from permanent storage devices like hard drives. 
@@ -29,15 +29,35 @@ A computer consists only of a few physical components that allow it to perform f
 
    For a computer to be useful to us, it must output newly-processed information. A laptop computer outputs information through a computer screen or speakers. Computers also output information to other computers via the internet. 
 
+Inside a computer there is typically at least one component for each of these four fundamental functions – input, output, store, and process. The four components are outlined in the figure below. The arrows indicate how information flows is passed through the computer.
 <img class="computer_diagram" align="right" src="figures/notes/fig_computer_diagram.png">
 
 More than anything else, what distinguishes computers from other machines is that they are **programmable**. That is, without changing a computer's physical design, we can get it to perform new tasks by following a new set of written instructions. That set of instructions is called a **computer program** and the act of writing the instructions is **computer programming**.
 
-Computer programs are written in **programming languages**. A programming language is a formal languages used to specify instructions to a computer. There are many, many programming languages – perhaps you've heard of a few like C++, Java or Python. Each consists of a set of rules and syntax that a programmer must follow to be understood by the computer. 
+Computer programs are written in **programming languages**. A programming language is a precise language used to specify instructions to the computer.There are many, many programming languages – perhaps you've heard of a few like C++, Java or Python. Each consists of a set of rules and syntax that a programmer must follow in order to be understood by the computer.
 
 ## Introduction to Python 
-In this course we'll be working with a programming lanugage called Python. We chose Python because it is powerful, popular and fun to work with. That being said, this is an introductory course in Computer Science, not Python – the ideas and concepts we cover can be applied to programming in almost any language.  
-####Exercise: 
+In this course we'll be working with a programming lanugage called Python. We chose Python because it is powerful, fun to work with and extremely popular. That being said, this is an introductory course in Computer Science, not Python – the ideas and concepts we cover can be applied to programming in almost any language. 
+
+### Python Files
+Python programs is written in simple text files with the filename extension: `.py`. Each line in the file is one command for the computer. When the computer runs a Python program, it proceeds  line by line through the file from the top to bottom.
+
+### Running a Python Program 
+To run a Python program, run the following command in your terminal, replacing `filename.py` with the path to your program file.
+```Bash
+python filename.py
+``` 
+In repl.it, you can run a Python file by simply clicking **Run**.  
+
+### Simple Functions 
+Let's write our first Python program.
+> **Function**    A sequence of commands that are grouped together and given a name, so that they can be calle 
+
+Python comes with  program can output text . 
+
+Let's write our first program in Python. 
+ 
+#### Exercise:  
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1211151/65629c184c91c55555e68086ece937d5"></iframe>
 
 ## Simple Functions
