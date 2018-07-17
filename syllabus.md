@@ -9,7 +9,7 @@ If you have any questions regarding the assignments themselves, open up a [GitHu
 ---
 | Week | Date    | Reading  | Assignment |
 | ---- | ------- | -------  | ---------- |
-| 1    | July 30 |  - [Introduction to Python](https://github.com/geoffreyangus/CS106R/blob/master/notes.md#introduction-to-python) <br> - [Variables and Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/notes/week1.md)|
+| 1    | July 30 |  - [Introduction to Python](https://github.com/geoffreyangus/CS106R/blob/master/notes.md#introduction-to-python) <br> - [Variables and Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/notes/week1.md)| - [Python Setup](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment0) <br> - [Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment1) |
 | 2    | August 6|          |
 | 3    | August 13|        |
 
@@ -18,8 +18,8 @@ If you have any questions regarding the assignments themselves, open up a [GitHu
 - [Variables and operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/notes/week1.md)
 
 HW:
-- Handout 0: [Python Setup](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment0)
-- Handout 1: [Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment1)
+- [Python Setup](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment0)
+- [Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment1)
 
 ### Week 2:
 - Program flow
