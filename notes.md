@@ -56,14 +56,14 @@ To output text in Python, we can use the `print()` function which is built into 
 
 _Python Code_
 ```python
-print("Hello, world!")
+print("I am a Python program!")
 ```
 _Output_
 ```
-> Hello, world!
+> I am a Python program!
 ```
 
-Let's give it a try: 
+Let's try using `print()` in the following exercise: 
  
 #### Exercise:  
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1211151/65629c184c91c55555e68086ece937d5"></iframe>
@@ -71,7 +71,9 @@ Let's give it a try:
 ## Simple Functions
 We used the `print()` function above to print our name. But, what exactly is a function? 
 
-> **Function** – A sequence of commands that are grouped together and given a name.  
+> **Function** – A  code that is grouped together and packaged under a name. When  so it can be called in one line.
+
+ `function_name()`  
 
 Python comes with  program can output text . 
 
