@@ -7,6 +7,11 @@ Hello! Welcome to the syllabus page. If you have any questions about class logis
 If you have any questions regarding the assignments themselves, open up a [GitHub Issue](https://github.com/geoffreyangus/CS106R/issues). Instructions on how to open up an Issue can be found in [this section](https://github.com/geoffreyangus/CS106R/wiki/Asking-a-Question) of the wiki.
 
 ---
+| Week | Date    | Reading  | Assignment |
+| ---- | ------- | -------  | ---------- |
+| 1    | July 30 |  - [Introduction to Python](https://github.com/geoffreyangus/CS106R/blob/master/notes.md#introduction-to-python) <br> - [Variables and Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/notes/week1.md)|
+| 2    | August 6|          |
+| 3    | August 13|        |
 
 ### Week 1:
 - [Introduction to Python](https://github.com/geoffreyangus/CS106R/blob/master/notes.md#introduction-to-python)
