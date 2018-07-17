@@ -39,20 +39,27 @@ Computer programs are written in **programming languages**. A programming langua
 ## Introduction to Python 
 In this course we'll be working with a programming lanugage called Python. We chose Python because it is powerful, fun to work with and extremely popular. That being said, this is an introductory course in Computer Science, not Python – the ideas and concepts we cover can be applied to programming in almost any language. 
 
+### Coding with repl.it
+We are going to use a website called [repl.it](repl.it) that allows us to code in Python online. All of our exercises and assignments will be on repl.it. In the figure below, we've highlighted a screen-capture of repl.it. 
+
+<img class="computer_diagram" align="right" src="figures/notes/fig_replit.png">
+
 ### Python Files
-Python programs is written in simple text files with the filename extension: `.py`. Each line in the file is one command for the computer. When the computer runs a Python program, it proceeds  line by line through the file from the top to bottom.
+Python programs are written in simple text files. These file names end with `.py`. Each line in the file is one instruction for the computer. When we run a Python program, the computer steps line by line through the file from the top to bottom reading one instruction at a time.
 
 ### Running a Python Program 
-To run a Python program, run the following command in your terminal, replacing `filename.py` with the path to your program file.
+In repl.it, you can run a Python file by simply clicking **Run** when the Python file is open.  
+
+To run a Python program on your computer, run the following command in your terminal, replacing `filename.py` with the path to your program file.
 ```Bash
 python filename.py
 ``` 
 In repl.it, you can run a Python file by simply clicking **Run**.  
 
 ### Our First Python Program 
-Let's write our first Python program. We'd like our program to output a simple message: I am Python program!
+Let's write our first Python program. We'd like our program to output a simple message: I am a Python program!
 
-To output text in Python, we will use the `print()` function. In the example below, we call the print function and include the message we'd like to print within the parantheses that follow the function name. **Remember**: the itself message needs be written within quotes.  
+To output text in Python, we will use the `print()` function. In the example below, we call the print function and include the message we'd like to print within the parantheses that follow the function name. **Remember**: the message itself needs be written within quotes.  
 
 _Python Code_
 ```python

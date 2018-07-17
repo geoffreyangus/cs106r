@@ -16,7 +16,7 @@ If you have any questions regarding the assignments themselves, open up a [GitHu
 | 4    | August 20 - August 24|  –    |   –  |   –  |
 | 5    | August 27 - August 31|  –    |   –  |   –  |
 | 6    | September 3 - September 7|  –    |   –  |   –  |
-| 6    | September 10 - September 14|  –    |   –  |   –  |
+| 7    | September 10 - September 14|  –    |   –  |   –  |
 
 
 
