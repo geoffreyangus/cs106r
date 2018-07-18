@@ -32,14 +32,15 @@
           <a href="https://geoffreyangus.github.io/CS106R/projects" class="btn">Projects</a>
          
       </div>
-      <h1 class="page-name">{{ page.title | default: site.github.repository_name }}</h1>
     {% endif %}
     {% if page.url == '/notes.html' %}   
       <div class="notes-sidebar">
         <a href="#boolean">Booleans</a>
       </div>
+      <h1 class="page-name notes-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content notes-body" role="main">
-    {% else %}
+    {% elsif page.url != '/' %}
+      <h1 class="page-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content" role="main">
     {% endif %}
       {{ content }}
