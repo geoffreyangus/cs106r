@@ -4,8 +4,15 @@ title: Projects
 
 
 # Project 1 - PyBot
-[Assignment](https://geoffreyangus.github.io/CS106R/assignments/assignment1)
+<img class="bio-pic" align="right" width="150" height="150" src="figures/projects/project1.png">
 
+[Work on Project](https://geoffreyangus.github.io/CS106R/projects/project1)
+
+**Due**: Week 2 in-class
+
+**Topics**: Functions, Decomposition, Control Flow
+
+**Description**: PyBot is a simple robot. She lives in the sparse planes PyCountry where peaches grow. In this project, we'll program PyBot to explore her world, harvest fruit and build cities.  (Based on CS106A's Karel the Robot)
 
 ---
 
