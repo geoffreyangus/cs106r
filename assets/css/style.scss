@@ -55,6 +55,9 @@
     padding: 6px 16px;
 }
 
-#content h5 a {
-    padding-top: 200px;
+.anchor-offset {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
 }
