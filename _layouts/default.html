@@ -34,9 +34,11 @@
       </div>
       <h1 class="page-name">{{ page.title | default: site.github.repository_name }}</h1>
     {% endif %}
-    <div class="notes-sidebar">
-      testing testing testing
-    </div>
+    {% if page.url == '/CS106R/notes' %}   
+      <div class="notes-sidebar">
+        testing testing testing
+      </div>
+    {% endif %}
     <main id="content" class="main-content" role="main">
       {{ content }}
 
