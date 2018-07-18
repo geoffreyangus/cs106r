@@ -168,7 +168,7 @@ jerseyNumber = '9'
 
 Here, `sentence1`, `emailDomain`, and `jerseyNumber` are all examples of Strings. Notice that a number can be a string.
 
-<a class="anchor-offset" id="boolean"></a>
+<a class="anchor-offset" id="boolean" href="#boolean"></a>
 ##### Boolean
 
 Booleans are variables that represent True or False values.

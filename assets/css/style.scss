@@ -50,11 +50,21 @@
     margin-top: 100px;
 }
 
-#content {
+.page-name .notes-name {
     margin-left: 20%;
-    padding: 6px 16px;
 }
 
-#content h5 a {
-    padding-top: 200px;
+#content {
+    padding: 6px 56px;
+}
+
+.notes-body {
+    margin-left: 20%;
+}
+
+.anchor-offset {
+    display: block;
+    position: relative;
+    top: -62px;
+    visibility: hidden;
 }
