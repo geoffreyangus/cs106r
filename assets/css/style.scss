@@ -30,6 +30,15 @@
     margin-bottom: 0px;
 }
 
+.notes-sidebar { 
+    position: fixed;
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 3px 0px whitesmoke;
+    top: 70px;
+}
+
 @media screen and (max-width: 42em) {
     .nav-bar a {
         margin-top: 1rem;
