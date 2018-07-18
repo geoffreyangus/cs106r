@@ -38,9 +38,10 @@
       <div class="notes-sidebar">
         <a href="#boolean">Booleans</a>
       </div>
+      <main id="content" class="main-content notes" role="main">
+    {% else %}
+      <main id="content" class="main-content" role="main">
     {% endif %}
-    {{ page.url }}
-    <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">

@@ -48,11 +48,13 @@
 .page-name {
     text-align: center;
     margin-top: 100px;
-    margin-bottom: -70px
 }
 
 #content {
     margin-left: 20%;
-    margin-top: 62px;
     padding: 6px 16px;
+}
+
+#content h5 a {
+    padding-top: 200px;
 }
