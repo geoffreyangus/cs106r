@@ -4,7 +4,7 @@ title: Projects
 
 
 # Project 1 - PyBot
-<img class="bio-pic" align="right" width="150" height="150" src="figures/projects/project1.png">
+<img class="bio-pic" align="right" width="130" height="130" src="figures/projects/project1.png">
 
 [Work on Project](https://geoffreyangus.github.io/CS106R/projects/project1)
 
