@@ -10,7 +10,7 @@ Hello! Welcome to the course notes for CS 106R. On this page, you'll find all of
 ## Week 1
 [Introduction to Computer Science](https://geoffreyangus.github.io/CS106R/notes/intro_cs)
 
-[Introduction to Python(https://geoffreyangus.github.io/CS106R/notes/intro_cs)
+[Introduction to Python](https://geoffreyangus.github.io/CS106R/notes/intro_cs)
 
 [Simple Functions](https://geoffreyangus.github.io/CS106R/notes/intro_cs)
 
