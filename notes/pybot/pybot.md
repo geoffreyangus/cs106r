@@ -29,7 +29,7 @@ PyBot was built to perform only a small set of actions: she can move in the dire
 ## PyBot Functions
 ### Commands
 **Commands**   We can program PyBot to perform a few simple actions by calling the following Python functions:
-<img class="bio-pic" src="figures/fig_move.png" width="10000">
+<img class="bio-pic" src="figures/fig_move.png" width="175%">
 
 1. `move()` - PyBot takes one step in the direction she is facing.
 2. `turn_right()` - PyBot turns herself 90 degrees to the right
