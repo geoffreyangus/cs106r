@@ -8,23 +8,23 @@ Hello! Welcome to the course notes for CS 106R. On this page, you'll find all of
 # Table of Contents 
 
 ## Week 1
-[Introduction to Computer Science](https://geoffreyangus.github.io/CS106R/notes/intro_cs.md)
+[Introduction to Computer Science](https://geoffreyangus.github.io/CS106R/notes/intro_cs)
 
-[Introduction to Python](https://geoffreyangus.github.io/CS106R/notes/intro_cs.md)
+[Introduction to Python(https://geoffreyangus.github.io/CS106R/notes/intro_cs)
 
-[Simple Functions](https://geoffreyangus.github.io/CS106R/notes/intro_cs.md)
+[Simple Functions](https://geoffreyangus.github.io/CS106R/notes/intro_cs)
 
-[PyBot](https://geoffreyangus.github.io/CS106R/notes/pybot.md)
+[PyBot](https://geoffreyangus.github.io/CS106R/notes/pybot)
 
 ---
 
 ## Week 2
 
-[Variables](https://geoffreyangus.github.io/CS106R/notes/variables.md)
+[Variables](https://geoffreyangus.github.io/CS106R/notes/variables)
 
-[Operators](https://geoffreyangus.github.io/CS106R/notes/operators.md)
+[Operators](https://geoffreyangus.github.io/CS106R/notes/operators)
 
-[Functions](https://geoffreyangus.github.io/CS106R/notes/functions.md)
+[Functions](https://geoffreyangus.github.io/CS106R/notes/functions)
 
 ---
 
