@@ -12,7 +12,7 @@ Hello! Welcome to the course notes for CS 106R. On this page, you'll find all of
 
 [Introduction to Python](https://geoffreyangus.github.io/CS106R/notes/intro_cs)
 
-[Simple Functions](https://geoffreyangus.github.io/CS106R/notes/intro_cs)
+[Simple Functions](https://geoffreyangus.github.io/CS106R/notes/simple_functions)
 
 [PyBot](https://geoffreyangus.github.io/CS106R/notes/pybot)
 
