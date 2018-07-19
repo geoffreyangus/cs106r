@@ -6,7 +6,7 @@ title: Course Notes
 For the first week of the course, we're going to be working with a virtual robot name `PyBot`. We'll teach you some important Python concepts, and you will use those concepts to program PyBot. (PyBot is based very closely on Karel the Robot, a virtual robot that students work with in Stanford's introductory computer science course.)
 
 This is PyBot on the right. She is a simple robot. 
-<img class="bio-pic" align="right" width="130" height="130" src="figures/notes/fig_pybot.png">
+<img class="bio-pic" align="right" width="75" height="75" src="../figures/notes/fig_pybot.png">
 She lives in PyCountry, a land renown for its oranges (it said that an orange from PyCountry is easier to peel than any orange in the world). 
 
 ## PyCountry Fields 
@@ -30,8 +30,8 @@ PyBot was built to perform only a small set of actions: she can move in the dire
 
 ## PyBot Functions
 ### Commands
-**Commands**   We can program PyBot to perform a few simple actions by calling the following functions:
-<img class="bio-pic" src="figures/notes/fig_pick_fruit.png">
+**Commands**   We can program PyBot to perform a few simple actions by calling the following Python functions:
+<img class="bio-pic" src="../figures/notes/fig_pick_fruit.png" width="750">
 
 1. `move()` - PyBot takes one step in the direction she is facing.
 2. `turn_right()` - PyBot turns herself 90 degrees to the right
