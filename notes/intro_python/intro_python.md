@@ -8,7 +8,7 @@ In this course we'll be working with a programming lanugage called Python. We ch
 ### Coding with repl.it
 We are going to use a website called [repl.it](repl.it) that allows us to code in Python online. All of our exercises and assignments will be on repl.it. Below we explain how to use repl.it to write Python code: 
 
-<img class="computer_diagram" align="right" src="figures/notes/fig_replit.png">
+<img class="computer_diagram" align="right" src="figures/fig_replit.png">
 
 1. **Read Instructions** – For each exercise in repl.it, we'll include instructions in the right panel (highlighted in blue above). The instructions will tell how to complete the exercise. 
 2. **Write Code** – Once you've read the instructions, you'll want to start writing code. You will write your code in the top left (highlighted in green above). 

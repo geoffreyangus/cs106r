@@ -29,7 +29,7 @@ A **computer** is a programmable, information-processing machine. It consists of
    For a computer to be useful to us, it must output newly-processed information. A laptop computer outputs information through a computer screen or speakers. Computers also output information to other computers via the internet. 
 
 Inside a computer there is typically at least one component for each of these four fundamental functions – input, output, store, and process. The four components are outlined in the figure below. The arrows indicate how information flows is passed through the computer.
-<img class="computer_diagram" align="right" src="figures/notes/fig_computer_diagram.png">
+<img class="computer_diagram" align="right" src="figures/fig_computer_diagram.png">
 
 More than anything else, what distinguishes computers from other machines is that they are **programmable**. That is, without changing a computer's physical design, we can get it to perform new tasks by following a new set of written instructions. That set of instructions is called a **computer program** and the act of writing the instructions is **computer programming**.
 
