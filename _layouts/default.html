@@ -33,7 +33,7 @@
          
       </div>
     {% endif %}
-    {% if page.url == '/notes.html' %}   
+    {% if page.url contains'/notes/' %}   
       <div class="notes-sidebar">
         <a href="#boolean">Booleans</a>
       </div>
@@ -43,6 +43,7 @@
       <h1 class="page-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content" role="main">
     {% endif %}
+      {{ page.url }}
       {{ content }}
 
       <footer class="site-footer">
