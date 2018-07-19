@@ -28,30 +28,19 @@ PyBot was built to perform only a small set of actions: she can move in the dire
 
 ## PyBot Functions
 ### Commands
-**Commands**   We can program PyBot to perform a few simple actions by calling the following Python functions:
+PyBot follows a few simple commands. We can program PyBot to perform a few simple actions by calling the following Python functions: `move()`, `turn_right()`, and `pick_fruit()`
 
-<src="figures/fig_move.png" width="100%">
+<img class="fig_function" src="figures/fig_move.png" width="100%">
 
-<src="figures/fig_turn_right.png" width="100%">
+<img class="fig_function" src="figures/fig_turn_right.png" width="100%">
 
-<src="figures/fig_pick_fruit.png" width="100%">
+<img class="fig_function" src="figures/fig_pick_fruit.png" width="100%">
 
-1. `move()` - PyBot takes one step in the direction she is facing.
-2. `turn_right()` - PyBot turns herself 90 degrees to the right
-3. `pick_fruit()` - PyBot picks the fruit in its current cell.
+## Conditions
+PyBot is also able to answer a few yes or no questions about herself and the cell she is in. We can get the answer to those questions 
 
+<img class="fig_function" src="figures/fig_has_fruit.png" width="100%">
 
+<img class="fig_function" src="figures/fig_front_is_blocked.png" width="100%">
 
-**Conditions  
-1. `front_is_blocked()` - PyBot takes one step in the direction she is facing.
-2. `has_fruit()` -
-3. `is_facing_east()`, `is_facing_north()`, `is_facing_west()`, `is_facing_south()` - 
-
-## PyBot Conditions
-
-
-### PyBot Functions 
-
-`move()` Move PyBot one cell in the direction she is facing. 
-Example: 
-    
+<img class="fig_function" src="figures/fig_is_facing_north.png" width="100%">
