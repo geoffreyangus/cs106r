@@ -81,10 +81,12 @@
     height: 90%;
     background-color: white;
     box-shadow: 3px 0px whitesmoke;
+    padding: 15px;
     top: 70px;
 }
 
 .sidebar-section {
+    display: block;
     padding-bottom: 10px;
     box-shadow: 0px 2px whitesmoke;
     margin-bottom: 15px;
