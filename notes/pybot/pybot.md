@@ -30,17 +30,26 @@ PyBot was built to perform only a small set of actions: she can move in the dire
 ### Commands
 PyBot follows a few simple commands. We can program PyBot to perform a few simple actions by calling the following Python functions: `move()`, `turn_right()`, and `pick_fruit()`
 
-<img class="fig_function" src="figures/fig_move.png" width="100%">
+<img class="fig_function" src="figures/fig_move.png" width="75%">
 
-<img class="fig_function" src="figures/fig_turn_right.png" width="100%">
+<img class="fig_function" src="figures/fig_turn_right.png" width="75%">
 
-<img class="fig_function" src="figures/fig_pick_fruit.png" width="100%">
+<img class="fig_function" src="figures/fig_pick_fruit.png" width="75%">
+
+To program PyBot, we will write a Python program that calls these functions. Let's write our first 
+```python
+def main():
+   move()
+   move()
+   pick_fruit()
+```
+
 
 ## Conditions
 PyBot is also able to answer a few yes or no questions about herself and the cell she is in. We can get the answer to those questions 
 
-<img class="fig_function" src="figures/fig_has_fruit.png" width="100%">
+<img class="fig_function" src="figures/fig_has_fruit.png" width="75%">
 
-<img class="fig_function" src="figures/fig_front_is_blocked.png" width="100%">
+<img class="fig_function" src="figures/fig_front_is_blocked.png" width="75%">
 
-<img class="fig_function" src="figures/fig_is_facing_north.png" width="100%">
+<img class="fig_function" src="figures/fig_is_facing_north.png" width="75%">
