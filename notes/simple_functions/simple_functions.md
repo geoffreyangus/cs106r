@@ -1,9 +1,8 @@
 ---
-title: Course Notes 
+title: Simple Functions 
 ---
 
-## Simple Functions
-We used the `print()` function above to print our name. But, what is a function? 
+So far, you have learned about PyBot and have probably come across the word "function" more than a couple of times. But, what is a function?
 
 > **Function** – Code that is grouped together and packaged under a name, so it can be called in one line.
 
@@ -49,22 +48,20 @@ In this section we will discuss how functions are used. The word we use when des
 
 > **Call** – To execute the code within a function. If one were to say "I called a function" it would mean that he/she used the function in a program to execute the code within.
 
-Functions can call other functions. In fact, this is the way that most functions are used. Here is an example of functions being called:
+Functions can call other functions. In fact, this is the way that most functions are used. You have in fact, already called several functions! Each of the PyBot commands are functions. Knowing this, check out the following example of functions using PyBot commands.
 
 ```python
-def this_is_a_function():
+def move_across():
     """
-    This is an example function for the class notes.
+    A function that allows PyBot to move across the whole board.
     """
-    if not front_is_blocked():
-        move()
-    turn_right()
-    turn_right()
+    move()
+    move()
     move()
     move()
 
 def main():
-    this_is_a_function()
+    move_across()
 
 if __name__ == "__main__":
     main()
@@ -72,19 +69,15 @@ if __name__ == "__main__":
 
 _(Note: when calling a function, you must **always** put the parentheses after the function name. There are no exceptions!)_
 
-Here, we would say that the body of `main()` calls `this_is_a_function()`. We would also say that the body of `this_is_a_function()` calls the functions `move()`, `turn_right()`, and `front_is_blocked()`. We cannot currently see the bodies of these functions, but that is okay! More often than not, we use functions that are implemented by other people, in order to save us time and effort.
+We would say that the body of `main()` _calls_ `move_across()`. We would also say that the body of `move_across()` _calls_ the function `move()` four times. 
 
+<p class="aside">
 _But what is that funky statement calling main at the bottom?_
 
-The statement below the `main()` function that calls `main()` is
-just code that gets the program to run. Do not worry about it for now;
-we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises. 
+The statement below the `main()` function that calls `main()` is just code that gets the program to run. Do not worry about it for now; we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises. 
+</p>
 
-Make sense? Let's go ahead and give it a try!
-
-<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1313668/30154e5dcb411e31a97bf6cf0ffca189"></iframe>
-
-Well done! Now that you have an understanding of the concept of calling a function, let's move on to _writing_ some functions that we want to call.
+Here, we see an example of the usefulness of functions. Now, a programmer can get PyBot across the field with one, descriptive function call, instead of calling `move()` four times. Let's move on to _writing_ some functions that we want to call.
 
 ### Function Implementation
 
@@ -92,11 +85,11 @@ In this section we are going to do a brief exercise in **implementing** function
 
 > **Implementing** – ~Writing~ code! This is a technical word often used in computer science. We use this word because the word for a specific instance of written code is called an **implementation**. (There are many words like this that may require a bit of explanation. If you ever come across a word that is being used in a funny way, please do not hesitate to ask!)
 
-Writing a function is not so difficult. For now, it is the simple act of coming up with a function name and writing the function body.
+Writing a function is not so difficult. For now, it is the simple act of coming up with a function name and writing the function body. Let's try implementing a function in the exercise below.
 
-<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1313845/bc277a9c04019488a587d930112ee0d4"></iframe>
+<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1314054/fa91cdc1980f08650bb8c261abbae01d"></iframe>
 
-Congratulations on writing your first set of functions! 
+Congratulations on writing your first function! 
 
 
 

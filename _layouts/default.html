@@ -33,10 +33,17 @@
          
       </div>
     {% endif %}
-    {% if page.url contains'/notes/' %}   
-      <div class="notes-sidebar">
-        <a href="#boolean">Booleans</a>
-      </div>
+    {% if page.url contains'/notes/' %}
+
+      <!-- SIDEBAR FORMAT TEMPLATE  -->
+      {% if page.url contains 'simple_functions' %}
+        <div class="notes-sidebar">
+          <a href="#boolean">Syntax Breakdown</a>
+          <a href="#boolean">Calling Functions</a>
+          <a href="#boolean">Function Implementation</a>
+        </div>
+      {% endif %}
+
       <h1 class="page-name notes-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content notes-body" role="main">
     {% elsif page.url != '/' %}
