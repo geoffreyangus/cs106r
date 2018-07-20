@@ -95,16 +95,12 @@
     box-shadow: 0px 2px whitesmoke;
 }
 
-.sidebar-section-wrapper {
+.sidebar-section {
     display: block;
     box-shadow: 0px 2px whitesmoke;
     padding: 15px;
     transition: background-color 0.2s;
     flex: 1;
-}
-
-.sidebar-section {
-    overflow: hidden;
 }
 
 .sidebar-section:hover {
