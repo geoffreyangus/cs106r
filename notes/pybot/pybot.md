@@ -18,6 +18,8 @@ Each field has 25 **cells** arranged in a 5x5 grid. In each cell there is:
 
 The four sides of a PyCountry field are labeled with the cardinal directions: _north, east, south_ and _west_. 
 
+<img class="fig_pycountry" src="figures/fig_pycountry.png">
+
 # PyBot
 
 PyBot spends all of her time hanging out in PyCountry's orange fields. At all times:
@@ -47,12 +49,17 @@ PyBot is also able to answer a few yes or no questions about herself and the cel
 <img class="fig_function" src="figures/fig_is_facing_north.png" width="75%">
 
 # Writing a PyBot Program
-To program PyBot, we will write a Python program that calls the command functions above. 
+To program PyBot, we write a Python program that calls the functions above. We place these functions in the order we'd like in the `main()` function. 
 
+> `main()` **Function** – The function that is executed at the beginning of a Python program. 
 
+In the next section, you'll learn more about writing functions, including the `main()` function, so don't worry if this feels odd for now. The important thing to remember is: 
+1. The `main()` function has a header `def main():`
+2. Your program goes underneath the header indented one tab
 
-Let's write a simple PyBot program. 
+This with make a lot more sense with a quick example. Let's write a simple PyBot program to pick up one orange. Notice how the three functions we want to call `move()`, `move()` and `pick_fruit()` are placed in the appropriate order beneath the header and are **indented in**. 
 
+_Python Code_ 
 ```python
 def main():
    move()
@@ -60,7 +67,12 @@ def main():
    pick_fruit()
 ```
 
+_Result_
+
 <img class="fig_simple" src="figures/fig_simple_pybot.gif" width="75%">
 
+Now try it yourself in the exercise: 
 
-NOTE: Although PyBot is simple, programming her is not. It can be challenging. In Stanford's introductory computer science course, we use Karel the Robot 
+<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1310905/277b5035a363cda051dd6cbcec3666a8"></iframe>
+
+**NOTE**: Although PyBot is simple, programming her is not. It can be very challenging, and don't be discouraged if your programs don't work at first. PyBot is almost identical to _Karel the Robot_ used in Stanford's Introductory CS course, and students often say it is the hardest part of the course. 
