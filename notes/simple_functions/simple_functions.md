@@ -67,11 +67,15 @@ if __name__ == "__main__":
     main()
 ``` 
 
-_(Note: when calling a function, you must **always** put the parentheses after the function name. There are no exceptions!)_
+Note: when calling a function, you must **always** put the parentheses after the function name. There are no exceptions!
 
 We would say that the body of `main()` _calls_ `move_across()`. We would also say that the body of `move_across()` _calls_ the function `move()` four times. 
 
-_(Wondering that funky statement below the `main()` function? That is just code that gets the program to run. Do not worry about it for now; we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises.)_
+<div class="aside">
+
+Wondering that funky statement below the `main()` function? That is just code that gets the program to run. Do not worry about it for now; we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises.
+
+</div>
 
 Here, we see an example of the usefulness of functions. Now, a programmer can get PyBot across the field with one, descriptive function call, instead of calling `move()` four times. Let's move on to _writing_ some functions that we want to call.
 
@@ -87,10 +91,74 @@ Writing a function is not so difficult. For now, it is the simple act of coming 
 
 Congratulations on writing your first function! 
 
+### Decomposition
 
+In the above exercise, we put the three `turn_right()` functions into `turn_left()` so that we could use them without writing them out all the way every single time. This style technique is called **decomposition** and is foundational to being a good computer programmer. It keeps small programs readable, and large programs from spiraling out of control. 
 
+Here is a good example of this. The following is a gif of a PyBot capable of collecting fruit on the south and east sides of the field:
 
+[IMAGE]
 
+Here are two implementations for the above gif. One with bad decomposition...
 
+```python
+def main():
+    pick_fruit()
+    move()
+    pick_fruit()
+    move()
+    pick_fruit()
+    move()
+    pick_fruit()
+    move()
+    turn_right()
+    turn_right()
+    turn_right()
+    pick_fruit()
+    move()
+    pick_fruit()
+    move()
+    pick_fruit()
+    move()
+    pick_fruit()
+    move()
+    turn_right()
+    turn_right()
+    turn_right()
 
+if __name__ == '__main__':
+    main()
+```
+
+... and one with good decomposition.
+
+```python
+def turn_left():
+    turn_right()
+    turn_right()
+    turn_right()
+
+def pick_and_move():
+    pick_fruit()
+    move()
+
+def pick_fruit_across():
+    pick_and_move()
+    pick_and_move()
+    pick_and_move()
+    pick_and_move()
+
+def main():
+    pick_fruit_across()
+    turn_left()
+    pick_fruit_across()
+    turn_left()
+
+if __name__ == '__main__':
+    main()
+```
+
+See the difference? Not only is the second code block shorter, it is also much easier to read.
+
+Always strive to decompose your code into readable chunks. If you can do everything that we have explained so far, you are well on your way to becoming an excellent computer programmer!
 
