@@ -28,7 +28,7 @@ def this_is_a_function():
 ```
 Functions are capable of doing many things, but here we will focus on the essential features of a function. We are going to break it down by parts.
 
-<img class="code_block" max-width="286px" src="figures/fig_simple_function_breakdown.png">
+<img id="simple_function_breakdown" class="code_block" src="figures/fig_simple_function_breakdown.png">
 
 There are five essential parts to a function.
 
@@ -71,11 +71,11 @@ _(Note: when calling a function, you must **always** put the parentheses after t
 
 We would say that the body of `main()` _calls_ `move_across()`. We would also say that the body of `move_across()` _calls_ the function `move()` four times. 
 
-<p class="aside">
+<span class="aside">
 _But what is that funky statement calling main at the bottom?_
 
 The statement below the `main()` function that calls `main()` is just code that gets the program to run. Do not worry about it for now; we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises. 
-</p>
+</span>
 
 Here, we see an example of the usefulness of functions. Now, a programmer can get PyBot across the field with one, descriptive function call, instead of calling `move()` four times. Let's move on to _writing_ some functions that we want to call.
 
