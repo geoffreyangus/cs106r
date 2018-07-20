@@ -71,7 +71,7 @@ Note: when calling a function, you must **always** put the parentheses after the
 
 We would say that the body of `main()` _calls_ `move_across()`. We would also say that the body of `move_across()` _calls_ the function `move()` four times. 
 
-<div class="aside">
+<div class="aside" markdown="1">
 
 Wondering that funky statement below the `main()` function? That is just code that gets the program to run. Do not worry about it for now; we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises.
 
