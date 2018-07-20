@@ -63,7 +63,7 @@ As we discussed above, PyBot is capable of performing a few simple actions. By w
 
 
 ## Conditions
-PyBot is also able to answer a few yes or no questions about her condition. We can ask PyBot these questions by writing the following functions in our code. When PyBot reads the these questions, she passes the answer back to us in a process called **returning**. We'll discuss **returning** in more depth in later notes, so don't worry about it too much. For now, think of **returning** as answering a question posed by a function. 
+PyBot is also able to answer a few yes or no questions about her condition. We can ask PyBot these questions by writing the following functions in our code. When PyBot reads these questions, she passes the answer back to us in a process called **returning**. We'll discuss **returning** in more depth in later notes, so don't worry about it too much. For now, think of **returning** as answering a question posed by a function. 
 
 <img class="fig_function" src="figures/fig_has_fruit.png" width="75%">
 
@@ -72,7 +72,7 @@ PyBot is also able to answer a few yes or no questions about her condition. We c
 <img class="fig_function" src="figures/fig_is_facing_north.png" width="75%">
 
 # Writing a PyBot Program
-To program PyBot, we write a Python program using the functions above. We place these functions in the order we'd like in the `main()` function. 
+To program PyBot, we write a Python program using the functions above. We place these functions in the order that we'd like PyBot to read them in the `main()` function. 
 
 > `main()` **Function** – The function that is executed at the beginning of a Python program. 
 
@@ -80,7 +80,7 @@ In the [next section](https://geoffreyangus.github.io/CS106R/notes/simple_functi
 1. The `main()` function has a header `def main():`
 2. Your program goes underneath the header and must be indented one tab
 
-This will make a lot more sense with a quick example. Let's write a simple PyBot program to pick up one orange. Notice how the three functions we want to call `move()`, `move()` and `pick_fruit()` are placed in the appropriate order beneath the header and are **indented in**. Afterwards, we've included a short GIF showing what PyBot will do as she reads the program. 
+This will make a lot more sense with a quick example. Let's write a simple PyBot program to pick up one orange. Notice how the three functions we want to call `move()`, `move()` and `pick_fruit()` are placed in the appropriate order beneath the header and are **indented in**. We've included a short GIF showing what PyBot will do as she reads the program. 
 
 _Python Code_ 
 ```python
