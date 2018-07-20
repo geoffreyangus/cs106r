@@ -9,7 +9,7 @@ We used the `print()` function above to print our name. But, what is a function?
 
 Functions are the foundation of computer programming. Not only do they make it easier to read code, but they also allow us to write code that we can be reused over and over. Well-written functions are the mark of an engineer with good **style**\*.
 
-> **Style** - The elegance of a body of code. A program with good style typically has descriptive names and short, readable functions. We will go more into this later.)
+> **Style** - The elegance of a body of code. A program with good style typically has descriptive names and short, readable functions. We will go more into this later.
 
 ### Syntax Breakdown
 
@@ -31,6 +31,14 @@ Functions are capable of doing many things, but here we will focus on the essent
 
 <img class="code_block" max-width="286px" src="figures/fig_simple_function_breakdown.png">
 
+There are five essential parts to a function.
+
+1. The `def` keyword.
+2. The function name.
+3. Parentheses!
+4. Colon.
+5. The function body.
+
 A function in Python is always started with the word `def` (1). Following the word `def` is the name of the function, in this case `this_is_a_function` (2), a set of parentheses (we will talk about these later) (3), and a colon (4). Following the _function header_ (what we call parts 1-4 all together), is the **body** of the function (5). The body of the function consists of a comment, and of course, the code itself. Notice that the body of the function is indented; this lets the Python interpreter know that the code underneath the function belongs to this specific function and not something else.
 
 These components are present in _every single_ function, so if you understand this much, you are in pretty good shape!
@@ -41,7 +49,7 @@ In this section we will discuss how functions are used. The word we use when des
 
 > **Call** – To execute the code within a function. If one were to say "I called a function" it would mean that he/she used the function in a program to execute the code within.
 
-Functions can call other functions. In fact, this is the way that most functions are used.
+Functions can call other functions. In fact, this is the way that most functions are used. Here is an example of functions being called:
 
 ```python
 def this_is_a_function():
@@ -61,6 +69,8 @@ def main():
 if __name__ == "__main__":
     main()
 ``` 
+
+_(Note: when calling a function, you must **always** put the parentheses after the function name. There are no exceptions!)_
 
 Here, we would say that the body of `main()` calls `this_is_a_function()`. We would also say that the body of `this_is_a_function()` calls the functions `move()`, `turn_right()`, and `front_is_blocked()`. We cannot currently see the bodies of these functions, but that is okay! More often than not, we use functions that are implemented by other people, in order to save us time and effort.
 
