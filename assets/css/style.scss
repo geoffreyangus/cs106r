@@ -98,11 +98,9 @@
 .sidebar-section-wrapper {
     display: block;
     box-shadow: 0px 2px whitesmoke;
-    text-decoration: none !important;
     padding: 15px;
     transition: background-color 0.2s;
     flex: 1;
-    min-height: 100px;
 }
 
 .sidebar-section {
@@ -110,6 +108,7 @@
 }
 
 .sidebar-section:hover {
+    text-decoration: none !important;
     background-color: #E4F7FF;
 }
 
