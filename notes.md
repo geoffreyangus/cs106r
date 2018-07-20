@@ -16,7 +16,7 @@ Hello! Welcome to the course notes for CS 106R. On this page, you'll find all of
 
 [Simple Functions](https://geoffreyangus.github.io/CS106R/notes/simple_functions/simple_functions)
 
-[Control Flow(https://geoffreyangus.github.io/CS106R/notes/control_flow/control_flow)
+[Control Flow](https://geoffreyangus.github.io/CS106R/notes/control_flow/control_flow)
 
 ---
 
