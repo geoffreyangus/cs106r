@@ -17,6 +17,9 @@ In order to understand the way functions work, we are going to break them down t
 
 ```python
 def this_is_a_function():
+    """
+    This is an example function for the class notes.
+    """
     if not front_is_blocked():
         move()
     turn_right()
@@ -26,7 +29,7 @@ def this_is_a_function():
 ```
 Functions are capable of doing many things, but here we will focus on the essential features of a function. We are going to break it down by parts.
 
-<img class="computer_diagram" align="right" width="100%" src="figures/fig_simple_function_breakdown.png">
+<img class="code_block" max-width="286px" src="figures/fig_simple_function_breakdown.png">
 
 A function in Python is always started with the word `def` (1). Following the word `def` is the name of the function, in this case `this_is_a_function` (2), a set of parentheses (we will talk about these later) (3), and a colon (4). The commands packaged in the function are called the **body** of the function (5). Notice that the body of the function is indented; this lets the Python interpreter know that the code underneath the function belongs to the function and not something else.
 
