@@ -71,7 +71,7 @@
 .anchor-offset {
     display: block;
     position: relative;
-    top: -62px;
+    top: -88px;
     visibility: hidden;
 }
 
@@ -81,6 +81,7 @@
     height: 90%;
     background-color: white;
     box-shadow: 3px 0px whitesmoke;
+    display: flex;
     top: 70px;
 }
 
@@ -90,6 +91,7 @@
     text-decoration: none !important;
     padding: 15px;
     transition: background-color 0.2s;
+    flex: 1;
 }
 
 .sidebar-section:hover {
@@ -97,7 +99,10 @@
 }
 
 .sidebar-title {
-
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    color: #1b5995;
 }
 
 .section-title {
