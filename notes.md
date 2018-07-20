@@ -12,9 +12,11 @@ Hello! Welcome to the course notes for CS 106R. On this page, you'll find all of
 
 [Introduction to Python](https://geoffreyangus.github.io/CS106R/notes/intro_python/intro_python)
 
+[PyBot](https://geoffreyangus.github.io/CS106R/notes/pybot/pybot)
+
 [Simple Functions](https://geoffreyangus.github.io/CS106R/notes/simple_functions/simple_functions)
 
-[PyBot](https://geoffreyangus.github.io/CS106R/notes/pybot/pybot)
+[Control Flow(https://geoffreyangus.github.io/CS106R/notes/control_flow/control_flow)
 
 ---
 
