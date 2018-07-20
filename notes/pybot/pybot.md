@@ -27,9 +27,9 @@ PyBot spends all of her time hanging out in PyCountry's orange field. At all tim
 
 ## Actions 
 PyBot was built to perform only a small set of actions: 
-1. She can move in the direction she is facing. However,if she moves off the edge of the field she will **crash**.  
+1. She can move in the direction she is facing.
 2. She can turn herself 90 degrees to the right. Note that like [Zoolander](https://youtu.be/E-RbtCXTmc4?t=15), PyBot wasn't built to turn left. To turn left, she has to turn right **3** times.  
-3. She can pick the orange in her cell if there is one. However, if she tries to pick an orange in a cell with only a seedling she will **crash**.
+3. She can pick the orange in her cell if there is one. 
 
 ## Crashing
 However, life in PyCountry is not so easy for PyBot – there are a couple of ways that she can **crash** as she moves about the field. 
@@ -40,7 +40,7 @@ However, life in PyCountry is not so easy for PyBot – there are a couple of wa
 
 Luckily, to avoid crashing, PyBot can answer some simple yes or no questions about her condition and the condition of her surroundings. The questions she can answer are: 
 1. Is PyBot facing the edge of the field? That is, would moving forward cause PyBot to move off the edge of the field. 
-2. Is there an orange in the current cell? 
+2. Is there an orange in PyBot's cell? 
 3. Is PyBot facing east? Is PyBot facing west? ... etc. 
 
 These questions are called **conditions**.
