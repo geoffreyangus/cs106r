@@ -8,7 +8,9 @@ So far, you have learned about PyBot and have probably come across the word "fun
 
 Functions are the foundation of computer programming. Not only do they make it easier to read code, but they also allow us to write code that we can be reused over and over. Well-written functions are the mark of an engineer with good **style**.
 
-> **Style** - The elegance of a body of code. A program with good style typically has descriptive names and short, readable functions. We will go more into this later.
+> **Style** - The way a body of code is written. This includes the names used for variables, the code decomposition, and the overall structure of the code.
+
+A program with good style typically has descriptive names and short, readable functions. We will go more into this later.
 
 <a class="anchor-offset" id="syntax-breakdown" href="#syntax-breakdown"></a>
 ### Syntax Breakdown
