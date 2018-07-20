@@ -38,9 +38,34 @@
       <!-- SIDEBAR FORMAT TEMPLATE  -->
       {% if page.url contains 'simple_functions' %}
         <div class="notes-sidebar">
-          <a href="#boolean">Syntax Breakdown</a>
-          <a href="#boolean">Calling Functions</a>
-          <a href="#boolean">Function Implementation</a>
+          <div class = "sidebar-section">
+            <a href="#syntax-breakdown">Syntax Breakdown</a>
+            <span class="sidebar-caption">
+              In order to understand the way functions work, we are going to break them down to their simplest components...
+            </span>
+          </div>
+
+          <div class="sidebar-section">
+            <a href="#calling-functions">Calling Functions</a>
+            <span class="sidebar-caption">
+              To call a function is to use a function...
+            </span>
+          </div>
+
+          <div class="sidebar-section">
+            <a href="#function-implementation">Function Implementation</a>
+            <span class="sidebar-caption">
+              Writing a function is not so difficult. For now, it is the simple act of coming up with a function name and writing the function body...
+            </span>
+          </div>
+
+          <div class="sidebar-section">
+            <a href="#decomposition">Decomposition</a>
+            <span class="sidebar-caption">
+              It keeps small programs readable, and large programs from spiraling out of control...
+            </span>
+          </div>
+
         </div>
       {% endif %}
 

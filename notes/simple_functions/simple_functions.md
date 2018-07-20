@@ -10,6 +10,7 @@ Functions are the foundation of computer programming. Not only do they make it e
 
 > **Style** - The elegance of a body of code. A program with good style typically has descriptive names and short, readable functions. We will go more into this later.
 
+<a class="anchor-offset" id="syntax-breakdown" href="#syntax-breakdown"></a>
 ### Syntax Breakdown
 
 In order to understand the way functions work, we are going to break them down to their simplest components. Let's use a PyBot function as an example:
@@ -42,9 +43,10 @@ A function in Python is always started with the word `def` (1). Following the wo
 
 These components are present in _every single_ function, so if you understand this much, you are in pretty good shape!
 
+<a class="anchor-offset" id="calling-functions" href="#calling-functions"></a>
 ### Calling Functions
 
-In this section we will discuss how functions are used. The word we use when describing the act of using a function is **calling** a function.
+In this section we will discuss how functions are used. To **call** a function is to use a function.
 
 > **Call** – To execute the code within a function. If one were to say "I called a function" it would mean that he/she used the function in a program to execute the code within.
 
@@ -79,6 +81,8 @@ Wondering that funky statement below the `main()` function? That is just code th
 
 Here, we see an example of the usefulness of functions. Now, a programmer can get PyBot across the field with one, descriptive function call, instead of calling `move()` four times. Let's move on to _writing_ some functions that we want to call.
 
+
+<a class="anchor-offset" id="function-implementation" href="#function-implementation"></a>
 ### Function Implementation
 
 In this section we are going to do a brief exercise in **implementing** functions.
@@ -91,6 +95,7 @@ Writing a function is not so difficult. For now, it is the simple act of coming 
 
 Congratulations on writing your first function! 
 
+<a class="anchor-offset" id="decomposition" href="#decomposition"></a>
 ### Decomposition
 
 In the above exercise, we put the three `turn_right()` functions into `turn_left()` so that we could use them without writing them out all the way every single time. This style technique is called **decomposition** and is foundational to being a good computer programmer. It keeps small programs readable, and large programs from spiraling out of control. 
