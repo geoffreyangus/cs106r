@@ -6,7 +6,7 @@ So far, you have learned about PyBot and have probably come across the word "fun
 
 > **Function** – Code that is grouped together and packaged under a name, so it can be called in one line.
 
-Functions are the foundation of computer programming. Not only do they make it easier to read code, but they also allow us to write code that we can be reused over and over. Well-written functions are the mark of an engineer with good **style**\*.
+Functions are the foundation of computer programming. Not only do they make it easier to read code, but they also allow us to write code that we can be reused over and over. Well-written functions are the mark of an engineer with good **style**.
 
 > **Style** - The elegance of a body of code. A program with good style typically has descriptive names and short, readable functions. We will go more into this later.
 
@@ -87,7 +87,7 @@ Here, we see an example of the usefulness of functions. Now, a programmer can ge
 
 In this section we are going to do a brief exercise in **implementing** functions.
 
-> **Implementing** – ~Writing~ code! This is a technical word often used in computer science. We use this word because the word for a specific instance of written code is called an **implementation**. (There are many words like this that may require a bit of explanation. If you ever come across a word that is being used in a funny way, please do not hesitate to ask!)
+> **Implement** – To ~write~ code! This is a technical word often used in computer science. We use this word because the word for a specific instance of written code is called an **implementation**. (There are many words like this that may require a bit of explanation. If you ever come across a word that is being used in a funny way, please do not hesitate to ask!)
 
 Writing a function is not so difficult. For now, it is the simple act of coming up with a function name and writing the function body. Let's try implementing a function in the exercise below.
 
