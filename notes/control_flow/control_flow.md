@@ -23,19 +23,22 @@ _Python Code_
 if has_fruit(): 
     pick_fruit()
 ```
-Let's unpack this example: 
+
+The code above will . Let's learn how to write `if` statements:
+```python
+if condition_function(): 
+    action_function()
+    action_function()
+    ...
+```
+
 1. First, we start the word `if` followe by a space
 2. Next, we call a PyBot condition function. Remember, using a PyBot conditions function is like asking a yes or no question to PyBot. 
 3. Put a colon (i.e. `:`) after the condition.
 4. Write the  are like  The condition should be some
 
 In general, we write conditional instructi
-```python
-if condition(): 
-    action()
-    action()
-    ...
-```
+
 
 ## `else` and  `elif`
 Let's return for a moment to the scenario from before:
