@@ -86,6 +86,14 @@
     top: 70px;
 }
 
+.sidebar-title {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    color: #1b5995;
+    box-shadow: 0px 2px whitesmoke;
+}
+
 .sidebar-section {
     display: block;
     box-shadow: 0px 2px whitesmoke;
@@ -97,13 +105,6 @@
 
 .sidebar-section:hover {
     background-color: #E4F7FF;
-}
-
-.sidebar-title {
-    text-align: center;
-    font-size: 24px;
-    padding: 10px;
-    color: #1b5995;
 }
 
 .section-title {
