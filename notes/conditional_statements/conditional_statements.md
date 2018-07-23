@@ -66,24 +66,22 @@ In summary, `not` allows us to write `if` statements where code is executed if a
 
 <a class="anchor-offset" id="else-elif" href="#else-elif"></a>
 
-## Conditional Instruction: `else`
+## Default Instruction: `else`
 Let's return for a moment to the scenario from before:
 > You are going to the grocery store. You ask your friend if she needs anything, except this time she responds "If they have any maracuja, get me some, otherwise get me mango." 
 
-In this example, your friend has given you a conditional instruction with **2** possible courses of action: `if` there is Maracuja then you should (1) get her maracuja, `else` you should (2) get her mango. 
+In this example, your friend has given you a conditional instruction with **2** possible courses of action: `if` there is Maracuja then you should (1) get her maracuja, `else` you should (2) get her mango. Here, the second option is the default course of action – that is the action that should be taken if the condition is `False`.
 
-In Python, we can program conditional instructions with **2** possible courses of action by extending the `if` statement with an `else` statement. 
+In Python, we can program conditional instructions to have a default course of action by extending the `if` statement with an `else` statement. 
+
+Let's walk through the steps of writing a _if-else_ statement:
  
-```python
-if condition_function():
-    action_function()
-    action_function()
-    ...
-else:
-    action_function()
-    action_function()
-    ...
-```
+ <img class="fig_not" src="figures/fig_else.png">
+
+1. First, we have a regular `if` statement with a condition and code. 
+2. Next, we write `else` at the same level of indentation as `if` above.
+3. We follow the `else` with a colon
+4. And finally, we write the default instructions to be followed in the case that the condition above the `else` was `False`. 
 
 ## Conditional Instruction: `elif`
 Let's go back to  to the grocery store example one last time:
@@ -94,10 +92,6 @@ Here, your friend has given you a conditional instruction with **3** possible co
 
 ```python
 if condition_function():
-    action_function()
-    action_function()
-    ...
-elif condition_function():
     action_function()
     action_function()
     ...
