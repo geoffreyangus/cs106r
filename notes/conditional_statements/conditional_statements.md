@@ -103,7 +103,7 @@ Let's go back to  to the grocery store example one last time: You are about to g
 
 At the grocery store you will follow one of **three** possible courses of action: (1) buy Maracuja, (2) buy Kiwi or (3) buy Mango. In Python, we can program conditional instructions with multiple possible courses of action by extending the `if` statement with an `elif` statement. 
 
- <img class="fig_not" src="figures/fig_elif.png">
+ <img class="fig_not" src="figures/fig_elif.png" width="75%">
 
 1. First, we have a regular `if` statement with a condition and code. 
 2. Next, we write `else` at the same level of indentation as `if` above.
@@ -114,12 +114,12 @@ Note that the order of elif is very important.
 
 ###Example 
 
-Let's take a look at a PyBot example that uses `elif`. Our task here is straightforward: turn PyBot so that she faces south. 
+Let's take a look at a PyBot example that uses `elif`. Our task here is to turn PyBot so that she faces south. 
 
 Let's start by writing out the conditional instruction in English. 
 
 _Conditional Instruction in English_ 
->`If` PyBot is facing east, she should turn right once,  `else if` she is facing north, she should turn right twice, `else if` she is facing west, she should turn right thrice, `else` she should do nothing, since she was already facing south. 
+>**If** PyBot is facing east, she should turn right once,  **else if** she is facing north, she should turn right twice, **else if** she is facing west, she should turn right thrice, **else** she should do nothing, since she was already facing south. 
 
 _Python Code_ 
 ```python
@@ -139,7 +139,46 @@ elif is_facing_west():
 <a class="anchor-offset" id="nesting" href="#nesting"></a>
 
 ## Nesting Conditional Statements  
-move 
+
+Let's consider the grocery store example one last time: You are headed to the grocery store, but this time you're not sure if it is open. Your friend says, "If the grocery store is open, go inside. If they have Maracuja, get me some, otherwise get me Mango. If the grocery store is closed, just go to the pharmacy." 
+
+In this case, your friend gave you a conditional instruction that had another conditional instruction inside it. This is called a **nested conditional instruction**. 
+
+In Python, we can program nested conditional instructions by simply putting `if` statements inside other `if` statements. 
+
+```python
+if condition_function():
+    if condition_function(): 
+        action_function()
+        action_function()
+        ...
+    action_function()
+    action_function()
+    ...
+```
+Example 
+
+Let's do a PyBot example that uses a nested conditional. Imagine PyBot is on the bottom row of the field. We are going to program PyBot to move into a new cell. It won't suffice to simply use move(), since PyBot will crash if she is facing a wall. Instead, if PyBot if the front is blocked, we'll turn PyBot to face north and move to the second row.
+
+_Python Code_
+```python
+if front_is_blocked():
+    if is_facing_east(): 
+        turn_right()
+        turn_right()
+        turn_right()
+    elif is_facing_west(): 
+        turn_right()
+move()
+```
+
+_Result_
+ <img class="fig_not" src="figures/fig_nest.png" width="60%">
+
+
+
+
+
 <a class="anchor-offset" id="combining-conditions" href="#combining-conditions"></a>
 
 ## Logical Operators – Combining Conditions
