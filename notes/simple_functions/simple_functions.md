@@ -104,7 +104,7 @@ In the above exercise, we put the three `turn_right()` functions into `turn_left
 
 Here is a good example of this. The following is a gif of a PyBot capable of collecting fruit on the south and east sides of the field:
 
-<img id="simple_function_gif" class="gif-image" src="figures/fig_simple_function_gif">
+<img id="simple_function_gif" class="gif-image" src="figures/fig_simple_function_gif.gif">
 
 Here are two implementations for the above gif. One with bad decomposition...
 
