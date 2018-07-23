@@ -16,7 +16,7 @@ Notice how your friend used a conditional instruction: **if** they have Maracuja
 When programming, we sometimes need to give conditional instructions to PyBot. For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here, because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. 
 
 ## `if` Statements 
-In Python, we can program a conditional instruction using an `if` statement. Let's write the conditional instruction, "if there is an orange in your cell, pick the orange" in Python: 
+In Python, we can program a conditional instruction using an `if` statement. As an example, let's write the conditional instruction, "if there is an orange in your cell, pick the orange" in Python: 
 
 _Python Code_
 ```python
@@ -24,32 +24,48 @@ if has_fruit():
     pick_fruit()
 ```
 
-The code above will . Let's learn how to write `if` statements:
+The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick that fruit.
+
+Let's learn the steps for writing `if` statements:
+<img class="fig_if" src="figures/fig_if_example.png">
+1. First, we start with the word `if` followed by a space.
+2. Next, we write a PyBot condition function. Remember, using a PyBot conditions function is like asking a yes or no question to PyBot. 
+3. Put a colon (i.e. `:`) after the condition to mark the beginning of the `if` statement.
+4. Lastly, we write the instructions that PyBot should follow if the answer to the condition function is `True`. These instructions should be written under the condition function and should be indented in **one tab** relative to the word `if`. These instructions can be a list of action functions or, as we'll see later, other conditional statements and loops. 
+
+Here's another `if` statement example. It could be useful to program PyBot to move only if she is not on the edge of the field – that she won't crash. We can write this conditional instruction using an `if` statement. 
+
+_Python Code_
 ```python
-if condition_function(): 
-    action_function()
-    action_function()
-    ...
+if not front_is_blocked():
+    move()
 ```
 
-1. First, we start the word `if` followe by a space
-2. Next, we call a PyBot condition function. Remember, using a PyBot conditions function is like asking a yes or no question to PyBot. 
-3. Put a colon (i.e. `:`) after the condition.
-4. Write the  are like  The condition should be some
+_Result_
 
-In general, we write conditional instructi
+
+## Inverting Conditions 
+
+_Python Code_
+```python
+if not front_is_blocked():
+    move()
+```
+
+_Result_
 
 
 ## `else` and  `elif`
 Let's return for a moment to the scenario from before:
 > You are about to go to the grocery store. You ask your friend if she needs anything from the store, except this time she responds "If they have any Maracuja, get me some, otherwise get me some mango. 
 
-you can nest
 
 ## Nesting Conditional Statements  
 
-# Inverting Conditions 
+## Inverting Conditions 
 `not` 
+
+## Nesting Conditional Statements  
 
 ## Combining Conditions
 `and`
