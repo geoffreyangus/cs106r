@@ -78,6 +78,8 @@
           </a>
 
         </div>
+      {% elsif %}
+        <div w3-include-html="../notes/control_flow/side_bar.html"></div>
       {% endif %}
 
       <h1 class="page-name notes-name">{{ page.title | default: site.github.repository_name }}</h1>
