@@ -38,7 +38,7 @@ However, life in PyCountry is not so easy for PyBot – there are a couple of wa
 
 ## Conditions 
 
-Luckily, to avoid crashing, PyBot can answer some simple yes or no questions about her condition and the condition of her surroundings. The questions she can answer are: 
+Luckily, to avoid crashing, PyBot can answer some simple True or False questions about her condition and the condition of her surroundings. The questions she can answer are: 
 1. Is PyBot facing the edge of the field? That is, would moving forward cause PyBot to move off the edge of the field. 
 2. Is there an orange in PyBot's cell? 
 3. Is PyBot facing east? Is PyBot facing west? ... etc. 
