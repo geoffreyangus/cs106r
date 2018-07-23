@@ -103,7 +103,7 @@ Let's go back to  to the grocery store example one last time: You are about to g
 
 At the grocery store you will follow one of **three** possible courses of action: (1) buy Maracuja, (2) buy Kiwi or (3) buy Mango. In Python, we can program conditional instructions with multiple possible courses of action by extending the `if` statement with an `elif` statement. 
 
- <img class="fig_not" src="figures/fig_elif.png">
+ <img class="fig_not" src="figures/fig_elif.png" width="75%">
 
 1. First, we have a regular `if` statement with a condition and code. 
 2. Next, we write `else` at the same level of indentation as `if` above.
@@ -173,7 +173,7 @@ move()
 ```
 
 _Result_
- <img class="fig_not" src="figures/fig_nest.png">
+ <img class="fig_not" src="figures/fig_nest.png" width="60%">
 
 
 
