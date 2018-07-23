@@ -77,7 +77,6 @@ We would say that the body of `main()` _calls_ `move_across()`. We would also sa
 
 <div class="aside" markdown="1">
 
-<span class="aside-title">Aside</span>
 Wondering about the funky statement below the `main()` function? That is just code that gets the program to run. Do not worry about it for now; we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises.
 
 </div>

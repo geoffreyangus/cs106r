@@ -15,7 +15,7 @@ There are two primary types of loops: `for` and `while`. These two types of loop
 
 Consider the following statement:
 
-> For the next 7 days, I am going to eat a pizza.
+_For the next 7 days, I am going to eat a pizza._
 
 What do you know about the statement above?
 
@@ -41,6 +41,9 @@ Notice the following 5 elements:
 
 Let's take a look at all of these parts with an example!
 
+
+
+
 Let's say that you want to get PyBot to go across the field. In the _Simple Function_ notes, we saw a function that accomplished this called `move_across()`. It looked a little something like this:
 
 ```python
@@ -65,7 +68,6 @@ Notice how the `for` loop is constructed. Here, we've replaced the word `num_ite
 
 <div class="aside" markdown="1">
 
-<span class="aside-title">Aside</span>
 Thinking to yourself, "What about the `range` function?" The `range` function tells `i` exactly what number to go to. In this case, it tells i to be the numbers 0 to 98. We will go more into detail about the way it does this in the coming weeks! For now, do not worry too much about it.
 
 </div>
@@ -97,6 +99,10 @@ It is very similar to the `for` loop structure, except for one big difference: `
 
 Here is a quick example:
 
+<div class="example-section" markdown="1">
+    
+<span class="example-title">Example</span>
+<br>
 Imagine that you want PyBot to move across the field, but you don't konw how big this particular field is. You can't write out the right number of `move()` calls, and you can't set up a `for` loop capable of knowing when to stop iterating. One thing we can do is write out a function that uses a `while` loop to run while `not front_is_blocked()`, like this:
 
 ```python
@@ -104,6 +110,8 @@ def move_across_variable():
     while not front_is_blocked():
         move()
 ```
+
+</div>
 
 Make sense? Try out the following exercise and get some practice with `while` loops!
 
