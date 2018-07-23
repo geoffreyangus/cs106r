@@ -2,7 +2,7 @@
 title: Course Notes 
 ---
 
-# Control Flow 
+# Intro to Control Flow 
 We've learned how to instruct PyBot to take actions using functions like `move()`, `turn_right()`, and `pick_beeper()`. We've also learned how to combine these functions together to create our own functions – for example, we combined three `turn_right()` calls into one function called `turn_left()`. 
 
 But up until now, we've only been giving PyBot a list of actions to take. Everytime we run a particular program, PyBot does the exact same thing. Things get interesting when PyBot starts acting differently depending on the siutation. 
@@ -15,6 +15,7 @@ Notice how your friend used a conditional instruction: **if** they have Maracuja
 
 When programming, we sometimes need to give conditional instructions to PyBot. For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here, because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. 
 
+<a class="anchor-offset" id="if-statements" href="#if-statements"></a>
 ## `if` Statements 
 In Python, we can program a conditional instruction using an `if` statement. As an example, let's write the conditional instruction, "if there is an orange in your cell, pick the orange" in Python: 
 
@@ -43,8 +44,8 @@ if not front_is_blocked():
 
 _Result_
 
-
-## Inverting Conditions 
+<a class="anchor-offset" id="inverting" href="#inverting"></a>
+## `not` – Inverting Conditions 
 
 _Python Code_
 ```python
@@ -54,7 +55,7 @@ if not front_is_blocked():
 
 _Result_
 
-
+<a class="anchor-offset" id="else-elif" href="#else-elif"></a>
 ## `else` and  `elif`
 Let's return for a moment to the scenario from before:
 > You are about to go to the grocery store. You ask your friend if she needs anything from the store, except this time she responds "If they have any Maracuja, get me some, otherwise get me some mango. 
@@ -62,11 +63,10 @@ Let's return for a moment to the scenario from before:
 
 ## Nesting Conditional Statements  
 
-## Inverting Conditions 
-`not` 
 
 ## Nesting Conditional Statements  
 
+<a class="anchor-offset" id="combining-conditions" href="#combining-conditions"></a>
 ## Combining Conditions
 `and`
 
@@ -75,6 +75,9 @@ Let's return for a moment to the scenario from before:
 
 
 # Loops 
+<a class="anchor-offset" id="for-loop" href="#for-loop"></a>
+## `for` Loop 
 
-##
+<a class="anchor-offset" id="while-loop" href="#while-loop"></a>
+## `while` Loop 
 
