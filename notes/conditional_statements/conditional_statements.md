@@ -27,7 +27,7 @@ The code above will instruct PyBot to check if there is an orange in her cell, a
 # `if` Statements 
 In Python, we program conditional instruction using `if` statements. 
 
-> `if` **Statement** – A conditional instruction in Python. A section of code that should only be executed if a condition is `True`. 
+> `if` **Statement** – A section of code that should only be executed if a condition is `True`. 
 
 Every `if` statement consists of  a condition (i.e. a _True_ or _False_ question, like the ones we can ask PyBot with the condition functions) and code to be executed if the condition is satisfied (i.e. the answer to the question is _True_). 
 
@@ -47,7 +47,10 @@ Here's another `if` statement example with PyBot. We want to program PyBot to mo
 
 We need to program the conditional instruction: "`if` the front is clear, move." PyBot can answer the question "is the front blocked?" with the `front_is_blocked()` function, but she cannot directly answer "is the front clear?". How then can we program this conditional instruction if we only have the opposite of the condition we'd like to check? 
 
-Luckily, Python provides the keyword `not` which inverts any condition. For example, `not front_is_blocked()` asks the question "Is the front not blocked?" (i.e. is the front clear). Let's write the `if` statement for the conditional instruction: "`if` the front is clear, move."
+Luckily, Python provides the keyword `not` which inverts any condition. For example, `not front_is_blocked()` asks the question "Is the front not blocked?" (i.e. is the front clear). Let's write the `if` statement for the conditional instruction: 
+
+_Conditional Instruction_
+> `if` the front is clear, move
 
 _Python Code_
 ```python
@@ -63,19 +66,81 @@ In summary, `not` allows us to write `if` statements where code is executed if a
 
 <a class="anchor-offset" id="else-elif" href="#else-elif"></a>
 
-## `else` and  `elif`
+## `else`
 Let's return for a moment to the scenario from before:
-> You are about to go to the grocery store. You ask your friend if she needs anything from the store, except this time she responds "If they have any Maracuja, get me some, otherwise get me some mango. 
+> You are going to the grocery store. You ask your friend if she needs anything, except this time she responds "If they have any maracuja, get me some, otherwise get me mango." 
 
+In this example, your friend has given you a conditional instruction with **2** possible courses of action: `if` there is Maracuja then you should (1) get her maracuja, `else` you should (2) get her mango. 
 
+In Python, we can program conditional instructions with **2** possible courses of action by extending the `if` statement with an `else` statement. 
+ 
+```python
+if condition_function():
+    action_function()
+    action_function()
+    ...
+else:
+    action_function()
+    action_function()
+    ...
+```
+
+## `elif`
+Let's go back to  to the grocery store example one last time:
+
+> You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me a Maracuja. Else, if they have Kiwis, get some of those. Otherwise, just get me Mango". 
+
+Here, your friend has given you a conditional instruction with **3** possible courses of action. In Python, we can program conditional instructions with any number of  courses of action by extending the `if` statement with an `elif` statement. 
+
+```python
+if condition_function():
+    action_function()
+    action_function()
+    ...
+elif condition_function():
+    action_function()
+    action_function()
+    ...
+elif condition_function():
+    action_function()
+    action_function()
+    ...
+else:
+    action_function()
+    action_function()
+    ...
+```
+
+Let's take a look at a PyBot example that uses an `if-elif-else` statement. We want to turn PyBot to face south. We'll need PyBot to take a different course of action depending on the direction she is facing initially. Let's start by writing out the conditional instruction in English. 
+
+_Conditional Instruction_ 
+>`If` PyBot is facing east, she should turn right once,  `else if` she is facing north, she should turn right twice, `else if` she is facing west, she should turn right thrice, `else` she should do nothing, since she was already facing south. 
+
+_Python Code_ 
+```python
+if is_facing_east():
+    turn_right()
+
+elif is_facing_north():
+    turn_right()
+    turn_right()
+
+elif is_facing_west():
+    turn_right()
+    turn_right()
+    turn_right()
+
+```
 
 <a class="anchor-offset" id="nesting" href="#nesting"></a>
 
 ## Nesting Conditional Statements  
-
+move 
 <a class="anchor-offset" id="combining-conditions" href="#combining-conditions"></a>
 
 ## Logical Operators – Combining Conditions
+Check the top row
 `and`
 
 `or` 
+
