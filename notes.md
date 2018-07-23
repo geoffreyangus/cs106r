@@ -7,6 +7,9 @@ Hello! Welcome to the course notes for CS 106R. On this page, you'll find all of
 
 # Table of Contents 
 
+## General
+[The Style Guide!](https://geoffreyangus.github.io/CS106R/notes/style_guide/style_guide)
+
 ## Week 1
 [Introduction to Computer Science](https://geoffreyangus.github.io/CS106R/notes/intro_cs/intro_cs)
 
