@@ -24,7 +24,7 @@ The code above will instruct PyBot to check if there is an orange in her cell, a
 
 <a class="anchor-offset" id="if-statements" href="#if-statements"></a>
 
-# `if` Statements 
+# Conditional Instruction: `if` 
 In Python, we program conditional instruction using `if` statements. 
 
 > `if` **Statement** – A section of code that should only be executed if a condition is `True`. 
@@ -42,14 +42,14 @@ In a way, `if` statements grant your program _decision making power_. Your progr
 
 <a class="anchor-offset" id="inverting" href="#inverting"></a>
 
-## `not` – Inverting Conditions 
+## Inverting Conditions: `not`
 Here's another `if` statement example with PyBot. We want to program PyBot to move if she is not on the edge of the field, so that she won't ever crash.
 
 We need to program the conditional instruction: "`if` the front is clear, move." PyBot can answer the question "is the front blocked?" with the `front_is_blocked()` function, but she cannot directly answer "is the front clear?". How then can we program this conditional instruction if we only have the opposite of the condition we'd like to check? 
 
 Luckily, Python provides the keyword `not` which inverts any condition. For example, `not front_is_blocked()` asks the question "Is the front not blocked?" (i.e. is the front clear). Let's write the `if` statement for the conditional instruction: 
 
-_Conditional Instruction_
+_English Conditional Instruction_
 > `if` the front is clear, move
 
 _Python Code_
@@ -66,7 +66,7 @@ In summary, `not` allows us to write `if` statements where code is executed if a
 
 <a class="anchor-offset" id="else-elif" href="#else-elif"></a>
 
-## `else`
+## Conditional Instruction: `else`
 Let's return for a moment to the scenario from before:
 > You are going to the grocery store. You ask your friend if she needs anything, except this time she responds "If they have any maracuja, get me some, otherwise get me mango." 
 
@@ -85,7 +85,7 @@ else:
     ...
 ```
 
-## `elif`
+## Conditional Instruction: `elif`
 Let's go back to  to the grocery store example one last time:
 
 > You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me a Maracuja. Else, if they have Kiwis, get some of those. Otherwise, just get me Mango". 
@@ -113,7 +113,7 @@ else:
 
 Let's take a look at a PyBot example that uses an `if-elif-else` statement. We want to turn PyBot to face south. We'll need PyBot to take a different course of action depending on the direction she is facing initially. Let's start by writing out the conditional instruction in English. 
 
-_Conditional Instruction_ 
+_English Conditional Instruction_ 
 >`If` PyBot is facing east, she should turn right once,  `else if` she is facing north, she should turn right twice, `else if` she is facing west, she should turn right thrice, `else` she should do nothing, since she was already facing south. 
 
 _Python Code_ 
