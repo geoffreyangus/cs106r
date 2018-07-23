@@ -27,8 +27,8 @@ In Python, `for` loops are declared with the following structure:
 
 ```python
 for i in range(num_iterations):
-    action()
-    action()
+    action_function()
+    action_function()
 ```
 
 Notice the following 5 elements:
@@ -88,12 +88,12 @@ Here, we know two things: that you want to save some money, and that you will do
 Here's what a typical `while` loop might look like:
 
 ```python
-while condition:
-    action()
-    action()
+while condition_function:
+    action_function()
+    action_function()
 ```
 
-It is very similar to the `for` loop structure, except for one big difference: `for` loops run for some determined number of iterations; `while` loops run _while_ the `condition` above evaluates to `true` (if you need some review on conditions, check out _Conditional Statements_ on the Notes page!)
+It is very similar to the `for` loop structure, except for one big difference: `for` loops run for some determined number of iterations; `while` loops run _while_ the `condition_function()` above evaluates to `true` (if you need some review on conditions, check out _Conditional Statements_ on the Notes page!)
 
 Here is a quick example:
 
