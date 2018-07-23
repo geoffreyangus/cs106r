@@ -2,6 +2,16 @@
 title: Course Notes 
 ---
 
+
+
+[MOVE THESE EXERCISES TO NOTES]
+What data type do you get when you divide an Integer by an Integer ?
+  2. What happens if you divide an integer by a string?
+  3. What is the result of adding together two strings, like "a" + "b" ?
+  4. What is the result of adding the boolean True to an integer, like True + 2 ? Why?
+
+
+
 ## Basic Types 
 Learning Objectives
 1. Show them the python interpreter

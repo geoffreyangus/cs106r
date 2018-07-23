@@ -77,12 +77,12 @@ We would say that the body of `main()` _calls_ `move_across()`. We would also sa
 
 <div class="aside" markdown="1">
 
+<span class="aside-title">Aside</span>
 Wondering about the funky statement below the `main()` function? That is just code that gets the program to run. Do not worry about it for now; we will explain it later. For now, just know that that statement calls `main()`. In this class, it will always call `main()`, so you can think of `main()` as the starting point of all projects and exercises.
 
 </div>
 
 Here, we see an example of the usefulness of functions. Now, a programmer can get PyBot across the field with one, descriptive function call, instead of calling `move()` four times. Let's move on to _writing_ some functions that we want to call.
-
 
 <a class="anchor-offset" id="function-implementation" href="#function-implementation"></a>
 ### Function Implementation
@@ -104,7 +104,7 @@ In the above exercise, we put the three `turn_right()` functions into `turn_left
 
 Here is a good example of this. The following is a gif of a PyBot capable of collecting fruit on the south and east sides of the field:
 
-[IMAGE]
+<img id="simple_function_gif" class="gif-image" src="figures/simple_functions_gif.gif">
 
 Here are two implementations for the above gif. One with bad decomposition...
 
