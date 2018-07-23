@@ -102,7 +102,7 @@ Here is a quick example:
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-<br>
+<br><br>
 Imagine that you want PyBot to move across the field, but you don't know how big this particular field is. You can't write out the right number of `move()` calls, and you can't set up a `for` loop capable of knowing when to stop iterating. One thing we can do is write out a function that uses a `while` loop to run while `not front_is_blocked()`, like this:
 
 ```python
