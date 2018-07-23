@@ -11,7 +11,7 @@ Consider the following scenario: You are about to go to the grocery store. You a
 
 Notice how your friend used a conditional instruction: **if** they have Maracuja, then you should buy her some Maracuja. Otherwise, you should buy nothing for her. 
 
-When programming PyBot, we sometimes need to give her conditional instructions. For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here, because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. How do we do this in Python? We can program the conditional instruction, "if your current cell has a fruit, pick the fruit", using an `if` statement like this: 
+When programming PyBot, we sometimes need to give her conditional instructions. For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. How do we do this in Python? We can program the conditional instruction, "if your current cell has a fruit, pick the fruit", using an `if` statement like this: 
 
 _Python Code_
 ```python
@@ -140,7 +140,7 @@ elif is_facing_west():
 
 ## Nesting Conditional Statements  
 
-Let's consider the grocery store example one last time: You are headed to the grocery store, but this time you're not sure if it is open. Your friend says, "If the grocery store is open, go inside. If they have Maracuja, get me some, otherwise get me Mango. If the grocery store is closed, just go to the pharmacy." 
+Back to the grocery store example: You are headed to the grocery store, but this time you're not sure if it is open. Your friend says, "If the grocery store is open, go inside. If they have Maracuja, get me some, otherwise get me Mango. If the grocery store is closed, just go to the pharmacy." 
 
 In this case, your friend gave you a conditional instruction that had another conditional instruction inside it. This is called a **nested conditional instruction**. 
 
@@ -173,17 +173,60 @@ move()
 ```
 
 _Result_
+
  <img class="fig_not" src="figures/fig_nest.png" width="60%">
-
-
-
 
 
 <a class="anchor-offset" id="combining-conditions" href="#combining-conditions"></a>
 
-## Logical Operators – Combining Conditions
-Check the top row
-`and`
+## Logical Operators – Compound Conditions
 
-`or` 
+### Logical Operator: and 
+You are headed to the grocery store and your friend says, "I want to make mango sticky rice. If they have mango and they have sticky rice, buy me mango and buy me some rice. Otherwise, buy me nothing." 
 
+Here, your friend gave you a compound conditional instruction using the word **and**. Similarly, we can build compound conditional in Python using the keyword `and`:
+
+``` python 
+    condition_function_1() and condition_function_2()
+```
+
+The compound condition is `True`, when both conditions are `True`.
+
+We can use a compound conditional in `if` statements like this:
+
+```python
+if condition_function_1() and condition_function_2():
+    action_function()
+    action_function()
+    ...
+```
+
+Example 
+The northern side of PyBot's field is colder, so she doesn't like to spend much time up there. Let's program PyBot to move down from Imagine that PyBot Let's program PyBot with the following conditional instruction: if PyBot is on the top row and she's facing north, turnaround and move down one row. 
+
+``` python
+if front_is_blocked() and is_facing_north():
+    turn_right()
+    turn_right()
+    move()
+```
+
+
+### Logical Operator: or 
+Let's consider the grocery store example one last time: You are going to the grocery store and your friend says, "If they have either white rice or brown rice, buy me some." 
+
+Here your friend used a compound conditional instruction with the word **or**. Like `and` above, Python has the keyword `or` for programming compound conditional instructions. 
+
+``` python 
+    condition_function_1() and condition_function_2()
+```
+
+The compound condition is `True`, when either of the conditions are `True`.
+
+We can use a compound conditional in `if` statements like this:
+
+```python
+if condition_function_1() or condition_function_2():
+    action_function()
+    action_function()
+    ...
