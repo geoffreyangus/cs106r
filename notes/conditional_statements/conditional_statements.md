@@ -7,8 +7,7 @@ But up until now, we've only been giving PyBot a list of actions to take. Everyt
 
 --- 
 
-Consider the following scenario: 
-> You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me some, please." 
+Consider the following scenario: You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me some, please." 
 
 Notice how your friend used a conditional instruction: **if** they have Maracuja, then you should buy her some Maracuja. Otherwise, you should buy nothing for her. 
 
@@ -67,47 +66,59 @@ In summary, `not` allows us to write `if` statements where code is executed if a
 <a class="anchor-offset" id="else-elif" href="#else-elif"></a>
 
 ## Default Instruction: `else`
-Let's return for a moment to the scenario from before:
-> You are going to the grocery store. You ask your friend if she needs anything, except this time she responds "If they have any maracuja, get me some, otherwise get me mango." 
+Let's return for a moment to the scenario from before: You are going to the grocery store. You ask your friend if she needs anything, except this time she responds "If they have any maracuja, get me some, otherwise get me mango." 
 
 In this example, your friend has given you a conditional instruction with **2** possible courses of action: `if` there is Maracuja then you should (1) get her maracuja, `else` you should (2) get her mango. Here, the second option is the default course of action – that is the action that should be taken if the condition is `False`.
 
 In Python, we can program conditional instructions to have a default course of action by extending the `if` statement with an `else` statement. 
 
-Let's walk through the steps of writing a _if-else_ statement:
+Let's walk through the steps of writing an _if-else_ statement:
  
  <img class="fig_not" src="figures/fig_else.png">
+
+1. First, we write a regular `if` statement with a condition and conditional instructions. 
+2. Next, we write `else` at the same level of indentation as `if` above.
+3. We follow the `else` with a colon
+4. And finally, we write the instructions to be followed if the condition was `False`. 
+
+In summary, we can use else to program the computer to follow a default course of action if the condition in the `if` statement is `False`. 
+
+Example 
+As an example, consider the following conditional instruction:
+_Conditional Instruction in English_ 
+> **If** there is a fruit in the current cell pick it up, **else** move forward. 
+
+To code this conditional instruction in Python, we can use an if-else statement: 
+
+_Python Code_
+```python
+if has_fruit():
+    pick_fruit()
+else: 
+    move()
+```
+
+## Conditional Instruction: `elif`
+Let's go back to  to the grocery store example one last time: You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me a Maracuja. Else, if they have Kiwis, get some of those. Otherwise, just get me Mango". 
+
+At the grocery store you will follow one of **three** possible courses of action: (1) buy Maracuja, (2) buy Kiwi or (3) buy Mango. In Python, we can program conditional instructions with multiple possible courses of action by extending the `if` statement with an `elif` statement. 
+
+ <img class="fig_not" src="figures/fig_elif.png">
 
 1. First, we have a regular `if` statement with a condition and code. 
 2. Next, we write `else` at the same level of indentation as `if` above.
 3. We follow the `else` with a colon
 4. And finally, we write the default instructions to be followed in the case that the condition above the `else` was `False`. 
 
-## Conditional Instruction: `elif`
-Let's go back to  to the grocery store example one last time:
+Note that the order of elif is very important. 
 
-> You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me a Maracuja. Else, if they have Kiwis, get some of those. Otherwise, just get me Mango". 
+###Example 
 
-Here, your friend has given you a conditional instruction with **3** possible courses of action. In Python, we can program conditional instructions with any number of  courses of action by extending the `if` statement with an `elif` statement. 
+Let's take a look at a PyBot example that uses `elif`. Our task here is straightforward: turn PyBot so that she faces south. 
 
-```python
-if condition_function():
-    action_function()
-    action_function()
-    ...
-elif condition_function():
-    action_function()
-    action_function()
-    ...
-else:
-    action_function()
-    action_function()
-    ...
-```
+Let's start by writing out the conditional instruction in English. 
 
-Let's take a look at a PyBot example that uses an `if-elif-else` statement. We want to turn PyBot to face south. We'll need PyBot to take a different course of action depending on the direction she is facing initially. Let's start by writing out the conditional instruction in English. 
-
-_English Conditional Instruction_ 
+_Conditional Instruction in English_ 
 >`If` PyBot is facing east, she should turn right once,  `else if` she is facing north, she should turn right twice, `else if` she is facing west, she should turn right thrice, `else` she should do nothing, since she was already facing south. 
 
 _Python Code_ 
@@ -123,7 +134,6 @@ elif is_facing_west():
     turn_right()
     turn_right()
     turn_right()
-
 ```
 
 <a class="anchor-offset" id="nesting" href="#nesting"></a>
