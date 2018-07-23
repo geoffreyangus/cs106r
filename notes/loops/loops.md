@@ -109,6 +109,7 @@ Make sense? Try out the following exercise and get some practice with `while` lo
 
 <iframe frameborder="0" width="100%" height="600px" src="Variable fruit"></iframe>
 
+<a class="anchor-offset" id="while-loop" href="#infinite-loop"></a>
 ### The "Infinite" Loop
 
 ```python
