@@ -1,5 +1,5 @@
 ---
-title: Course Notes 
+title: PyBot 
 ---
 
 # Introducing PyBot and PyCountry
