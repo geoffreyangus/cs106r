@@ -36,7 +36,14 @@ In Python, we program conditional instruction using `if` statements.
 
 > `if` **Statement** – A section of code that should only be executed if a condition is `True`. 
 
-Every `if` statement consists of  a condition (i.e. a _True_ or _False_ question, like the ones we can ask PyBot with the condition functions) and code to be executed if the condition is satisfied (i.e. the answer to the question is _True_). 
+Every `if` statement consists of  a condition (i.e. a _True_ or _False_ question, like the ones we can ask PyBot with the condition functions) and **indented** code to be executed if the condition is satisfied (i.e. the answer to the question is _True_). 
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Indent** - The space that pushes the code to the right on the line.
+
+</div>
 
 Let's learn the steps for writing `if` statements with PyBot:
 <img class="fig_if" src="figures/fig_if_example.png">
