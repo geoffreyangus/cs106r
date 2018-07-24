@@ -77,6 +77,7 @@
             </div>
           </a>
         </div>
+
       {% elsif page.url contains 'conditional_statements' %}
         <div class="notes-sidebar">
             <div class="sidebar-title">
@@ -126,7 +127,8 @@
                 It keeps small programs readable, and large programs from spiraling out of control...
               </div>
             </a>
-        </div>  
+        </div> 
+
         {% elsif page.url contains '/loops' %}
         <div class="notes-sidebar">
             <div class="sidebar-title">
@@ -158,15 +160,22 @@
                 There are times when you may want to make a while loop run forever; these are called infinite loops...
               </div>
             </a>
-        </div>      
+        </div>   
+
       {% endif %}
 
       <h1 class="page-name notes-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content notes-body" role="main">
+
     {% elsif page.url != '/' %}
       <h1 class="page-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content" role="main">
+
+    {% else %}
+      <main id="content" class="main-content" role="main">
+
     {% endif %}
+    
       {{ content }}
 
       <footer class="site-footer">
