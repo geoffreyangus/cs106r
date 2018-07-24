@@ -41,9 +41,10 @@ Notice the following 5 elements:
 
 Let's take a look at all of these parts with an example!
 
+<div class="example-section" markdown="1">
 
-
-
+<span class="example-title">Example</span>
+<br><br>
 Let's say that you want to get PyBot to go across the field. In the _Simple Function_ notes, we saw a function that accomplished this called `move_across()`. It looked a little something like this:
 
 ```python
@@ -65,6 +66,8 @@ def move_across_99():
 Clean, right?
 
 Notice how the `for` loop is constructed. Here, we've replaced the word `num_iterations` with the number 99, because 99 is the number of times we want to call the `move()` function. Now, we only have to write `move()` once in a loop that does 99 iterations.
+
+</div>
 
 <div class="aside" markdown="1">
 
