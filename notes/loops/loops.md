@@ -15,7 +15,7 @@ There are two primary types of loops: `for` and `while`. These two types of loop
 
 Consider the following statement:
 
-> For the next 7 days, I am going to eat a pizza.
+_For the next 7 days, I am going to eat a pizza._
 
 What do you know about the statement above?
 
@@ -27,8 +27,8 @@ In Python, `for` loops are declared with the following structure:
 
 ```python
 for i in range(num_iterations):
-    action()
-    action()
+    action_function()
+    action_function()
 ```
 
 Notice the following 5 elements:
@@ -40,6 +40,9 @@ Notice the following 5 elements:
 5. The body of the `for` loop. This is run during every iteration.
 
 Let's take a look at all of these parts with an example!
+
+
+
 
 Let's say that you want to get PyBot to go across the field. In the _Simple Function_ notes, we saw a function that accomplished this called `move_across()`. It looked a little something like this:
 
@@ -65,7 +68,6 @@ Notice how the `for` loop is constructed. Here, we've replaced the word `num_ite
 
 <div class="aside" markdown="1">
 
-<span class="aside-title">Aside</span>
 Thinking to yourself, "What about the `range` function?" The `range` function tells `i` exactly what number to go to. In this case, it tells i to be the numbers 0 to 98. We will go more into detail about the way it does this in the coming weeks! For now, do not worry too much about it.
 
 </div>
@@ -88,16 +90,20 @@ Here, we know two things: that you want to save some money, and that you will do
 Here's what a typical `while` loop might look like:
 
 ```python
-while condition:
-    action()
-    action()
+while condition_function:
+    action_function()
+    action_function()
 ```
 
-It is very similar to the `for` loop structure, except for one big difference: `for` loops run for some determined number of iterations; `while` loops run _while_ the `condition` above evaluates to `true` (if you need some review on conditions, check out _Conditional Statements_ on the Notes page!)
+It is very similar to the `for` loop structure, except for one big difference: `for` loops run for some determined number of iterations; `while` loops run _while_ the `condition_function()` above evaluates to `true` (if you need some review on conditions, check out _Conditional Statements_ on the Notes page!)
 
 Here is a quick example:
 
-Imagine that you want PyBot to move across the field, but you don't konw how big this particular field is. You can't write out the right number of `move()` calls, and you can't set up a `for` loop capable of knowing when to stop iterating. One thing we can do is write out a function that uses a `while` loop to run while `not front_is_blocked()`, like this:
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+<br><br>
+Imagine that you want PyBot to move across the field, but you don't know how big this particular field is. You can't write out the right number of `move()` calls, and you can't set up a `for` loop capable of knowing when to stop iterating. One thing we can do is write out a function that uses a `while` loop to run while `not front_is_blocked()`, like this:
 
 ```python
 def move_across_variable():
@@ -105,10 +111,13 @@ def move_across_variable():
         move()
 ```
 
+</div>
+
 Make sense? Try out the following exercise and get some practice with `while` loops!
 
 <iframe frameborder="0" width="100%" height="600px" src="Variable fruit"></iframe>
 
+<a class="anchor-offset" id="infinite-loop" href="#infinite-loop"></a>
 ### The "Infinite" Loop
 
 ```python

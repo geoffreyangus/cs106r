@@ -126,7 +126,39 @@
                 It keeps small programs readable, and large programs from spiraling out of control...
               </div>
             </a>
-        </div>        
+        </div>  
+        {% elsif page.url contains '/loops' %}
+        <div class="notes-sidebar">
+            <div class="sidebar-title">
+              Contents
+            </div>
+            <a class="sidebar-section" href="#for-loop">
+              <div class="section-title">
+                For Loops
+              </div>
+              <div class="section-caption">
+                It is a segment of code that runs for a specified number of iterations...
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#while-loop">
+              <div class="section-title">
+                While Loops
+              </div>
+              <div class="section-caption">
+                In programs where you don't know how many iterations are going to be necessary, we use what are called while loops...
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#infinite-loop">
+              <div class="section-title">
+                The "Infinite" Loop 
+              </div>
+              <div class="section-caption">
+                There are times when you may want to make a while loop run forever; these are called infinite loops...
+              </div>
+            </a>
+        </div>      
       {% endif %}
 
       <h1 class="page-name notes-name">{{ page.title | default: site.github.repository_name }}</h1>
