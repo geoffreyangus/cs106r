@@ -87,7 +87,7 @@ Thinking to yourself, "What about the `range` function?" The `range` function te
 
 Ready to try it yourself? Here is a quick exercise to get you warmed up to `for` loops!
 
-<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1310896/e86ec91cd5e9e104582cc3f7263f19d4"></iframe>
+<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1322765/fdc40a84d1d5c2234ae6cab1ecb01bf9"></iframe>
 
 But what if you _don't_ know how long to do something for? Well, that is what `while` loops are for.
 
