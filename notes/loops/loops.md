@@ -10,7 +10,6 @@ Control flow segments responsible for making the code run several times (sometim
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-<br><br>
 **Loop** - In a program, a segment of code that is capable of running multiple times.
 </div>
 
@@ -21,7 +20,7 @@ There are two primary types of loops: `for` and `while`. These two types of loop
 
 Consider the following statement:
 
-_For the next 7 days, I am going to eat a pizza._
+> For the next 7 days, I am going to eat a pizza.   
 
 What do you know about the statement above?
 
