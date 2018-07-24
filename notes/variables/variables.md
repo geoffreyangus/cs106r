@@ -92,10 +92,6 @@ while count < 10:
     count = count + 1
 ```
 
-Let's check out what ints can do, shall we?
-
-<iframe frameborder="0" width="100%" height="600px" src="scientific notation"></iframe>
-
 ### Floats
 
 <div class="definition-section" markdown="1">
@@ -113,10 +109,6 @@ degrees_fahrenheit = 98.6
 degrees_celsius = (degrees_fahrenheit - 32) * 5 / 9
 ```
 
-Here is a quick exercise to see what floats can do:
-
-<iframe frameborder="0" width="100%" height="600px" src="scientific notation (negative) and integer division"></iframe>
-
 ### Strings
 
 <div class="definition-section" markdown="1">
@@ -133,10 +125,6 @@ jersey_number = '9'
 ```
 
 Here, `cs106r_sentence`, `email_domain`, and `jersey_number` are all examples of strings. Notice that we can store a number as a string.
-
-Let's try an exercise to see some of properties unique to strings:
-
-<iframe frameborder="0" width="100%" height="600px" src="integer divided by a string and add two strings together"></iframe>
 
 ### Booleans
 
@@ -192,9 +180,4 @@ The value of `front_is_blocked` is stored once at the _beginning_ of the program
 
 </div>
 
-Let's try out some exercises with booleans:
-
-<iframe frameborder="0" width="100%" height="600px" src="True + 2"></iframe>
-
-
-### Equality Operators
+With booleans and the other variable classes in mind, you can begin to write programs capable of making decisions based on both present and past information. In the next section, we will go over how variables interact with each other.
