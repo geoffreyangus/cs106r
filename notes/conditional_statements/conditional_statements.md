@@ -26,7 +26,7 @@ if has_fruit():
     pick_fruit()
 ```
 
-The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick that fruit. 
+The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick it. 
 </div>
 
 Let's explore `if` statements in more detail. 
@@ -93,7 +93,10 @@ Let's walk through the steps of writing an _if-else_ statement:
 
 In summary, we can use else to program the computer to follow a default course of action if the condition in the `if` statement is `False`. 
 
-Example 
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+<br><br> 
 As an example, consider the following conditional instruction:
 _Conditional Instruction in English_ 
 > **If** there is a fruit in the current cell pick it up, **else** move forward. 
@@ -107,6 +110,7 @@ if has_fruit():
 else: 
     move()
 ```
+</div>
 
 ## Conditional Instruction: `elif`
 Let's go back to  to the grocery store example one last time: You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me a Maracuja. Else, if they have Kiwis, get some of those. Otherwise, just get me Mango". 
@@ -122,8 +126,10 @@ At the grocery store you will follow one of **three** possible courses of action
 
 Note that the order of elif is very important. 
 
-###Example 
+<div class="example-section" markdown="1">
 
+<span class="example-title">Example</span>
+<br><br>
 Let's take a look at a PyBot example that uses `elif`. Our task here is to turn PyBot so that she faces south. 
 
 Let's start by writing out the conditional instruction in English. 
@@ -145,6 +151,7 @@ elif is_facing_west():
     turn_right()
     turn_right()
 ```
+</div>
 
 <a class="anchor-offset" id="nesting" href="#nesting"></a>
 
@@ -170,7 +177,6 @@ if condition_function():
 
 <span class="example-title">Example</span>
 <br><br>
-
 Let's do a PyBot example that uses a nested conditional. Imagine PyBot is on the bottom row of the field. We are going to program PyBot to move into a new cell. It won't suffice to simply use move(), since PyBot will crash if she is facing a wall. Instead, if PyBot if the front is blocked, we'll turn PyBot to face north and move to the second row.
 
 _Python Code_
@@ -220,7 +226,6 @@ if condition_function_1() and condition_function_2():
 
 <span class="example-title">Example</span>
 <br><br>
-
 The northern side of PyBot's field is colder, so she doesn't like to spend much time up there. Let's program PyBot to move down from Imagine that PyBot Let's program PyBot with the following conditional instruction: if PyBot is on the top row and she's facing north, turnaround and move down one row. 
 
 ``` python
