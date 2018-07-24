@@ -11,11 +11,11 @@ This week, we are going to be learning about another foundational concept in Com
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**Variable** - In Python, any word that stores a value. This value can be updated at any time.
+**Variable** - In Python, a name for a value. The value associated with the name can be updated at any time.
 
 </div>
 
-Variables can store information about populations...
+Variables can be associated with information about populations...
 
 ```python
 number_of_curitibanos = 1765000
@@ -33,7 +33,7 @@ b_squared = b * b
 c_squared = a_squared + b_squared
 ```
 
-Variables are related, but different than the ones you may have seen in _Opreções_. Here, you (or the computer) will be **assigning** variables their values. This allows the computer to store information for use later on.
+Variables are related, but different than the ones you may have seen in _Opreções_. Here, you (or the computer) will be **assigning** variables their values. This allows the computer to as information for use later on.
 
 <div class="definition-section" markdown="1">
 
@@ -87,9 +87,6 @@ Integers, or "ints," are quite simple. You can do most simple mathematical opera
 
 ```python
 count = 0
-
-while count < 10:
-    count = count + 1
 ```
 
 ### Floats
@@ -105,8 +102,6 @@ Floats are like Super-Integers. They can have decimal values, which means that t
 
 ```python
 degrees_fahrenheit = 98.6
-
-degrees_celsius = (degrees_fahrenheit - 32) * 5 / 9
 ```
 
 ### Strings
@@ -114,9 +109,11 @@ degrees_celsius = (degrees_fahrenheit - 32) * 5 / 9
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**String** - A "string" of characters. It can consist of letters, numbers, or most other symbols. Use strings whenever you want to store text information in a variable. Because of this, strings are almost never used in math; however, there are many other tasks for which strings are useful.
+**String** - A "string" of characters. It can consist of letters, numbers, or most other symbols.
 
 </div>
+
+ Use strings whenever you want to store text information in a variable. Because of this, strings are almost never used in math; however, there are many other tasks for which strings are useful.
 
 ```python
 cs106r_sentence = 'CS106R is awesome!'
