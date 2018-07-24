@@ -11,7 +11,14 @@ Consider the following scenario: You are about to go to the grocery store. You a
 
 Notice how your friend used a conditional instruction: **if** they have Maracuja, then you should buy her some Maracuja. Otherwise, you should buy nothing for her. 
 
-When programming PyBot, we sometimes need to give her conditional instructions. For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here, because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. How do we do this in Python? We can program the conditional instruction, "if your current cell has a fruit, pick the fruit", using an `if` statement like this: 
+When programming PyBot, we sometimes need to give her conditional instructions. 
+
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+<br><br>
+
+For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. How do we do this in Python? We can program the conditional instruction, "if your current cell has a fruit, pick the fruit", using an `if` statement like this: 
 
 _Python Code_
 ```python
@@ -19,7 +26,10 @@ if has_fruit():
     pick_fruit()
 ```
 
-The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick that fruit. Let's explore `if` statements in more detail. 
+The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick it. 
+</div>
+
+Let's explore `if` statements in more detail. 
 
 <a class="anchor-offset" id="if-statements" href="#if-statements"></a>
 
@@ -83,7 +93,10 @@ Let's walk through the steps of writing an _if-else_ statement:
 
 In summary, we can use else to program the computer to follow a default course of action if the condition in the `if` statement is `False`. 
 
-Example 
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+<br><br> 
 As an example, consider the following conditional instruction:
 _Conditional Instruction in English_ 
 > **If** there is a fruit in the current cell pick it up, **else** move forward. 
@@ -97,6 +110,7 @@ if has_fruit():
 else: 
     move()
 ```
+</div>
 
 ## Conditional Instruction: `elif`
 Let's go back to  to the grocery store example one last time: You are about to go to the grocery store. You ask your friend if she needs anything from the store, to which she responds: "If they have any Maracuja, get me a Maracuja. Else, if they have Kiwis, get some of those. Otherwise, just get me Mango". 
@@ -112,8 +126,10 @@ At the grocery store you will follow one of **three** possible courses of action
 
 Note that the order of elif is very important. 
 
-###Example 
+<div class="example-section" markdown="1">
 
+<span class="example-title">Example</span>
+<br><br>
 Let's take a look at a PyBot example that uses `elif`. Our task here is to turn PyBot so that she faces south. 
 
 Let's start by writing out the conditional instruction in English. 
@@ -135,12 +151,13 @@ elif is_facing_west():
     turn_right()
     turn_right()
 ```
+</div>
 
 <a class="anchor-offset" id="nesting" href="#nesting"></a>
 
 ## Nesting Conditional Statements  
 
-Let's consider the grocery store example one last time: You are headed to the grocery store, but this time you're not sure if it is open. Your friend says, "If the grocery store is open, go inside. If they have Maracuja, get me some, otherwise get me Mango. If the grocery store is closed, just go to the pharmacy." 
+Back to the grocery store example: You are headed to the grocery store, but this time you're not sure if it is open. Your friend says, "If the grocery store is open, go inside. If they have Maracuja, get me some, otherwise get me Mango. If the grocery store is closed, just go to the pharmacy." 
 
 In this case, your friend gave you a conditional instruction that had another conditional instruction inside it. This is called a **nested conditional instruction**. 
 
@@ -155,9 +172,11 @@ if condition_function():
     action_function()
     action_function()
     ...
-```
-Example 
+``` 
+<div class="example-section" markdown="1">
 
+<span class="example-title">Example</span>
+<br><br>
 Let's do a PyBot example that uses a nested conditional. Imagine PyBot is on the bottom row of the field. We are going to program PyBot to move into a new cell. It won't suffice to simply use move(), since PyBot will crash if she is facing a wall. Instead, if PyBot if the front is blocked, we'll turn PyBot to face north and move to the second row.
 
 _Python Code_
@@ -173,17 +192,66 @@ move()
 ```
 
 _Result_
+
  <img class="fig_not" src="figures/fig_nest.png" width="60%">
 
-
-
+</div>
 
 
 <a class="anchor-offset" id="combining-conditions" href="#combining-conditions"></a>
 
-## Logical Operators – Combining Conditions
-Check the top row
-`and`
+## Logical Operators – Compound Conditions
 
-`or` 
+### Logical Operator: and 
+You are headed to the grocery store and your friend says, "I want to make mango sticky rice. If they have mango and they have sticky rice, buy me mango and buy me some rice. Otherwise, buy me nothing." 
 
+Here, your friend gave you a compound conditional instruction using the word **and**. Similarly, we can build compound conditional in Python using the keyword `and`:
+
+``` python 
+    condition_function_1() and condition_function_2()
+```
+
+The compound condition is `True`, when both conditions are `True`.
+
+We can use a compound conditional in `if` statements like this:
+
+```python
+if condition_function_1() and condition_function_2():
+    action_function()
+    action_function()
+    ...
+```
+ 
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+<br><br>
+The northern side of PyBot's field is colder, so she doesn't like to spend much time up there. Let's program PyBot to move down from Imagine that PyBot Let's program PyBot with the following conditional instruction: if PyBot is on the top row and she's facing north, turnaround and move down one row. 
+
+``` python
+if front_is_blocked() and is_facing_north():
+    turn_right()
+    turn_right()
+    move()
+```
+</div>
+
+
+### Logical Operator: or 
+Let's consider the grocery store example one last time: You are going to the grocery store and your friend says, "If they have either white rice or brown rice, buy me some." 
+
+Here your friend used a compound conditional instruction with the word **or**. Like `and` above, Python has the keyword `or` for programming compound conditional instructions. 
+
+``` python 
+    condition_function_1() and condition_function_2()
+```
+
+The compound condition is `True`, when either of the conditions are `True`.
+
+We can use a compound conditional in `if` statements like this:
+
+```python
+if condition_function_1() or condition_function_2():
+    action_function()
+    action_function()
+    ...
