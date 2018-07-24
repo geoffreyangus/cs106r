@@ -16,8 +16,6 @@ When programming PyBot, we sometimes need to give her conditional instructions.
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-<br><br>
-
 For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. How do we do this in Python? We can program the conditional instruction, "if your current cell has a fruit, pick the fruit", using an `if` statement like this: 
 
 _Python Code_
@@ -95,8 +93,7 @@ In summary, we can use else to program the computer to follow a default course o
 
 <div class="example-section" markdown="1">
 
-<span class="example-title">Example</span>
-<br><br> 
+<span class="example-title">Example</span> 
 As an example, consider the following conditional instruction:
 _Conditional Instruction in English_ 
 > **If** there is a fruit in the current cell pick it up, **else** move forward. 
@@ -129,7 +126,6 @@ Note that the order of elif is very important.
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-<br><br>
 Let's take a look at a PyBot example that uses `elif`. Our task here is to turn PyBot so that she faces south. 
 
 Let's start by writing out the conditional instruction in English. 
@@ -176,7 +172,6 @@ if condition_function():
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-<br><br>
 Let's do a PyBot example that uses a nested conditional. Imagine PyBot is on the bottom row of the field. We are going to program PyBot to move into a new cell. It won't suffice to simply use move(), since PyBot will crash if she is facing a wall. Instead, if PyBot if the front is blocked, we'll turn PyBot to face north and move to the second row.
 
 _Python Code_
@@ -225,7 +220,6 @@ if condition_function_1() and condition_function_2():
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-<br><br>
 The northern side of PyBot's field is colder, so she doesn't like to spend much time up there. Let's program PyBot to move down from Imagine that PyBot Let's program PyBot with the following conditional instruction: if PyBot is on the top row and she's facing north, turnaround and move down one row. 
 
 ``` python
