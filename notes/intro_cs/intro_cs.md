@@ -31,6 +31,6 @@ A **computer** is a programmable, information-processing machine. It consists of
 Inside a computer there is typically at least one component for each of these four fundamental functions – input, output, store, and process. The four components are outlined in the figure below. The arrows indicate how information flows is passed through the computer.
 <img class="computer_diagram" align="right" src="figures/fig_computer_diagram.png">
 
-More than anything else, what distinguishes computers from other machines is that they are **programmable**. That is, without changing a computer's physical design, we can get it to perform new tasks by following a new set of written instructions. That set of instructions is called a **computer program** and the act of writing the instructions is **computer programming**.
+More than anything else, what distinguishes computers from other machines is that they are **programmable**. In other words, without changing a computer's physical design, we can get it to perform new tasks by following a new set of written instructions. That set of instructions is called a **computer program** and the act of writing the instructions is **computer programming**.
 
 Computer programs are written in **programming languages**. A programming language is a precise language used to specify instructions to the computer.There are many, many programming languages – perhaps you've heard of a few like C++, Java or Python. Each consists of a set of rules and syntax that a programmer must follow in order to be understood by the computer.

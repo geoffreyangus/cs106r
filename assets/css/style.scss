@@ -145,3 +145,9 @@
     box-shadow: -3px 0px #1b5995;
     padding: 0.2rem 1.5rem;
 }
+
+@media screen and (max-width: 600px) {
+  .notes-sidebar {
+    display: none;
+  }
+}

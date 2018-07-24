@@ -11,6 +11,7 @@ Control flow segments responsible for making the code run several times (sometim
 
 <span class="definition-title">Definition</span>
 **Loop** - In a program, a segment of code that is capable of running multiple times.
+
 </div>
 
 There are two primary types of loops: `for` and `while`. These two types of loops are essential in programs, both large and small, that are meant to process large quantities of data and execute complex, but repetitive tasks.
@@ -30,6 +31,7 @@ To start, you know that I am going to eat a pizza. You also know that I am going
 
 <span class="definition-title">Definition</span>
 **Iterations** - A single run of a statement within a loop.
+
 </div>
 
 In Python, `for` loops are declared with the following structure:
