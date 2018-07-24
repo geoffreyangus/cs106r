@@ -6,7 +6,13 @@ By now, you may have seen code that uses _conditional statements_ to whether or 
 
 Control flow segments responsible for making the code run several times (sometimes _infinite_ times) are known as **loops**. 
 
-> **Loop** - In a program, a segment of code that is capable of running multiple times.
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+<br><br>
+**Loop** - In a program, a segment of code that is capable of running multiple times.
+</div>
 
 There are two primary types of loops: `for` and `while`. These two types of loops are essential in programs, both large and small, that are meant to process large quantities of data and execute complex, but repetitive tasks.
 
@@ -21,7 +27,12 @@ What do you know about the statement above?
 
 To start, you know that I am going to eat a pizza. You also know that I am going to eat a pizza for the next 7 days _exactly_. No more, no less. This is the basic premise of a `for` loop. It is a segment of code that runs for a specified number of **iterations**.
 
-> **Iterations** - A single run of a statement within a loop.
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+<br><br>
+**Iterations** - A single run of a statement within a loop.
+</div>
 
 In Python, `for` loops are declared with the following structure:
 
