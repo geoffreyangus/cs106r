@@ -121,7 +121,9 @@
 }
 
 .example-title {
-    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
     font-style: italic;
     color: #20955b;
 }
@@ -132,7 +134,9 @@
 }
 
 .definition-title {
-    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
     font-style: italic;
     color: #1b5995;
 }

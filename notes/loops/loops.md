@@ -30,7 +30,6 @@ To start, you know that I am going to eat a pizza. You also know that I am going
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-<br><br>
 **Iterations** - A single run of a statement within a loop.
 </div>
 
@@ -55,7 +54,6 @@ Let's take a look at all of these parts with an example!
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-<br><br>
 Let's say that you want to get PyBot to go across the field. In the _Simple Function_ notes, we saw a function that accomplished this called `move_across()`. It looked a little something like this:
 
 ```python
@@ -116,7 +114,6 @@ Here is a quick example:
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-<br><br>
 Imagine that you want PyBot to move across the field, but you don't know how big this particular field is. You can't write out the right number of `move()` calls, and you can't set up a `for` loop capable of knowing when to stop iterating. One thing we can do is write out a function that uses a `while` loop to run while `not front_is_blocked()`, like this:
 
 ```python
