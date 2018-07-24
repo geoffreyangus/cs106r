@@ -1,5 +1,5 @@
 ---
-title: Course Notes 
+title: Variables
 ---
 
 So far, you have designed programs capable of making decisions on their own based on observations of the world around them. But what about a program capable of remembering?
