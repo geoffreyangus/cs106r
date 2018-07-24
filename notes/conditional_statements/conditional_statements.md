@@ -11,7 +11,14 @@ Consider the following scenario: You are about to go to the grocery store. You a
 
 Notice how your friend used a conditional instruction: **if** they have Maracuja, then you should buy her some Maracuja. Otherwise, you should buy nothing for her. 
 
-When programming PyBot, we sometimes need to give her conditional instructions. For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. How do we do this in Python? We can program the conditional instruction, "if your current cell has a fruit, pick the fruit", using an `if` statement like this: 
+When programming PyBot, we sometimes need to give her conditional instructions. 
+
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+<br><br>
+
+For example, we might want to tell her: "If there is an orange in your cell, pick the orange." Using a conditional instruction is important here because PyBot will crash if she attempts to pick an orange in a cell where there is no orange. How do we do this in Python? We can program the conditional instruction, "if your current cell has a fruit, pick the fruit", using an `if` statement like this: 
 
 _Python Code_
 ```python
@@ -19,7 +26,10 @@ if has_fruit():
     pick_fruit()
 ```
 
-The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick that fruit. Let's explore `if` statements in more detail. 
+The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick that fruit. 
+</div>
+
+Let's explore `if` statements in more detail. 
 
 <a class="anchor-offset" id="if-statements" href="#if-statements"></a>
 
@@ -155,8 +165,11 @@ if condition_function():
     action_function()
     action_function()
     ...
-```
-Example 
+``` 
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+<br><br>
 
 Let's do a PyBot example that uses a nested conditional. Imagine PyBot is on the bottom row of the field. We are going to program PyBot to move into a new cell. It won't suffice to simply use move(), since PyBot will crash if she is facing a wall. Instead, if PyBot if the front is blocked, we'll turn PyBot to face north and move to the second row.
 
@@ -175,6 +188,8 @@ move()
 _Result_
 
  <img class="fig_not" src="figures/fig_nest.png" width="60%">
+
+</div>
 
 
 <a class="anchor-offset" id="combining-conditions" href="#combining-conditions"></a>
@@ -200,8 +215,12 @@ if condition_function_1() and condition_function_2():
     action_function()
     ...
 ```
+ 
+<div class="example-section" markdown="1">
 
-Example 
+<span class="example-title">Example</span>
+<br><br>
+
 The northern side of PyBot's field is colder, so she doesn't like to spend much time up there. Let's program PyBot to move down from Imagine that PyBot Let's program PyBot with the following conditional instruction: if PyBot is on the top row and she's facing north, turnaround and move down one row. 
 
 ``` python
@@ -210,6 +229,7 @@ if front_is_blocked() and is_facing_north():
     turn_right()
     move()
 ```
+</div>
 
 
 ### Logical Operator: or 
