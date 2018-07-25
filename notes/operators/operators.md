@@ -44,11 +44,11 @@ As review, the three logical operators are the following:
 
 These logical operators are the foundation of conditional statements. They allow us to combine boolean values (`True` and `False`) in interesting ways. Let's quickly go over the usage of each of these operators.
 
-###### The `not` Operator
+#### The `not` Operator
 
 The `not` operator simply flips the boolean value that follows it. If an expression says `not True`, it becomes `False`. If an expression says `not False`, it becomes `True`.
 
-###### The `and` Operator
+#### The `and` Operator
 
 An expression with the `and` operator can only be `True` if every value surrounding the expression is `True`. Let's take the following example:
 
@@ -72,30 +72,30 @@ if False and False:
 
 Only Expression 1 would cause PyBot to move.
 
-###### The `or` Operator
+#### The `or` Operator
 An expression with the `or` operator is `True` if every _at least one_ of the values surrounding the expression is `True`. Let's take the following example:
 
 ```python
 # Expression 1
-if True and True:
+if True or True:
     move()
 
 # Expression 2
-if True and False:
+if True or False:
     move()
 
 # Expression 3
-if False and True:
+if False or True:
     move()
 
 # Expression 4
-if False and False:
+if False or False:
     move()
 ```
 
 Expressions 1, 2, and 3 would cause PyBot to move.
 
-###### Variables, Functions, and Logical Operators
+#### Variables, Functions, and Logical Operators
 
 Indeed, the above expressions make use of raw boolean values in order to make a point. In PyBot, we covered the fact that functions can have boolean values. Here, we want to be clear that we can use anything - variables, raw values, and functions - with a boolean value when making expressions with logical operators. Like this:
 
@@ -215,7 +215,7 @@ As you may have noticed throughout the notes, we also use what are called arithm
 
 Wait, what is **Remainder**, you ask?
 
-###### The Remainder Operator
+#### The Remainder Operator
 
 <div class="definition-section" markdown="1">
 
