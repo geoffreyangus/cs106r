@@ -25,12 +25,17 @@ number_of_curitibanos = 1765000
 ```python
 city_name = "Rio de Janeiro"
 ```
-... and even other variables:
+... other variables...
 
 ```python
 a_squared = a * a
 b_squared = b * b
 c_squared = a_squared + b_squared
+```
+... and even values that include itself!
+```python
+count = 0
+count = count + 1 # Here, count will update to equal 1.
 ```
 
 Variables are related, but different than the ones you may have seen in _Opreções_. Here, you (or the computer) will be **assigning** variables their values. This allows the computer to as information for use later on.
@@ -128,21 +133,21 @@ Here, `cs106r_sentence`, `email_domain`, and `jersey_number` are all examples of
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**Boolean** - A variable that can be either `True`, or `False`.
+**Boolean** - A statement that can be either `True`, or `False`.
 
 </div>
 
-Now that you have learned about strings, you may be wondering to yourself:
+You have seen booleans before. Remember `has_fruit()` and `front_is_blocked()`? Those were both functions that were either `True` or `False` - booleans!
 
-> Why not just use strings that say "True" or "False" instead?
-
-Booleans are little guys that can only express two possibilities. Strings can store almost anything. Therefore, booleans take up much less space in the computer. Instead of storing a string of characters, the computer actually stores a 0 for a False value, and a 1 for a True value.
+Here is an example of a boolean variable in action:
 
 ```python
 is_girl = True
 ```
 
-Booleans are what make `if` statements and `while` loops work in the way that they do. Something that looks like this...
+Booleans are what make `if` statements and `while` loops work in the way that they do. 
+
+Variables allow us to store boolean values, so something that looks like this...
 
 ```python
 if front_is_blocked() and has_fruit():
@@ -174,6 +179,16 @@ while current_front_clear:
 This will cause PyBot to crash at the end of the field. Why? 
 
 The value of `front_is_blocked` is stored once at the _beginning_ of the program. The variable holds the information that it had before the `while` loop was executed and does not get a chance to update again (because we enter the `while` loop after the variable is created).
+
+</div>
+
+<div class="aside" markdown="1">
+
+Now that you have learned about both booleans and strings, you may be wondering to yourself:
+
+> Why not just use strings that say "True" or "False" instead?
+
+Booleans are little guys that can only express two possibilities. Strings can store almost anything. Therefore, booleans take up much less space in the computer. Instead of storing a string of characters, the computer actually stores a 0 for a False value, and a 1 for a True value.
 
 </div>
 
