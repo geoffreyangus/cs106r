@@ -139,7 +139,7 @@ In addition, if the expression is incorrect and joined together by the equality 
 ```python
 False
 ```
-Remember that, with operators, can use variables and raw values togethers as well. This means that this piece of code...
+Remember that, with operators, we can use variables and raw values together as well. This means that this piece of code...
 ```python
 curitiba_population = 1765000
 
@@ -231,10 +231,10 @@ Do you remember division back in elementary school? Before we had learned about 
 Here are a series of equations that use the remainder operator to warm you up. Every statement below evaluates to `True`. Basically, we are doing whole number division, and using the remainder as the answer!
 
 ```python
-15 % 4 == 3 # 23 / 4 = 5, with 3 leftover. Therefore, the value of this expression is 3.
-21 % 7 == 0 # 21 / 7 = 0, with nothing leftover. Therefore, the value of this expression is 0.
-99 % 2 == 1 # 99 / 2 = 49, with 1 leftover. Therefore, the value of this expression is 1.
-11 % 2 == 1 # 11 / 2 = 5, also with 1 leftover. Therefore, the value of this expression is also 1.
+15 % 4 == 3 # 23 / 4 = 5, with 3 leftover.
+21 % 7 == 0 # 21 / 7 = 0, with nothing leftover.
+99 % 2 == 1 # 99 / 2 = 49, with 1 leftover.
+11 % 2 == 1 # 11 / 2 = 5, also with 1 leftover.
 ```
 
 Notice, in the last two examples, that the remainder operator evaluated to 1 for both 99 and 11. The remainder operator is especially useful for determining the difference between odd and even numbers:
