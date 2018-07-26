@@ -263,11 +263,7 @@ Above, we are using arithmetic operators in order to do the temperature conversi
 
 Check out the exercise to get some practice with arithmetic operators and variables!
 
-<iframe frameborder="0" width="100%" height="600px" src="scientific notation"></iframe>
-<iframe frameborder="0" width="100%" height="600px" src="scientific notation (negative) and integer division"></iframe>
-<iframe frameborder="0" width="100%" height="600px" src="integer divided by a string and add two strings together"></iframe>
-<iframe frameborder="0" width="100%" height="600px" src="True + 2"></iframe>
-
+<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1331661/1f2eb1b9a37097e934724d359615d160"></iframe>
 
 ### Order of Operations
 
@@ -305,6 +301,6 @@ if (15 / 3 % 2) > ((20 + 4) * 2):
     move()
 ```
 
-NOTE: these parentheses are different than the parentheses in front of functions!
+NOTE: these parentheses are different than the parentheses that follow functions!
 
 Indeed, variables and operators are two of the hardest concepts to learn in computer programming. However, once you gain a solid understanding of how they work, you are far, far closer to becoming an excellent computer programmer. Congratulations!
