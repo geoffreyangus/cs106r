@@ -377,17 +377,17 @@ print("Brazil: " + str(score_brazil))
 print("France: " + str(score_france))
 ```
 
-| Cast           | Result   |
-|----------------|----------|
-| `int(True)    `| `1      `|
-| `int(False)   `| `0      `|
-| `int("False") `| `err!   `|
-| `int("-5")    `| `-5     `|
-| `int("100")   `| `100    `|
-| `int("1abc")  `| `err!   `|
-| `int(50.4)    `| `50     `|
-| `int(-4.3)    `| `-4     `|
-| `int("50.4")  `| `err!   `|
+| Cast           | Result    |
+|----------------|-----------|
+| `str(True)    `| `"True"  `|
+| `str(False)   `| `"False" `|
+| `str(-5)      `| `"-5"    `|
+| `str(100)     `| `"100"   `|
+| `str(50.4)    `| `"50.4"  `|
+| `str(-4.3)    `| `"-4.3"  `|
+| `str("word")  `| `"word"  `|
+
+Notice that `"word"` does not change. Also notice that there are no errors here. Python is capable of turning most values into strings.
 
 ##### Casting: `bool()`
 
