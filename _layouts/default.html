@@ -19,6 +19,70 @@
         <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
     </div>
 
+
+    {% if page.url == '/' %}   
+
+    <!-- OUR SUPER AWESOME WEEKLY TEMPLATE -->
+    <div class="home-page">
+      <div class="syllabus-week">
+        <div class="syllabus-header">
+          <div class="syllabus-header-title">
+            Week 1: Welcome to CS106R!
+          </div>
+          <div class="syllabus-header-button">
+            Slides
+          </div>
+        </div>      
+        <div class="syllabus-body">
+          <div class="syllabus-details">
+            <div class="syllabus-details-section">
+              <div class="syllabus-details-title">
+                Notes
+              </div>
+              <a class="syllabus-details-link syllabus-notes">
+                Introduction to Python
+              </a>
+              <a class="syllabus-details-link syllabus-notes">
+                Functions Pt. 1
+              </a>
+            </div>
+            <div class="syllabus-details-section">
+              <div class="syllabus-details-title">
+                Exercises
+              </div>
+              <a class="syllabus-details-link syllabus-assignments">
+                Turn Left
+              </a>
+              <a class="syllabus-details-link syllabus-assignments">
+                Move Across
+              </a>
+            </div>
+            <div class="syllabus-details-section">
+              <div class="syllabus-details-title">
+                Projects
+              </div>
+              <a class="syllabus-details-link syllabus-assignments">
+                Stair Step
+              </a>
+            </div>
+          </div>
+          <div class="syllabus-preview">
+            <div class="syllabus-preview-image">
+            </div>
+            <div class="syllabus-preview-caption">
+              PyBot. PyCountry fields. Your first Python program. What more could you want?
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+    {% endif %}
+
     {% if page.url contains'/notes/' %}
       <!-- SIDEBAR FORMAT TEMPLATE  -->
       {% if page.url contains 'simple_functions' %}
@@ -157,7 +221,7 @@
       <main id="content" class="main-content" role="main">
 
     {% else %}
-      <main id="content" class="main-content home-page" role="main">
+      <main id="content" class="main-content" role="main">
 
     {% endif %}
 
