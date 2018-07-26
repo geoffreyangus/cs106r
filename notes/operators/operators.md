@@ -9,7 +9,7 @@ The four variable classes we have covered so far - ints, floats, booleans, and s
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**Operators** - symbols used to allow values to interact.
+**Operators** - Symbols used to allow values to interact.
 
 </div>
 
@@ -264,6 +264,120 @@ Above, we are using arithmetic operators in order to do the temperature conversi
 Check out the exercise to get some practice with arithmetic operators and variables!
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1331661/1f2eb1b9a37097e934724d359615d160"></iframe>
+
+### Variable Casting
+
+In the last set of exercises, we saw that the different classes sometimes interact in unexpected ways. Programmers avoid this through what is called **casting**.
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Casting** - Changing a value's class.
+
+</div>
+
+Casting allows us to force the program to behave as we want it to. Let's take a second look at the `string` and `int` interaction from the previous exercise.
+
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+Recall that (_spoiler alert!_) adding a `string` and `int` together caused the program to crash. Adding a `string` and a `string` or an `int` and an `int` together causes different results, which is why the program cannot decide on how to treat the different value classes it was given. Casting can solve this issue.
+
+In Curitiba, the zip code comes in two parts: the first being the primary 5-digit code (80020, 80010, etc.) and a more specific 3-digit code (010, 020, etc.). Your zip code can thus be written as `80020-050` or `80020-240`. We want to write a program that puts together zip codes into their 8 digit format, but we have a program that looks like this:
+
+```python
+large_zip = 80020
+small_zip = -200
+```
+
+If we add `large_zip` and `small_zip` together, we will get `79820`, which is definitely not what we want. In order to put these numbers together, we are going to need to "cast" these integers into strings. We can do this by declaring two new variables, `large_zip_str` and `small_zip_str`, and using the cast function `str()`.
+
+```python
+large_zip = 80020
+small_zip = -200
+
+large_zip_str = str(80020) # This now equals "80020"
+small_zip_str = str(-200)  # This now equals "-200"
+```
+
+Because we now have two strings `"80020"` and `"-200"`, we can add them together:
+
+```python
+final_zip_str = large_zip_str + small_zip_str # "80020-200"
+```
+
+This will give us the string that we desire, `"80020-200"`.
+
+</div>
+
+The cast function is a powerful function that allows us to control how the program behaves. The following are the casting functions you need to know:
+
+##### Casting: `int()`
+
+This function converts number-like things into integers.
+
+```python
+```
+
+| Cast          | Result  |
+|---------------|---------|
+| `int(True)   `| `1     `|
+| `int(False)  `| `0     `|
+| `int("False")`| `err!  `|
+| `int("-5")   `| `-5    `|
+| `int("100")  `| `100   `|
+| `int("1abc") `| `err!  `|
+| `int(50.4)   `| `50    `|
+| `int(-4.3)   `| `-4    `|
+| `int("50.4") `| `err!  `|
+
+Notice that calling the casting function `int()` on a float removes the decimals. Be careful casting floats into integers because you may lose accuracy!
+
+##### Casting: `float()`
+
+This function converts number-like things into floats. 
+
+| Cast          | Result |
+|---------------|--------|
+| float(True)   | 1.0    |
+| float(False)  | 0.0    |
+| float("False")| err!   |
+| float("-5")   | -5.0   |
+| float("100")  | 100.0  |
+| float("1abc") | err!   |
+| float(50.4)   | 50.4   |
+| float(-4.3)   | -4.3   |
+| float("50.4") | err!   |
+
+Notice that calling the casting function `float()` causes integers and booleans to become floats.
+
+##### Casting: `str()`
+
+This function converts anything to a string. This is essential when you are writing a program that needs to display quantitative information.
+
+```python
+score_brazil = 2
+score_france = 1
+
+print("Current score:")
+print("Brazil: " + str(score_brazil))
+print("France: " + str(score_france))
+```
+
+| Cast         | Result |
+|--------------|--------|
+| int(True)    | 1      |
+| int(False)   | 0      |
+| int("False") | err!   |
+| int("-5")    | -5     |
+| int("100")   | 100    |
+| int("1abc")  | err!   |
+| int(50.4)    | 50     |
+| int(-4.3)    | -4     |
+| int("50.4")  | err!   |
+
+##### Casting: `bool()`
+
 
 ### Order of Operations
 
