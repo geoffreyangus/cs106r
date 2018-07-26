@@ -4,12 +4,56 @@
 @import "{{ site.theme }}";
 
 .home-page {
-    margin-top: 4rem;
+    margin-top: 70px;
 }
 
+.syllabus-week-wrapper {
+    padding: 50px;
+}
 
+.syllabus-week {
+    padding: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
 
+.syllabus-header {
+    display: flex;
+    margin-bottom: 20px;
+}
 
+.syllabus-header-button {
+    padding: 0px 30px;
+    background-color: #1b5995;
+    margin-left: 30px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.syllabus-body {
+    display: flex;
+}
+
+.syllabus-details {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.syllabus-preview {
+    width: 50%;
+    height: 360px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 50px;
+}
 
 .bio-pic {
     margin-left: 20px;
