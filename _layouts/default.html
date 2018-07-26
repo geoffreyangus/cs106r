@@ -12,29 +12,14 @@
   <body>
 <!--     <a id="skip-to-content" href="#content">Skip to the content.</a>
  -->
-    {% if page.url == '/' %}   
-      <header class="page-header" role="banner">
-        <h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ page.description }}</h2> 
-          <a href="{{ site.github.baseurl }}" class="btn">Home</a>
-          <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">About</a>
-          <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">Syllabus</a>
-          <a href="https://geoffreyangus.github.io/CS106R/notes" class="btn">Notes</a>
-          <a href="https://geoffreyangus.github.io/CS106R/projects" class="btn">Projects</a>
-        
-      </header>
-    {% else %}
-      <div class="nav-bar">
-          <a href="{{ site.github.baseurl }}" class="btn">Home</a>
-          <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">About</a>
-          <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">Syllabus</a>
-          <a href="https://geoffreyangus.github.io/CS106R/notes" class="btn">Notes</a>
-          <a href="https://geoffreyangus.github.io/CS106R/projects" class="btn">Projects</a>
-         
-      </div>
-    {% endif %}
-    {% if page.url contains'/notes/' %}
 
+    <div class="nav-bar">
+        <a href="{{ site.github.baseurl }}" class="btn">CS106R</a>
+        <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
+        <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
+    </div>
+
+    {% if page.url contains'/notes/' %}
       <!-- SIDEBAR FORMAT TEMPLATE  -->
       {% if page.url contains 'simple_functions' %}
         <div class="notes-sidebar">
