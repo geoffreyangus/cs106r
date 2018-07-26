@@ -317,6 +317,11 @@ The cast function is a powerful function that allows us to control how the progr
 This function converts number-like things into integers.
 
 ```python
+student_girls = str(100)
+print("There are " + student_girls + "girls.")
+
+student_boys = 75
+student_total = int(student_girls) + student_boys
 ```
 
 | Cast          | Result  |
@@ -335,7 +340,14 @@ Notice that calling the casting function `int()` on a float removes the decimals
 
 ##### Casting: `float()`
 
-This function converts number-like things into floats. 
+This function converts number-like things into floats.
+
+```python
+degrees_fahrenheit = str(98.6)
+print("The temperature is " + degrees_fahrenheit)
+
+degrees_celsius = (float(degrees_fahrenheit) - 32) * 5 / 9
+```
 
 | Cast          | Result |
 |---------------|--------|
@@ -348,6 +360,7 @@ This function converts number-like things into floats.
 | float(50.4)   | 50.4   |
 | float(-4.3)   | -4.3   |
 | float("50.4") | err!   |
+
 
 Notice that calling the casting function `float()` causes integers and booleans to become floats.
 
@@ -378,6 +391,23 @@ print("France: " + str(score_france))
 
 ##### Casting: `bool()`
 
+This function converts non-zero values to `True`, and zero-like values to `False`.
+
+This casting function is not used as much; nonetheless, it is important to know as well.
+
+| Cast          | Result |
+|---------------|--------|
+| bool(1)       | True   |
+| bool(0)       | False  |
+| bool(5)       | True   |
+| bool(-1)      | True   |
+| bool("hello") | True   |
+| bool("")      | False  |
+| bool("False") | True   |
+| bool(0.1)     | True   |
+| bool(0.0)     | False  |
+
+Notice that only `0`, `0.0`, and `""` count as `False` values. Be careful with this; even `"False"` counts as `True` with this casting function!
 
 ### Order of Operations
 
