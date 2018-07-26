@@ -3,15 +3,19 @@
 
 @import "{{ site.theme }}";
 
+.home-page {
+    margin-top: 4rem;
+}
+
+
+
+
+
 .bio-pic {
     margin-left: 20px;
     margin-bottom: 20px;
     width: 33%;
     height: auto;
-}
-
-#content.home-page {
-    padding: 56px;
 }
 
 .nav-bar {
