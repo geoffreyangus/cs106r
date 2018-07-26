@@ -349,17 +349,17 @@ print("The temperature is " + degrees_fahrenheit)
 degrees_celsius = (float(degrees_fahrenheit) - 32) * 5 / 9
 ```
 
-| Cast          | Result |
-|---------------|--------|
-| float(True)   | 1.0    |
-| float(False)  | 0.0    |
-| float("False")| err!   |
-| float("-5")   | -5.0   |
-| float("100")  | 100.0  |
-| float("1abc") | err!   |
-| float(50.4)   | 50.4   |
-| float(-4.3)   | -4.3   |
-| float("50.4") | err!   |
+| Cast            | Result   |
+|-----------------|----------|
+| `float(True)   `| `1.0    `|
+| `float(False)  `| `0.0    `|
+| `float("False")`| `err!   `|
+| `float("-5")   `| `-5.0   `|
+| `float("100")  `| `100.0  `|
+| `float("1abc") `| `err!   `|
+| `float(50.4)   `| `50.4   `|
+| `float(-4.3)   `| `-4.3   `|
+| `float("50.4") `| `err!   `|
 
 
 Notice that calling the casting function `float()` causes integers and booleans to become floats.
@@ -377,17 +377,17 @@ print("Brazil: " + str(score_brazil))
 print("France: " + str(score_france))
 ```
 
-| Cast         | Result |
-|--------------|--------|
-| int(True)    | 1      |
-| int(False)   | 0      |
-| int("False") | err!   |
-| int("-5")    | -5     |
-| int("100")   | 100    |
-| int("1abc")  | err!   |
-| int(50.4)    | 50     |
-| int(-4.3)    | -4     |
-| int("50.4")  | err!   |
+| Cast           | Result   |
+|----------------|----------|
+| `int(True)    `| `1      `|
+| `int(False)   `| `0      `|
+| `int("False") `| `err!   `|
+| `int("-5")    `| `-5     `|
+| `int("100")   `| `100    `|
+| `int("1abc")  `| `err!   `|
+| `int(50.4)    `| `50     `|
+| `int(-4.3)    `| `-4     `|
+| `int("50.4")  `| `err!   `|
 
 ##### Casting: `bool()`
 
@@ -395,17 +395,17 @@ This function converts non-zero values to `True`, and zero-like values to `False
 
 This casting function is not used as much; nonetheless, it is important to know as well.
 
-| Cast          | Result |
-|---------------|--------|
-| bool(1)       | True   |
-| bool(0)       | False  |
-| bool(5)       | True   |
-| bool(-1)      | True   |
-| bool("hello") | True   |
-| bool("")      | False  |
-| bool("False") | True   |
-| bool(0.1)     | True   |
-| bool(0.0)     | False  |
+| Cast            | Result   |
+|-----------------|----------|
+| `bool(1)       `| `True   `|
+| `bool(0)       `| `False  `|
+| `bool(5)       `| `True   `|
+| `bool(-1)      `| `True   `|
+| `bool("hello") `| `True   `|
+| `bool("")      `| `False  `|
+| `bool("False") `| `True   `|
+| `bool(0.1)     `| `True   `|
+| `bool(0.0)     `| `False  `|
 
 Notice that only `0`, `0.0`, and `""` count as `False` values. Be careful with this; even `"False"` counts as `True` with this casting function!
 
