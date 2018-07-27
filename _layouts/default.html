@@ -2,9 +2,8 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <script>
-      var myNav = document.getElementById("nav-bar");
-
       window.onscroll = function() {
+        var myNav = document.getElementById("nav-bar");
         "use strict";
         if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
           myNav.classList.add("scroll");
