@@ -57,6 +57,10 @@
 
 .syllabus-header {
     font-size: 24px;
+
+    .header-week {
+        font-size: 35px;
+    }
 }
 
 .syllabus-header-button {
@@ -84,9 +88,11 @@
 
 .syllabus-preview {
     height: 100%;
-    background-color: #F5F5F5;
-    border-radius: 10px;
-    padding: 20px;
+    background-color: white;
+    border-radius: 0;
+    border-width: 0px 0px 0px 2px;
+    border-color: #819197;
+    padding-left: 30px;
     border-style: solid;
     display: flex;
     flex-direction: column;
