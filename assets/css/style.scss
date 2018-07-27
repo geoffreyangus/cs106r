@@ -53,6 +53,11 @@
     padding: 20px;
 }
 
+.syllabus-details-section {
+    display: flex;
+    flex-direction: column;
+}
+
 .syllabus-details-section a {
     padding: 5px 0px 5px 0px;
     padding-left: 15px;
