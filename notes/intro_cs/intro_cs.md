@@ -1,5 +1,5 @@
 ---
-title: Course Notes 
+title: Introduction to Computer Science 
 ---
 
 <a class="anchor-offset" id="computer-science" href="#computer-science"></a>

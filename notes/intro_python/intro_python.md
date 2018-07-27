@@ -1,8 +1,7 @@
 ---
-title: Course Notes 
+title: Introduction to Python
 ---
 
-## Introduction to Python 
 In this course we'll be working with a programming lanugage called Python. We chose Python because it is powerful, fun to work with and extremely popular. That being said, this is an introductory course in Computer Science, not Python – the ideas and concepts we cover can be applied to programming in almost any language. 
 
 <a class="anchor-offset" id="replit" href="#replit"></a>
