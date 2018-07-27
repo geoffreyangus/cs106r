@@ -2,11 +2,13 @@
 title: PyBot 
 ---
 
+<a class="anchor-offset" id="intro-pybot" href="#intro-pybot"></a>
 # Introducing PyBot and PyCountry
 For the first week of the course, we're going to be working with a virtual robot name `PyBot`. We'll teach you some important Python concepts, and you will use those concepts to program PyBot to complete some tasks. (PyBot is based very closely on Karel the Robot, a virtual robot that students work with in Stanford's introductory computer science course.)
 
 This is PyBot: ➡️. She is a simple robot that lives in PyCountry, a land renown for its oranges (it said that an orange from PyCountry is easier to peel than any orange in the world). 
 
+<a class="anchor-offset" id="pycountry-fields" href="#pycountry-fields"></a>
 # PyCountry Fields 
 The oranges in PyCountry grow in a rectangular field shown below. 
 
@@ -18,12 +20,12 @@ The four sides of a PyCountry field are labeled with the cardinal directions: _n
 
 <img class="fig_pycountry" src="figures/fig_pycountry.png">
 
-# PyBot
+<a class="anchor-offset" id="pybot" href="#pybot"></a>
+# PyBot Capabilities 
 
 PyBot spends all of her time hanging out in PyCountry's orange field. At all times:
 1. PyBot is standing in one **cell** on the field
 2. PyBot is facing the **direction** indicated by her arrow.
-
 
 ## Actions 
 PyBot was built to perform only a small set of actions: 
@@ -52,6 +54,7 @@ To program PyBot to perform these actions and answer these questions, we'll need
 # PyBot Functions
 Below we outline the functions that PyBot understands and give a simple example of what writing the function in code will tell PyBot to do. On the left is an image of PyBot _before_ she reads the function and on the right is an image of PyBot after she has performed the action.  
 
+<a class="anchor-offset" id="pybot-action-fn" href="#pybot-action-fn"></a>
 ## Actions
 As we discussed above, PyBot is capable of performing a few simple actions. By writing the following Python functions in our code, we can tell PyBot to perform those actions. In code, the functions look like: `move()`, `turn_right()`, and `pick_fruit()`. 
 
@@ -61,7 +64,7 @@ As we discussed above, PyBot is capable of performing a few simple actions. By w
 
 <img class="fig_function" src="figures/fig_pick_fruit.png" width="75%">
 
-
+<a class="anchor-offset" id="pybot-conditional-fn" href="#pybot-conditional-fn"></a>
 ## Conditions
 PyBot is also able to answer a few yes or no questions about her condition. We can ask PyBot these questions by writing the following functions in our code. When PyBot reads these questions, she passes the answer back to us in a process called **returning**. We'll discuss **returning** in more depth in later notes, so don't worry about it too much. For now, think of **returning** as answering a question posed by a function. 
 
@@ -71,6 +74,8 @@ PyBot is also able to answer a few yes or no questions about her condition. We c
 
 <img class="fig_function" src="figures/fig_is_facing_north.png" width="75%">
 
+
+<a class="anchor-offset" id="writing-pybot" href="#writing-pybot"></a>writing-pybot
 # Writing a PyBot Program
 To program PyBot, we write a Python program using the functions above. We place these functions in the order that we'd like PyBot to read them in the `main()` function. 
 
@@ -94,6 +99,8 @@ _Result_
 
 <img class="fig_simple" src="figures/fig_simple_pybot.gif" width="75%">
 
+<a class="anchor-offset" id="exc-first-fruit" href="#exc-first-fruit"></a>writing-pybot
+# Excercise
 Now try it yourself in the exercise: 
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1310905/277b5035a363cda051dd6cbcec3666a8"></iframe>

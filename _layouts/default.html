@@ -345,8 +345,121 @@
                 There are times when you may want to make a while loop run forever; these are called infinite loops...
               </div>
             </a>
-        </div>   
+        </div>
+      
+        {% elsif page.url contains 'intro_python' %}
+        <div class="notes-sidebar">
+            <div class="sidebar-title">
+              Contents
+            </div>
+            <a class="sidebar-section" href="#replit">
+              <div class="section-title">
+                Coding with repl.it
+              </div>
+              <div class="section-caption">
+                Throughout the course we are going to be coding on a site called Replit. 
+                This section introduces you the Replit coding environment and walks you through the 
+                process of writing and running programs. 
+              </div>
+            </a>
 
+            <a class="sidebar-section" href="#first-program">
+                <div class="section-title">
+                  First Python Program 
+                </div>
+                <div class="section-caption">
+                  Learn how to program Python to print out text using the print function. 
+                  See your first Python program! 
+                  
+                </div>
+            </a>
+
+            <a class="sidebar-section" href="#exc-intro-python">
+              <div class="section-title">
+                Exercise: Print Name  
+              </div>
+              <div class="section-caption">
+                In this exercise, you'll program Python to print out your name, and get a chance to try out
+                the replit  
+              </div>
+            </a>
+        </div> 
+
+        {% elsif page.url contains 'pybot' %}
+        <div class="notes-sidebar">
+            <div class="sidebar-title">
+              Contents
+            </div>
+            <a class="sidebar-section" href="#intro-pybot">
+              <div class="section-title">
+                Introducing PyBot 
+              </div>
+              <div class="section-caption">
+                PyBot is a simple, virtual robot that we can program in Python. 
+                We created PyBot to teach fundamental computer science principles.
+                Meet PyBot here!
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#pycountry-fields">
+                <div class="section-title">
+                  PyCountry Fields 
+                </div>
+                <div class="section-caption">
+                  PyBot lives in orange fields in the virtual land of PyCountry. 
+                  She harvests the oranges in PyCountry's fields.  
+                </div>
+            </a>
+
+            <a class="sidebar-section" href="#pybot">
+              <div class="section-title">
+                Pybot Capabilities
+              </div>
+              <div class="section-caption">
+                PyBot was built to perform a few actions: she can move around, rotate, and pick fruit. 
+                She can also answer simple True or False questions about herself and her environnment. 
+                Learn what PyBot is capable of. 
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#pybot-action-fn">
+                <div class="section-title">
+                  Pybot Action Functions 
+                </div>
+                <div class="section-caption">
+                    We outline the functions we can call to make PyBot take actions: move(), turn_right() and pick_fruit(). 
+                </div>
+            </a>
+
+            <a class="sidebar-section" href="#pybot-conditional-fn">
+                <div class="section-title">
+                  Pybot Conditional Functions 
+                </div>
+                <div class="section-caption">
+                    PyBot is also able to answer a few yes or no questions about her condition. 
+                    We can ask PyBot these questions by writing the following functions in our code.
+                </div>
+            </a>
+
+            <a class="sidebar-section" href="#writing-pybot">
+                <div class="section-title">
+                  Writing PyBot Programs
+                </div>
+                <div class="section-caption">
+                    Let's write our first PyBot program by calling the PyBot functions we learned 
+                    in the previous sections. 
+                </div>
+            </a>
+            
+            <a class="sidebar-section" href="#exc-first-fruit">
+                <div class="section-title">
+                  Excercise: First Fruit
+                </div>
+                <div class="section-caption">
+                  Write our first PyBot program in this exercise! 
+                </div>
+            </a>
+        </div> 
       {% endif %}
 
       <h1 class="page-name notes-name">{{ page.title | default: site.github.repository_name }}</h1>
