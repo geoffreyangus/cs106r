@@ -246,6 +246,12 @@
     margin-right: auto;
     margin-bottom: 0px;
     float: left;
+    text-decoration: none;
+    transition: text-shadow 0.23s;
+}
+
+.nav-bar a:first-child:hover {
+    text-shadow: 1px 4px rgba(0,0,0,0.4);
 }
 
 .nav-bar a {
