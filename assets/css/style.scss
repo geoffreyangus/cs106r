@@ -173,6 +173,15 @@
 .details-buttons {
     display: none;
     margin-top: 30px;
+
+    .syllabus-buttons-piazza.dark-button {
+        width: 50%;
+    }
+
+    .syllabus-buttons-slides.dark-button {
+        margin-right: 5px;
+        width: 50%;
+    }
 }
 
 .figures-buttons {
@@ -180,19 +189,10 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-}
 
-.syllabus-buttons-piazza.dark-button {
-    margin-right: 0px;
-    margin-bottom: 0px;
-    width: 50%;
-}
-
-.syllabus-buttons-slides.dark-button {
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 5px;
-    width: 50%;
+    .syllabus-buttons-slides.dark-button {
+        margin-right: 5px;
+    }
 }
 
 .dark-button {
