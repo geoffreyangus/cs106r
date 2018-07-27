@@ -2,7 +2,18 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <script>
-      document.body.getElementsByClassName('nav-bar')[0].innerHTML = "test"
+      $(document).ready(function(){
+        $(window).scroll(function(){
+          var scroll = $(window).scrollTop();
+          if (scroll > 300) {
+            $(".home-nav-bar").css("background" , "blue");
+          }
+
+          else{
+            $(".home-nav-bar").css("background" , "#333");   
+          }
+        })
+      })
     </script>
 
     <meta charset="UTF-8">
