@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <script>
-      document.getElementById("content").innerHTML = "My First JavaScript";
+      document.body.getElementsByClassName('nav-bar')[0].innerHTML = "test"
     </script>
 
     <meta charset="UTF-8">
@@ -16,14 +16,13 @@
 <!--     <a id="skip-to-content" href="#content">Skip to the content.</a>
  -->
 
-    <div class="nav-bar">
+    {% if page.url == '/' %}   
+
+    <div class="home-page nav-bar">
         <a class="main-link" href="{{ site.github.baseurl }}" class="btn"><div><b>CS</b>106R</div></a>
         <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
         <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
     </div>
-
-
-    {% if page.url == '/' %}   
 
     <!-- OUR SUPER AWESOME WEEKLY TEMPLATE -->
     <div class="home-page">
@@ -167,6 +166,12 @@
       </div>
     </div>
 
+    {% else %}
+    <div class="nav-bar">
+        <a class="main-link" href="{{ site.github.baseurl }}" class="btn"><div><b>CS</b>106R</div></a>
+        <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
+        <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
+    </div>
 
 
     {% endif %}
