@@ -366,6 +366,14 @@
     .syllabus-details-notes {
         margin-right: 0px;
     }
+
+    .details-buttons {
+        display: flex;
+    }
+
+    .figures-buttons {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 675px) {
