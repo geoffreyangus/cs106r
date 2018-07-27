@@ -8,7 +8,6 @@
     width: 250px;
     margin-top: 30px;
     margin-left: 25px;
-    height: 460px;
     border-style: solid;
     background-color: white;
     display: flex;
@@ -110,8 +109,8 @@
 }
 
 .syllabus-details-section a {
-    padding: 8px 0px 5px 0px;
-    padding-left: 15px;
+    padding: 8px 0px 5px 4px;
+    margin-left: 15px;
     margin-top: 10px;
     text-decoration: none;
     color: #606c70;
