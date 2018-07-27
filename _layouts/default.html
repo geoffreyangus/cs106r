@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="UTF-8">
+    <script>
+      window.onscroll = function() {
+        "use strict";
+        if (document.body.scrollTop >= 35 || document.documentElement.scrollTop >= 35) {
+          document.getElementById("nav-bar").classList.add("scroll");
+        } else {
+          document.getElementById("nav-bar").classList.remove("scroll");
+        }
+      };
+    </script>
 
+    <meta charset="UTF-8">
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -12,29 +22,138 @@
   <body>
 <!--     <a id="skip-to-content" href="#content">Skip to the content.</a>
  -->
-    {% if page.url == '/' %}   
-      <header class="page-header" role="banner">
-        <h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ page.description }}</h2> 
-          <a href="{{ site.github.baseurl }}" class="btn">Home</a>
-          <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">About</a>
-          <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">Syllabus</a>
-          <a href="https://geoffreyangus.github.io/CS106R/notes" class="btn">Notes</a>
-          <a href="https://geoffreyangus.github.io/CS106R/projects" class="btn">Projects</a>
-        
-      </header>
-    {% else %}
-      <div class="nav-bar">
-          <a href="{{ site.github.baseurl }}" class="btn">Home</a>
-          <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">About</a>
-          <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">Syllabus</a>
-          <a href="https://geoffreyangus.github.io/CS106R/notes" class="btn">Notes</a>
-          <a href="https://geoffreyangus.github.io/CS106R/projects" class="btn">Projects</a>
-         
-      </div>
-    {% endif %}
-    {% if page.url contains'/notes/' %}
 
+    {% if page.url == '/' %}   
+
+    <div id="nav-bar" class="nav-bar home-nav-bar">
+        <a class="main-link" href="{{ site.github.baseurl }}" class="btn"><div><b>CS</b>106R</div></a>
+        <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
+        <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
+    </div>
+
+    <!-- HOMEPAGE SIDEBAR TEMPLATE -->
+
+    <div class="home-sidebar">
+      <div class="sidebar-title">
+        Class Information
+      </div>
+      <div class="home-sidebar-content">
+        <div class="home-sidebar-section">
+          In order to understand the way functions work, we are going to break them down to their simplest components...
+        </div>
+
+        <div class="home-sidebar-section">
+          To call a function is to use a function...
+        </div>
+
+        <div class="home-sidebar-section">
+          Writing a function is not so difficult. For now, it is the simple act of coming up with a function name and writing the function body...
+        </div>
+
+        <div class="home-sidebar-section">
+          It keeps small programs readable, and large programs from spiraling out of control...
+        </div>
+      </div>
+    </div>
+
+    <!-- OUR SUPER AWESOME WEEKLY TEMPLATE -->
+    <div class="home-page">
+      <div class="syllabus-week-wrapper">
+        <div class="syllabus-week">      
+          <div class="syllabus-body">
+            <div class="syllabus-details">
+              <div class="syllabus-header">
+                <div class="syllabus-header-title">
+                  <div class="header-week">
+                    <b>Week 1</b>
+                  </div>
+                  <div class="header-title">
+                    Welcome to CS106R!
+                  </div>
+                </div>
+              </div>
+              <div class="syllabus-details-section">
+                <div class="syllabus-details-title">
+                  Notes
+                </div>
+                <a class="syllabus-details-link syllabus-notes">
+                  Introduction to Python
+                </a>
+                <a class="syllabus-details-link syllabus-notes">
+                  Functions Pt. 1
+                </a>
+                <a class="syllabus-details-link syllabus-notes">
+                  Test Link
+                </a>
+              </div>
+              <div class="syllabus-details-section">
+                <div class="syllabus-details-title">
+                  Exercises
+                </div>
+                <a class="syllabus-details-link syllabus-assignments">
+                  Turn Left
+                </a>
+                <a class="syllabus-details-link syllabus-assignments">
+                  Move Across
+                </a>
+                <a class="syllabus-details-link syllabus-assignments">
+                  Test Link
+                </a>
+                <a class="syllabus-details-link syllabus-assignments">
+                  Test Link
+                </a>
+              </div>
+              <div class="syllabus-details-section">
+                <div class="syllabus-details-title">
+                  Projects
+                </div>
+                <a class="syllabus-details-link syllabus-assignments">
+                  Stair Step
+                </a>
+              </div>
+              <div class="details-buttons">
+                <div class="syllabus-buttons-slides dark-button">
+                    Slides
+                  </div>
+                  <div class="syllabus-buttons-piazza dark-button">
+                    Q & A
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="syllabus-figures">
+              <div class="syllabus-preview">
+                <div class="syllabus-preview-image">
+                </div>
+                <div class="syllabus-preview-caption">
+                  PyBot. PyCountry fields. Your first Python program. What more could you want?
+                </div>
+              </div>
+              <div class="figures-buttons">
+                <div class="syllabus-buttons-slides dark-button">
+                  Slides
+                </div>
+                <div class="syllabus-buttons-piazza dark-button">
+                  Q & A
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% else %}
+    <div id="nav-bar" class="nav-bar">
+        <a class="main-link" href="{{ site.github.baseurl }}" class="btn"><div><b>CS</b>106R</div></a>
+        <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
+        <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
+    </div>
+
+
+    {% endif %}
+
+    {% if page.url contains'/notes/' %}
       <!-- SIDEBAR FORMAT TEMPLATE  -->
       {% if page.url contains 'simple_functions' %}
         <div class="notes-sidebar">
@@ -77,6 +196,7 @@
             </div>
           </a>
         </div>
+
       {% elsif page.url contains 'conditional_statements' %}
         <div class="notes-sidebar">
             <div class="sidebar-title">
@@ -126,7 +246,8 @@
                 It keeps small programs readable, and large programs from spiraling out of control...
               </div>
             </a>
-        </div>  
+        </div> 
+
         {% elsif page.url contains '/loops' %}
         <div class="notes-sidebar">
             <div class="sidebar-title">
@@ -158,23 +279,24 @@
                 There are times when you may want to make a while loop run forever; these are called infinite loops...
               </div>
             </a>
-        </div>      
+        </div>   
+
       {% endif %}
 
       <h1 class="page-name notes-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content notes-body" role="main">
+
     {% elsif page.url != '/' %}
       <h1 class="page-name">{{ page.title | default: site.github.repository_name }}</h1>
       <main id="content" class="main-content" role="main">
+
+    {% else %}
+      <main id="content" class="main-content" role="main">
+
     {% endif %}
+
       {{ content }}
 
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
     </main>
 
     {% if site.google_analytics %}

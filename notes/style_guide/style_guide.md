@@ -14,7 +14,7 @@ This quote by a guy named Robert Martin sums it up quite well:
 
 > “The ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code. ... [Therefore,] making it easy to read makes it easier to write.”
 
-That is to say, in big projects, code is more often read than written. Some of the code you write in this class may end up being extremely powerful. If you or other people ever want to build on top of it, you want to make sure that it is as usable as possible. It will make your life, in both the present and the future, much easier!
+In other words, in big projects, code is more often read than written. Some of the code you write in this class may end up being extremely powerful. If you or other people ever want to build on top of it, you want to make sure that it is as usable as possible. It will make your life, in both the present and the future, much easier!
 
 Without further ado, here is _The Style Guide_!
 

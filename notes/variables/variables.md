@@ -1,91 +1,195 @@
 ---
-title: Course Notes 
+title: Variables
 ---
 
+So far, you have designed programs capable of making decisions on their own based on observations of the world around them. But what about a program capable of remembering?
 
+This week, we are going to be learning about another foundational concept in Computer Science. We are going to learn about how computers store memory: **variables**.
 
-[MOVE THESE EXERCISES TO NOTES]
-What data type do you get when you divide an Integer by an Integer ?
-  2. What happens if you divide an integer by a string?
-  3. What is the result of adding together two strings, like "a" + "b" ?
-  4. What is the result of adding the boolean True to an integer, like True + 2 ? Why?
+### What Is a Variable?
 
+<div class="definition-section" markdown="1">
 
+<span class="definition-title">Definition</span>
+**Variable** - In Python, a name for a value. The value associated with the name can be updated at any time.
 
-## Basic Types 
-Learning Objectives
-1. Show them the python interpreter
-2. Get them comfortable with the interpreter
-    a. Show them `control + C` and `control  + D`
-3. Get them comfortable with floats, integers, booleans, and strings
+</div>
 
-### Variables
-
-The fundamental building block of all programming languages is the *variable*. **A _variable_ is a word that stores a value.** Here are some examples of some variables and how they are used:
+Variables can be associated with information about populations...
 
 ```python
-x = 5
-y = 4
+number_of_curitibanos = 1765000
+```
+... city names...
 
-z = x + y
+```python
+city_name = "Rio de Janeiro"
+```
+... other variables...
+
+```python
+a_squared = a * a
+b_squared = b * b
+c_squared = a_squared + b_squared
+```
+... and even values that include itself!
+```python
+count = 0
+count = count + 1 # Here, count will update to equal 1.
 ```
 
-Here, `x`, `y`, and `z` are all examples of variables.
+Variables are related, but different than the ones you may have seen in _Opreções_. Here, you (or the computer) will be **assigning** variables their values. This allows the computer to as information for use later on.
 
-### Types
-There are four fundamental variable types in Python:
+<div class="definition-section" markdown="1">
 
-1. Integer
-2. Float
-3. String
-4. Boolean
+<span class="definition-title">Definition</span>
+**Assign** - To give a variable a value.
 
-We will get into the definitions of these words below.
+</div>
 
-##### Integers
-
-An _integer_ is a whole number...
+Creating variables and assigning them values are easy. We simply use what is called an **assignment operator** to put together a variable name and its value, like so:
 
 ```python
-numPatients = 5
+name = 'Geoffrey'
+```
+
+Above, the word `name` becomes a variable, whose value is assigned to the string of letters `"Geoffrey"`. Here is another simple example of variables in action:
+
+```python
+iphone_memory_used = 67.5
+iphone_memory_free = 60.5
+
+iphone_memory_total = iphone_memory_used + iphone_memory_free
+```
+
+Here, we _assigned_ `iphone_memory_used` to 67.5, `iphone_memory_free` to 60.5, and `iphone_memory_total` to the sum of these two variables.
+
+Variables can be almost anything. In a rocket, it can be the altitude, the temperature, or its angle relative to Earth. In your phone, it could be your apps, your photos, or your contact list. Anytime a computer stores _any_ information, it is using variables.
+
+### The Basics
+
+There are four basic **classes** of variables: `integer` (or `int`), `float`, `string`, and `boolean`.
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Class** - A type. Think of the class of a variable as its species. Each class has its own unique properties that define the way all things in the class behave.
+
+</div>
+
+Each of these classes define the behavior of variables when interacting with the rest of the program. Let's go through each one of these variable classes and learn some more about what we can do.
+
+### Integers
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Integer** - A whole number.
+
+</div>
+
+Integers, or "ints," are quite simple. You can do most simple mathematical operations with Integers and keep track of things like the number of times you have done something, distance, or quantity.
+
+```python
 count = 0
 ```
 
-##### Floats
+### Floats
 
-A float a number that has decimal values...
+<div class="definition-section" markdown="1">
 
-They are initialized like integers, except with the addition of the decimal point and numbers that follow.
+<span class="definition-title">Definition</span>
+**Float** - A number that can have decimal values.
 
-```python
-volumeLevel = 0.93
-totalScore = 100.0
-```
+</div>
 
-##### Strings
-
-Strings are _strings_ of characters of any kind. Look at the following examples:
+Floats are like Super-Integers. They can have decimal values, which means that they are much better to use in mathematical calculations than floats. They are typically used to hold scientific quantities like temperature, precise measurements, or other mathematical values.
 
 ```python
-sentence1 = 'CS106R is awesome!'
-emailDomain = '@gmail.com'
-jerseyNumber = '9'
+degrees_fahrenheit = 98.6
 ```
 
-Here, `sentence1`, `emailDomain`, and `jerseyNumber` are all examples of Strings. Notice that a number can be a string.
+### Strings
 
-<a class="anchor-offset" id="boolean" href="#boolean"></a>
-##### Boolean
+<div class="definition-section" markdown="1">
 
-Booleans are variables that represent True or False values.
+<span class="definition-title">Definition</span>
+**String** - A "string" of characters. It can consist of letters, numbers, or most other symbols.
 
-_Why not use strings that say "True" or "False" instead?_
+</div>
 
-We use booleans because they take up less space in the computer. Instead of storing a string of characters, we can store a 0 for a False value, and a 1 for a True value.
+ Use strings whenever you want to store text information in a variable. Because of this, strings are almost never used in math; however, there are many other tasks for which strings are useful.
 
 ```python
-isGirl = True
-isBoy = False
+cs106r_sentence = 'CS106R is awesome!'
+email_domain = '@gmail.com'
+jersey_number = '9'
 ```
 
-Now that we have gone through the different variables, let us talk about the operators...
+Here, `cs106r_sentence`, `email_domain`, and `jersey_number` are all examples of strings. Notice that we can store a number as a string.
+
+### Booleans
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Boolean** - A statement that can be either `True`, or `False`.
+
+</div>
+
+You have seen booleans before. Remember `has_fruit()` and `front_is_blocked()`? Those were both functions that were either `True` or `False` - booleans!
+
+Here is an example of a boolean variable in action:
+
+```python
+is_girl = True
+```
+
+Booleans are what make `if` statements and `while` loops work in the way that they do. 
+
+Variables allow us to store boolean values, so something that looks like this...
+
+```python
+if front_is_blocked() and has_fruit():
+    pick_fruit()
+```
+
+... is the exact same thing as this:
+
+```python
+corner_fruit = front_is_blocked() and has_fruit()
+
+if corner_fruit:
+    pick_fruit()
+```
+
+<div class="example-section" markdown="1">
+
+<span class="example-title">Example</span>
+A word of warning, however; be careful using boolean variables when working with `if` statements and `while` loops. Let's take a look at a potential danger in the following example.
+
+Let's imagine that we want to store the result of `not front_is_blocked` in a variable and we write the following:
+
+```python
+current_front_clear = not front_is_blocked()
+while current_front_clear:
+    move()
+```
+
+This will cause PyBot to crash at the end of the field. Why? 
+
+The value of `front_is_blocked` is stored once at the _beginning_ of the program. The variable holds the information that it had before the `while` loop was executed and does not get a chance to update again (because we enter the `while` loop after the variable is created).
+
+</div>
+
+<div class="aside" markdown="1">
+
+Now that you have learned about both booleans and strings, you may be wondering to yourself:
+
+> Why not just use strings that say "True" or "False" instead?
+
+Booleans are little guys that can only express two possibilities. Strings can store almost anything. Therefore, booleans take up much less space in the computer. Instead of storing a string of characters, the computer actually stores a 0 for a False value, and a 1 for a True value.
+
+</div>
+
+With booleans and the other variable classes in mind, you can begin to write programs capable of making decisions based on both present and past information. In the next section, we will go over how variables interact with each other.

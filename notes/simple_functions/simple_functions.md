@@ -35,11 +35,18 @@ Functions are capable of doing many things, but here we will focus on the essent
 
 There are five essential parts to a function.
 
-1. The `def` keyword.
+1. The `def` **keyword**.
 2. The function name.
 3. Parentheses!
 4. Colon.
 5. The function body.
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Keyword** - A special word in Python used to make something specific happen.
+
+</div>
 
 A function in Python is always started with the word `def` (1). Following the word `def` is the name of the function, in this case `this_is_a_function` (2), a set of parentheses (we will talk about these later) (3), and a colon (4). Following the _function header_ (what we call parts 1-4 all together), is the **body** of the function (5). The body of the function consists of a comment, and of course, the code itself. Notice that the body of the function is indented; this lets the Python interpreter know that the code underneath the function belongs to this specific function and not something else.
 
