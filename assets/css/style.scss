@@ -20,8 +20,7 @@
 }
 
 .syllabus-header {
-    display: flex;
-    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .syllabus-header-button {
@@ -53,6 +52,12 @@
     padding: 20px;
 }
 
+.syllabus-details-title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .syllabus-details-section {
     display: flex;
     flex-direction: column;
@@ -61,7 +66,7 @@
 .syllabus-details-section a {
     padding: 5px 0px 5px 0px;
     padding-left: 15px;
-    margin: 10px 50px 0px 15px;
+    margin: 10px 50px 0px 0px;
     text-decoration: none;
     color: #606c70;
     font-weight: 800;
