@@ -66,18 +66,28 @@
     color: #606c70;
     font-weight: 800;
     font-size: 18px;
+    transition: background-color 0.23s color 0.23s;
 }
 
 .syllabus-details-section a:hover {
     background-color: #EFEFEF;
+    cursor: pointer;
 }
 
 .syllabus-notes {
     box-shadow: 0px 1px #20955b;
 }
 
+.syllabus-notes:hover {
+    color: #20955b;
+}
+
 .syllabus-assignments { 
     box-shadow: 0px 1px #1b5995;
+}
+
+.syllabus-assignments:hover {
+    color: #1b5995;
 }
 
 .syllabus-figures {
@@ -91,11 +101,11 @@
     display: flex;
 }
 
-.syllabus-buttons-piazza {
+.syllabus-buttons-piazza.dark-button {
     margin-right: 0px;
 }
 
-.syllabus-buttons-slides {
+.syllabus-buttons-slides.dark-button {
     margin-left: 0px;
 }
 
