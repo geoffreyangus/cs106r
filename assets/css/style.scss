@@ -126,7 +126,7 @@
 }
 
 .syllabus-details-section a:active {
-    background-color: #EEEEEE;
+    background-color: #CDCDCD;
 }
 
 .syllabus-notes {
@@ -137,6 +137,10 @@
     color: #20955b;
 }
 
+.syllabus-notes:active {
+    color: #20955b;
+}
+
 .syllabus-assignments { 
     border-color: #1b5995;
 }
@@ -144,6 +148,11 @@
 .syllabus-assignments:hover {
     color: #1b5995;
 }
+
+.syllabus-assignments:active {
+    color: #1b5995;
+}
+
 
 .syllabus-figures {
     width: 300px;
@@ -200,8 +209,12 @@
 }
 
 .dark-button:hover {
-    background-color: #123E68;
+    background-color: #184d81;
     cursor: pointer;
+}
+
+.dark-button:active {
+    background-color: #103356;
 }
 
 .bio-pic {
