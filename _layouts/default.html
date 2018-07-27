@@ -2,18 +2,16 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <script>
-      $(document).ready(function(){
-        $(window).scroll(function(){
-          var scroll = $(window).scrollTop();
-          if (scroll > 300) {
-            $(".home-nav-bar").css("background" , "blue");
-          }
+      var myNav = document.getElementById("nav-bar");
 
-          else{
-            $(".home-nav-bar").css("background" , "#333");   
-          }
-        })
-      })
+      window.onscroll = function() {
+        "use strict";
+        if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
+          myNav.classList.add("scroll");
+        } else {
+          myNav.classList.remove("scroll");
+        }
+      };
     </script>
 
     <meta charset="UTF-8">
@@ -29,7 +27,7 @@
 
     {% if page.url == '/' %}   
 
-    <div class="home-nav-bar">
+    <div id="nav-bar" class="home-nav-bar">
         <a class="main-link" href="{{ site.github.baseurl }}" class="btn"><div><b>CS</b>106R</div></a>
         <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
         <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
@@ -178,7 +176,7 @@
     </div>
 
     {% else %}
-    <div class="nav-bar">
+    <div id="nav-bar" class="nav-bar">
         <a class="main-link" href="{{ site.github.baseurl }}" class="btn"><div><b>CS</b>106R</div></a>
         <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
         <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
