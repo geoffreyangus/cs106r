@@ -254,6 +254,10 @@
     text-shadow: 1px 4px rgba(0,0,0,0.4);
 }
 
+.nav-bar a:first-child:active {
+    text-shadow: none;
+}
+
 .nav-bar a {
     padding: 0rem 1rem;
     float: right;
