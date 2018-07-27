@@ -72,6 +72,8 @@
     font-weight: 800;
     font-size: 18px;
     transition: background-color 0.23s, color 0.23s;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
 }
 
 .syllabus-details-section a:hover {
@@ -80,7 +82,7 @@
 }
 
 .syllabus-notes {
-    box-shadow: 0px 2px #20955b;
+    border-color: #20955b;
 }
 
 .syllabus-notes:hover {
@@ -88,7 +90,7 @@
 }
 
 .syllabus-assignments { 
-    box-shadow: 0px 2px #1b5995;
+    border-color: #1b5995;
 }
 
 .syllabus-assignments:hover {
