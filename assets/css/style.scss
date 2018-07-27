@@ -133,6 +133,10 @@ html {
     cursor: pointer;
 }
 
+.syllabus-details-section a:active {
+    background-color: #EEEEEE;
+}
+
 .syllabus-notes {
     border-color: #20955b;
 }
@@ -204,7 +208,8 @@ html {
 }
 
 .dark-button:hover {
-    background-color: #123E68
+    background-color: #123E68;
+    cursor: pointer;
 }
 
 .bio-pic {
