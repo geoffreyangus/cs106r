@@ -12,14 +12,6 @@
     background-image: linear-gradient(120deg, #155799, #159957);
 }
 
-.home-nav-bar {
-    background-color: rgba(0,0,0,0);
-}
-
-.home-nav-bar.scroll {
-    background-color: rgba(0,0,0,0.8);
-}
-
 .syllabus-week-wrapper {
     padding: 40px 0px;
 }
@@ -179,9 +171,7 @@
     top: 0;
     height: 50px;
     width: 100%;
-    background-color: rgba(0,0,0,0.9);
-/*    background-image: linear-gradient(120deg, #155799, #159957);
-*/    
+    background-image: linear-gradient(120deg, #155799, #159957);
     display: flex;
     padding: 10px;
     z-index: 10000;
@@ -201,6 +191,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.nav-bar.home-nav-bar {
+    background-color: rgba(0,0,0,0);
+}
+
+.nav-bar.home-nav-bar.scroll {
+    background-color: rgba(0,0,0,0.8);
 }
 
 @media screen and (max-width: 42em) {
