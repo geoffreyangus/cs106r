@@ -54,9 +54,10 @@
 
 .syllabus-preview {
     height: 100%;
-    background-color: lightgray;
+    background-color: #F5F5F5;
     border-radius: 10px;
     padding: 20px;
+    border-style: solid;
 }
 
 .syllabus-details-title {
@@ -113,9 +114,10 @@
 .syllabus-preview-image {
     height: 200px;
     margin-bottom: 20px;
-    background: lightsteelblue;
+    background: #777;
     border-style: solid;
     border-width: 1px;
+    border-radius: 10px;
 }
 
 .syllabus-buttons {
