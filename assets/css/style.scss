@@ -151,7 +151,11 @@
     border-radius: 10px;
 }
 
-.syllabus-buttons {
+.details-buttons {
+    display: none;
+}
+
+.figures-buttons {
     display: flex;
 }
 
@@ -350,7 +354,7 @@
     padding: 0rem 1.5rem;
 }
 
-@media screen and (max-width: 980) {
+@media screen and (max-width: 980px) {
     .syllabus-figures {
         display: none;
     }
@@ -382,7 +386,8 @@
     }
 
     .syllabus-week-wrapper {
-        margin-left: 0px;
+        margin: 30px;
+
     }
 
     .syllabus-week {
