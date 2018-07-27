@@ -3,7 +3,7 @@ title: Conditional Statements
 ---
 We've learned how to instruct PyBot to take actions using functions like `move()`, `turn_right()`, and `pick_beeper()`. We've also learned how to combine these functions together to create our own functions – for example, we combined three `turn_right()` calls into one function called `turn_left()`. 
 
-But up until now, we've only been giving PyBot a list of actions to take. Everytime we run a particular program, PyBot does the exact same thing. Things get interesting when PyBot starts acting differently depending on the siutation. 
+But up until now, we've only been giving PyBot a list of actions to take. Everytime we run a particular program, PyBot does the exact same thing. Things get interesting when PyBot can start making decisions on her own!
 
 --- 
 
@@ -24,7 +24,7 @@ if has_fruit():
     pick_fruit()
 ```
 
-The code above will instruct PyBot to check if there is an orange in her cell, and if there is, to pick it. 
+The code above will instruct PyBot to check if there is an orange in her cell, and then, if there is, to pick it. 
 </div>
 
 Let's explore `if` statements in more detail. 
@@ -48,18 +48,18 @@ Every `if` statement consists of  a condition (i.e. a _True_ or _False_ question
 Let's learn the steps for writing `if` statements with PyBot:
 <img class="fig_if" src="figures/fig_if_example.png">
 1. First, we start with the word `if` followed by a space .
-2. Next, we write a PyBot condition function (e.g. `has_fruit()`, `front_is_blocked()`). Remember, using a PyBot conditions function is like asking a yes or no question to PyBot.
-3. Put a colon (i.e. `:`) after the condition to mark the beginning of the `if` statement.
+2. Next, we write a PyBot condition function (e.g. `has_fruit()`, `front_is_blocked()`). Remember, using a PyBot conditions function is like asking a True or False question to PyBot.
+3. We put a colon (i.e. `:`) after the condition.
 4. Lastly, we write the code that PyBot should follow if the answer to the condition function is `True`. These instructions should be written under the condition function and should be indented in **one tab** relative to the word `if`. These instructions can be a list of action functions or, as we'll see later, other conditional statements and loops. 
 
-In a way, `if` statements grant your program _decision making power_. Your program can now decide what to do based off the condition. 
+In a way, `if` statements grant your program _decision making power_. With an `if` statement, your program will decide what to do based off a condition. 
 
 <a class="anchor-offset" id="inverting" href="#inverting"></a>
 
 ## Inverting Conditions: `not`
 Here's another `if` statement example with PyBot. We want to program PyBot to move if she is not on the edge of the field, so that she won't ever crash.
 
-We need to program the conditional instruction: "`if` the front is clear, move." PyBot can answer the question "is the front blocked?" with the `front_is_blocked()` function, but she cannot directly answer "is the front clear?". How then can we program this conditional instruction if we only have the opposite of the condition we'd like to check? 
+We need to program the conditional instruction: "`if` the front is clear, move." PyBot can answer the question "is the front blocked?" with the `front_is_blocked()` function, but she cannot directly answer "is the front clear?" We only have the opposite of the condition we need to check. How can we program this conditional instruction?
 
 Luckily, Python provides the keyword `not` which inverts any condition. For example, `not front_is_blocked()` asks the question "Is the front not blocked?" (i.e. is the front clear). Let's write the `if` statement for the conditional instruction: 
 
@@ -75,8 +75,7 @@ if not front_is_blocked():
 _Result_
 <img class="fig_not" src="figures/fig_not.png">
 
-In summary, `not` allows us to write `if` statements where code is executed if a condition is **not** satisfied.
-
+In summary, `not` allows us to write `if` statements where code is executed if a condition is **not** true.
 
 <a class="anchor-offset" id="else-elif" href="#else-elif"></a>
 
@@ -96,7 +95,7 @@ Let's walk through the steps of writing an _if-else_ statement:
 3. We follow the `else` with a colon
 4. And finally, we write the instructions to be followed if the condition was `False`. 
 
-In summary, we can use else to program the computer to follow a default course of action if the condition in the `if` statement is `False`. 
+In summary, with `else`, the computer will follow a default course of action if the condition in the `if` statement is `False`. 
 
 <div class="example-section" markdown="1">
 
@@ -124,9 +123,11 @@ At the grocery store you will follow one of **three** possible courses of action
  <img class="fig_not" src="figures/fig_elif.png" width="75%">
 
 1. First, we have a regular `if` statement with a condition and code. 
-2. Next, we write `else` at the same level of indentation as `if` above.
-3. We follow the `else` with a colon
-4. And finally, we write the default instructions to be followed in the case that the condition above the `else` was `False`. 
+2. Next, we write `elif` at the same level of indentation as `if` above.
+3. We follow `elif` with a second condition to be evaluated if the first one is `False`. 
+4. We include a colon
+5.  we write the default instructions to be followed in the case that the condition above the `else` was `False`. 
+6. (Optional) We add a default action 
 
 Note that the order of elif is very important. 
 
