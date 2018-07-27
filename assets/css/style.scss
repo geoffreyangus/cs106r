@@ -46,7 +46,7 @@
 }
 
 .syllabus-preview {
-    height: 360px;
+    height: 100%;
     background-color: lightgray;
     border-radius: 10px;
     padding: 20px;
@@ -108,10 +108,12 @@
 
 .syllabus-buttons-piazza.dark-button {
     margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .syllabus-buttons-slides.dark-button {
     margin-left: 0px;
+    margin-bottom: 0px;
 }
 
 .dark-button {
@@ -122,6 +124,12 @@
     margin: 10px;
     border-radius: 5px;
     color: white;
+    transition: background-color 0.23s;
+    font-weight: bold;
+}
+
+.dark-button:hover {
+    background-color: #123E68
 }
 
 .bio-pic {
