@@ -17,6 +17,17 @@
     overflow: scroll;
     border-radius: 10px;
     box-shadow: 3px 4px rgba(0,0,0,0.3);
+
+    .home-sidebar-content {
+        padding: 10px;
+    }
+
+    .home-sidebar-caption {
+        color: #819197;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
 }
 
 .home-page {
