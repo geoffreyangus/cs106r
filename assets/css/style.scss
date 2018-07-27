@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 .home-page {
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,7 +211,7 @@
 }
 
 #content {
-    padding: 6px 56px;
+    padding: 0px 56px;
 }
 
 .notes-body {
@@ -242,12 +243,12 @@
 .notes-sidebar { 
     position: fixed;
     width: 20%;
-    height: 90%;
+    height: 100%;
     background-color: white;
     box-shadow: 3px 0px whitesmoke;
     display: flex;
     flex-direction: column;
-    top: 70px;
+    top: 50px;
     overflow: scroll;
 }
 
