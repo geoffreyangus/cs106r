@@ -106,7 +106,7 @@
 .syllabus-details-section a {
     padding: 8px 0px 5px 0px;
     padding-left: 15px;
-    margin: 10px 50px 0px 0px;
+    margin-top: 10px;
     text-decoration: none;
     color: #606c70;
     font-weight: 800;
@@ -361,10 +361,6 @@
 @media screen and (max-width: 980px) {
     .syllabus-figures {
         display: none;
-    }
-
-    .syllabus-details-notes {
-        margin-right: 0px;
     }
 
     .details-buttons {
