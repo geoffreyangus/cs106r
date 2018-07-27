@@ -25,9 +25,11 @@
 
     {% if page.url == '/' %}   
     <div id="nav-bar" class="nav-bar home-nav-bar">
-        <a class="main-link" href="{{ site.github.baseurl }}" class="btn"><div><b>CS</b>106R</div></a>
-        <a href="https://geoffreyangus.github.io/CS106R/about" class="btn">Logistics</a>
-        <a href="https://geoffreyangus.github.io/CS106R/syllabus" class="btn">About</a>
+        <a class="main-link" href="https://geoffreyangus.github.io/CS106R/#" class="btn"><div><b>CS</b>106R</div></a>
+        <!-- href="https://geoffreyangus.github.io/CS106R/logistics" -->
+        <a class="btn">Logistics</a> 
+        <!-- href="https://geoffreyangus.github.io/CS106R/about" -->
+        <a class="btn">About</a>
     </div>
 
     <!-- HOMEPAGE SIDEBAR TEMPLATE -->
@@ -38,35 +40,48 @@
       </div>
       <div class="home-sidebar-content">
         <div class="home-sidebar-section">
+          <div class="home-section-title">
           Schools: 
-            Colegio SESC – Curitiba, BR
-            Colegio Bom Jesus Centro – Curitiba, BR
-            Colegio Bom Jesus Lourdes – Curitiba, BR    
+          </div>
+          <div class="home-section-details">
+            <i>Curitiba, BR</i><br>
+            Colegio SESC<br>
+            Colegio Bom Jesus Centro<br>
+            Colegio Bom Jesus Lourdes
+          </div>
         </div>
         
         <div class="home-sidebar-section">
-            Dates: 
+            <div class="home-section-title">
+              Dates: 
+            </div>
+            <div class="home-section-details">
+              <i>7 Weeks</i><br>
               July 30 to September 14 
-              7 Weeks
+            </div>
           </div>
 
         <div class="home-sidebar-section">
-          Teachers: 
-            Sabri Eyuboglu 
+          <div class="home-section-title">
+            Teachers: 
+          </div>
+          <div class="home-section-details">
+            <i>Sabri Eyuboglu</i><br>
             eyuboglu@stanford.edu
-
-            Geoffrey Angus 
+            <br><br>
+            <i>Geoffrey Angus</i><br>
             gangus@stanford.edu
+          </div>
         </div>
 
         <div class="home-sidebar-section">
-          About: 
-            CS106R is a pioneer, introductory computer science course designed for high-schoolers with no prior computer science experience.   
-            We designed the course for three Brazilian high schools in Curitiba, Brasil. 
-            The course introduces students to the world of computer science through a mix of short-exercises and longer projects. 
-            Over the course of seven weeks, students will learn 
-            CS106R covers much of the same material as Stanford's introductory computer science class CS106A . 
-            However, we tailored the notes, exercises and projects for high schoolers who speak english as a second language.      
+          <div class="home-section-title">
+            About: 
+          </div>
+          <div class="home-section-details">
+            CS106R is a pioneer, introductory computer science course designed for high-schoolers with no prior computer science experience. Students will learn much of the same material as Stanford's introductory computer science class, <i>CS106A</i>. 
+            However, we have tailored the notes, exercises and projects for those who speak English as a second language.  
+          </div>    
         </div>
       </div>
     </div>
@@ -108,52 +123,60 @@
                 <div class="syllabus-details-title">
                   Exercises
                 </div>
-                <a class="syllabus-details-link syllabus-assignments">
-                  Turn Left
+                <a target="_blank" class="syllabus-details-link syllabus-assignments" href="https://repl.it/teacher/assignments/1211151/edit">
+                  Print Name
                 </a>
-                <a class="syllabus-details-link syllabus-assignments">
-                  Move Across
+                <a target="_blank" class="syllabus-details-link syllabus-assignments" href="https://repl.it/teacher/assignments/1310905/preview">
+                  Harvest Your First Fruit!
                 </a>
-                <a class="syllabus-details-link syllabus-assignments">
-                  Test Link
-                </a>
-                <a class="syllabus-details-link syllabus-assignments">
-                  Test Link
+                <a target="_blank" class="syllabus-details-link syllabus-assignments" href="https://repl.it/teacher/assignments/1314054/preview">
+                  Turn Left Function
                 </a>
               </div>
               <div class="syllabus-details-section">
                 <div class="syllabus-details-title">
                   Projects
                 </div>
-                <a class="syllabus-details-link syllabus-assignments">
-                  Stair Step
+                <a target="_blank" class="syllabus-details-link syllabus-assignments" href="https://repl.it/teacher/assignments/1334833/preview">
+                  Introducing You
+                </a>
+                <a target="_blank" class="syllabus-details-link syllabus-assignments" href="https://repl.it/teacher/assignments/1337734">
+                  Pick Corners
                 </a>
               </div>
               <div class="details-buttons">
-                <div class="syllabus-buttons-slides dark-button">
-                    Slides
-                  </div>
-                  <div class="syllabus-buttons-piazza dark-button" href="https://piazza.com/class/jk3yzulclwmk1">
-                    Q & A
-                  </div>
-                </div>
+                <a class="syllabus-buttons-slides dark-button" href="https://geoffreyangus.github.io/CS106R/slides/week_one_pdf.pdf">
+                  Slides
+                </a>
+                <a class="syllabus-buttons-piazza dark-button" href="https://piazza.com/class/jk3yzulclwmk1">
+                  Q & A
+                </a>
               </div>
             </div>
             <div class="syllabus-figures">
               <div class="syllabus-preview">
-                <div class="syllabus-preview-image">
-                </div>
+                <img class="syllabus-preview-image" src="https://geoffreyangus.github.io/CS106R/assets/res/week1_preview.png">
+                </img>
                 <div class="syllabus-preview-caption">
-                  PyBot. PyCountry fields. Your first Python program. What more could you want?
+                  PyBot is a simple robot. She lives in the sparse planes PyCountry where peaches grow. In this project, we’ll program PyBot to explore her world, harvest fruit and build cities. (Based on CS106A’s Karel the Robot)
+                  <b>
+                    <br><br>
+                    Learning Objectives
+                  </b>
+                  <br><br>
+                  1.) Familiarity with Python<br>
+                  2.) Function Calling<br>
+                  3.) Function Implementation<br>
+                  
                 </div>
               </div>
               <div class="figures-buttons">
-                <div class="syllabus-buttons-slides dark-button">
+                <a class="syllabus-buttons-slides dark-button" href="https://geoffreyangus.github.io/CS106R/slides/week_one_pdf.pdf">
                   Slides
-                </div>
-                <div class="syllabus-buttons-piazza dark-button">
+                </a>
+                <a class="syllabus-buttons-piazza dark-button" href="https://piazza.com/class/jk3yzulclwmk1">
                   Q & A
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -192,7 +215,7 @@
               Calling Functions
             </div>
             <div class="section-caption">
-              To call a function is to use a function...
+              To call a function is to use a function. Functions can call other functions. In fact, this is the way that most functions are used...
             </div>
           </a>
 
@@ -266,7 +289,32 @@
             </a>
         </div> 
 
-        {% elsif page.url contains '/loops' %}
+      {% elsif page.url contains '/intro_cs' %}
+
+        <div class="notes-sidebar">
+          <div class="sidebar-title">
+            Contents
+          </div>
+          <a class="sidebar-section" href="#if-statements">
+            <div class="section-title">
+              What is Computer Science?
+            </div>
+            <div class="section-caption">
+              When you hear the words “computer science”, what comes to mind? Do you think of computer programming – neon text on a black screen? Do you think of algorithms and equations scribbled on a whiteboard?
+            </div>
+          </a>
+
+          <a class="sidebar-section" href="#inverting">
+            <div class="section-title">
+              What is a Computer and what is Computer Programming? 
+            </div>
+            <div class="section-caption">
+              In everyday speech, the word computer usually refers to laptops and desktops, like the one you’re reading these notes on. However, in reality, a computer is a much more general concept and most computers hardly resemble laptops. 
+            </div>
+          </a>
+        </div> 
+
+      {% elsif page.url contains '/loops' %}
         <div class="notes-sidebar">
             <div class="sidebar-title">
               Contents

@@ -8,7 +8,6 @@
     width: 250px;
     margin-top: 30px;
     margin-left: 25px;
-    height: 460px;
     border-style: solid;
     background-color: white;
     display: flex;
@@ -19,13 +18,17 @@
 
     .home-sidebar-content {
         padding: 20px;
+        padding-top: 0px;
     }
 
     .home-sidebar-section {
         color: #819197;
         font-size: 12px;
-        margin-top: 5px;
-        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .home-section-title {
+        font-weight: bold;
     }
 }
 
@@ -110,8 +113,8 @@
 }
 
 .syllabus-details-section a {
-    padding: 8px 0px 5px 0px;
-    padding-left: 15px;
+    padding: 8px 0px 5px 4px;
+    margin-left: 15px;
     margin-top: 10px;
     text-decoration: none;
     color: #606c70;
@@ -164,44 +167,37 @@
 }
 
 .syllabus-preview-image {
-    height: 200px;
     width: 250px;
     margin-bottom: 20px;
-    background: #777;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
 }
 
 .details-buttons {
     display: none;
     margin-top: 30px;
+
+    .syllabus-buttons-piazza.dark-button {
+        width: 50%;
+    }
+
+    .syllabus-buttons-slides.dark-button {
+        margin-right: 5px;
+        width: 50%;
+    }
 }
 
 .figures-buttons {
-    margin-left: 25px;
-    margin-right: -2px;
-    margin-top: 10px;
+    margin-left: 0;
+    margin-top: 50px;
     display: flex;
-}
-
-.syllabus-buttons-piazza.dark-button {
-    margin-right: 0px;
-    margin-bottom: 0px;
-}
-
-.syllabus-buttons-slides.dark-button {
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    flex-direction: column;
 }
 
 .dark-button {
-    width: 50%;
+    height: 60px;
+    margin-top: 5px;
     background-color: #1b5995;
     text-align: center;
     padding: 10px;
-    margin: 10px;
     border-radius: 5px;
     color: white;
     transition: background-color 0.23s;
@@ -252,6 +248,10 @@
 
 .nav-bar a:first-child:hover {
     text-shadow: 1px 4px rgba(0,0,0,0.4);
+}
+
+.nav-bar a:first-child:active {
+    text-shadow: none;
 }
 
 .nav-bar a {
@@ -332,6 +332,7 @@
 .sidebar-title {
     text-align: center;
     font-size: 24px;
+    font-weight: bold;
     padding: 10px;
     color: #1b5995;
     box-shadow: 0px 2px whitesmoke;
