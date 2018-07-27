@@ -3,12 +3,11 @@
   <head>
     <script>
       window.onscroll = function() {
-        var myNav = document.getElementById("nav-bar");
         "use strict";
         if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
-          myNav.classList.add("scroll");
+          document.getElementById("nav-bar").classList.add("scroll");
         } else {
-          myNav.classList.remove("scroll");
+          document.body.getElementById("nav-bar").classList.remove("scroll");
         }
       };
     </script>
