@@ -183,9 +183,12 @@
 }
 
 .nav-bar a {
-    padding: 0.3rem 1rem;
+    padding: 0rem 1rem;
     float: right;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media screen and (max-width: 42em) {
