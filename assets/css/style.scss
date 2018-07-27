@@ -79,6 +79,7 @@
 .syllabus-details {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .syllabus-preview {
@@ -140,7 +141,7 @@
     width: 300px;
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: 50px;
 }
 
 .syllabus-preview-image {
@@ -360,10 +361,6 @@
 @media screen and (max-width: 980px) {
     .syllabus-figures {
         display: none;
-    }
-
-    .syllabus-details {
-        width: 100%;
     }
 
     .syllabus-details-notes {
