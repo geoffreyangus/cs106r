@@ -23,8 +23,8 @@ Hello! Welcome to the logistics page. We will be posting all relevant informatio
 
 ### Repl.it
 
-We will be managing our classes on a website called Repl.it. It allows anyone to program in Python from any computer in the world, without requiring Python installation. In order to participate in the class and complete the assignments, you must create an account here: https://repl.it/
+We will be managing our classes on a website called Repl.it. It allows anyone to program in Python from any computer in the world, without requiring Python installation. In order to participate in the class and complete the assignments, you must create an account [here](https://repl.it/).
 
 ### Piazza
 
-Any questions that you may have about the course logistics or materials will be answered on a website called Piazza, a Q&A platform for students and teachers. In order to ask questions and receive class announcements, please make an account here: https://piazza.com/
+Any questions that you may have about the course logistics or materials will be answered on a website called Piazza, a Q&A platform for students and teachers. In order to ask questions and receive class announcements, please make an account [here](https://piazza.com/).
