@@ -1,7 +1,7 @@
 ---
 title: Conditional Statements 
 ---
-We've learned how to instruct PyBot to take actions using functions like `move()`, `turn_right()`, and `pick_beeper()`. We've also learned how to combine these functions together to create our own functions – for example, we combined three `turn_right()` calls into one function called `turn_left()`. 
+We've learned how to instruct PyBot to take actions using functions like `move()`, `turn_right()`, and `pick_fruit()`. We've also learned how to combine these functions together to create our own functions – for example, we combined three `turn_right()` calls into one function called `turn_left()`. 
 
 But up until now, we've only been giving PyBot a list of actions to take. Everytime we run a particular program, PyBot does the exact same thing. Things get interesting when PyBot can start making decisions on her own!
 
