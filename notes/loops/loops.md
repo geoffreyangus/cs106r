@@ -103,7 +103,7 @@ Here, we know two things: that you want to save some money, and that you will do
 Here's what a typical `while` loop might look like:
 
 ```python
-while condition_function:
+while condition_function():
     action_function()
     action_function()
 ```
