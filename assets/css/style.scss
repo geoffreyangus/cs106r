@@ -225,6 +225,11 @@
 .main-link {
     color: white;
     font-size: 20px;
+    transition: color 0.3s;
+}
+
+.main-link.scroll {
+    color: #20955b;
 }
 
 .nav-bar {
