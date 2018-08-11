@@ -365,6 +365,66 @@
           </a>
         </div>
 
+      {% elsif page.url contains 'variables' %}
+        <div class="notes-sidebar">
+            <div class="sidebar-title">
+              Contents
+            </div>
+            <a class="sidebar-section" href="#if-statements">
+              <div class="section-title">
+                What Is a Variable?
+              </div>
+              <div class="section-caption">
+                Variables can be almost anything. In a rocket, it can be the altitude, the temperature, or its angle relative to Earth. In your phone, it could be your apps, your photos, or your contact list. Anytime a computer stores any information, it is using variables...
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#inverting">
+              <div class="section-title">
+                The Basics
+              </div>
+              <div class="section-caption">
+                There are four basic classes of variables: integer (or int), float, string, and boolean...
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#else-elif">
+              <div class="section-title">
+                Integers
+              </div>
+              <div class="section-caption">
+                Integers, or “ints,” are quite simple. You can do most simple mathematical operations with Integers and keep track of things like the number of times you have done something, distance, or quantity...
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#nesting">
+                <div class="section-title">
+                  Floats
+                </div>
+                <div class="section-caption">
+                  Floats are like Super-Integers. They can have decimal values, which means that they are much better to use in mathematical calculations than floats...
+                </div>
+              </a>
+
+            <a class="sidebar-section" href="#combining-conditions">
+              <div class="section-title">
+                Strings 
+              </div>
+              <div class="section-caption">
+                Use strings whenever you want to store text information in a variable. Because of this, strings are almost never used in math; however, there are many other tasks for which strings are useful...
+              </div>
+            </a>
+
+            <a class="sidebar-section" href="#combining-conditions">
+              <div class="section-title">
+                Booleans 
+              </div>
+              <div class="section-caption">
+                You have seen booleans before. Remember has_fruit() and front_is_blocked()? Those were both functions that were either True or False - booleans...
+              </div>
+            </a>
+        </div> 
+
       {% elsif page.url contains 'conditional_statements' %}
         <div class="notes-sidebar">
             <div class="sidebar-title">
@@ -580,7 +640,7 @@
             
             <a class="sidebar-section" href="#exc-first-fruit">
                 <div class="section-title">
-                  Excercise: First Fruit
+                  Exercise: First Fruit
                 </div>
                 <div class="section-caption">
                   Write our first PyBot program in this exercise! 

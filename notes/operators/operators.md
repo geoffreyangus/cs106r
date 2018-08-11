@@ -13,15 +13,14 @@ The four variable classes we have covered so far - ints, floats, booleans, and s
 
 </div>
 
-Operators allow variables or raw values (ints, floats, booleans, and strings NOT stored in variables) to interact with each other. In fact, here is a familiar operator in action:
+Operators allow variables or raw values (ints, floats, booleans, and strings NOT stored in variables) to change value and often interact with each other. In fact, here is a familiar operator in action:
 
 ```python
-if has_fruit() and front_is_blocked():
-    pick_fruit()
-    turn_right()
+if not front_is_blocked():
+    move()
 ```
 
-The `and` operator links together `has_fruit()` and `front_is_blocked()`, two functions that can have either `True` or `False` values. Both `True` and `False` are what we call boolean values (read back to the _Variables_ notes to see why). The whole phrase `has_fruit() and front_is_blocked()` in the conditional statement above is what is called an **expression**. 
+The `not` operator changes the value of `front_is_blocked()` a conditional function that can have either `True` or `False` values. Both `True` and `False` are what we call boolean values (read back to the _Variables_ notes to see why). The whole phrase `not front_is_blocked()` in the conditional statement above is what is called an **expression**. 
 
 <div class="definition-section" markdown="1">
 
