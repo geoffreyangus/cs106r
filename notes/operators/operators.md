@@ -109,7 +109,7 @@ Here, we mix the use of a boolean valued variable with a boolean valued function
 
 ### Relational Operators
 
-Next, we have what are called relational operators. These operations come from the math you know and love, but they are used slightly differently in computer programming.
+Next, we have what are called relational operators. Relational operators allow us to compare two expressions. The result of a relational operator is always a `True` or `False` value, just like logical operators. However, relational operators allow us to compare other types of values.
 
 Let's take the most simple operator, the **Equality Operator**, as an example.
 
@@ -206,7 +206,7 @@ In addition to this, the program is using a boolean variable in order to decide 
 
 ### Arithmetic Operators
 
-As you may have noticed throughout the notes, we also use what are called arithmetic operators. These operators are simple. Most of them are the operators you know and love. They come from math, and follow basically all of the rules you have already learned in school. They even follow the same order of operations, which we cover more in-depth in the bottom of this section, _Order of Operations_. Here is a complete list of the arithmetic operators, in order of decreasing priority:
+As you may have noticed throughout the notes, we also use what are called arithmetic operators. These operators change the values of floats and integers. Most of them are the operators you know and love. They come from math, and follow basically all of the rules you have already learned in school. They even follow the same order of operations, which we cover more in-depth in the bottom of this section, _Order of Operations_. Here is a complete list of the arithmetic operators, in order of decreasing priority:
 
 1. `**`, Exponentials (this is how exponents are written in Python! 3<sup>2</sup> is the same as `3 ** 2`.)
 2. `*` or `/` or `%`, Multiplication, Division, and **Remainder**.
@@ -410,7 +410,7 @@ Notice that only `0`, `0.0`, and `""` count as `False` values. Be careful with t
 
 ### Order of Operations
 
-Remember in math, when you learned that you multiplied numbers of adding them together? I am talking about _ordem de operações_, or _order of operations_. As it turns out, Python has an order of operations too! Do not worry about memorizing the order, you can always reference this section when you need to. Here is the complete list, in order of decreasing priority, of the priority of the operators we have learned about.
+Remember in math, when you learned that you multiplied numbers before adding them together? This is known as the _ordem de operações_, or _order of operations_. As it turns out, Python has an order of operations too! Do not worry about memorizing the order, you can always reference this section when you need to. Here is the complete list, in order of decreasing priority, of the priority of the operators we have learned about.
 
 1. `**` - Exponentiation (raise to the power)
 2. `*`, `/`, `%` - Multiplication, Division, Remainder Operators
