@@ -6,6 +6,7 @@ So far, you have designed programs capable of making decisions on their own base
 
 This week, we are going to be learning about another foundational concept in Computer Science. We are going to learn about how computers store memory: **variables**.
 
+<a class="anchor-offset" id="what-is-a-variable" href="#what-is-a-variable"></a>
 ### What Is a Variable?
 
 <div class="definition-section" markdown="1">
@@ -79,6 +80,7 @@ There are four basic **classes** of variables: `integer` (or `int`), `float`, `s
 
 Each of these classes define the behavior of variables when interacting with the rest of the program. Let's go through each one of these variable classes and learn some more about what we can do.
 
+<a class="anchor-offset" id="integers" href="#integers"></a>
 ### Integers
 
 <div class="definition-section" markdown="1">
@@ -94,6 +96,7 @@ Integers, or "ints," are quite simple. You can do most simple mathematical opera
 count = 0
 ```
 
+<a class="anchor-offset" id="floats" href="#floats"></a>
 ### Floats
 
 <div class="definition-section" markdown="1">
@@ -128,6 +131,7 @@ jersey_number = '9'
 
 Here, `cs106r_sentence`, `email_domain`, and `jersey_number` are all examples of strings. Notice that we can store a number as a string.
 
+<a class="anchor-offset" id="booleans" href="#booleans"></a>
 ### Booleans
 
 <div class="definition-section" markdown="1">

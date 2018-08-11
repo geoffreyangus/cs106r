@@ -31,6 +31,7 @@ The `not` operator changes the value of `front_is_blocked()` a conditional funct
 
 There are three main types of operators: _logical_, _arithmetic_, and _relational_.
 
+<a class="anchor-offset" id="logical-operators" href="#logical-operators"></a>
 ### Logical Operators
 
 You already know a little bit about logical operators! We went over them briefly in the _Conditional Statements_ notes.
@@ -107,6 +108,7 @@ if has_fruit() and is_new_pybot:
 
 Here, we mix the use of a boolean valued variable with a boolean valued function, and that is totally okay!
 
+<a class="anchor-offset" id="relational-operators" href="#relational-operators"></a>
 ### Relational Operators
 
 Next, we have what are called relational operators. Relational operators allow us to compare two expressions. The result of a relational operator is always a `True` or `False` value, just like logical operators. However, relational operators allow us to compare other types of values.
@@ -203,7 +205,7 @@ Here, we see that we can _assign_ the variable `big_value` to itself minus 1, th
 In addition to this, the program is using a boolean variable in order to decide whether or not to print. Here, we have set the `is_printing` variable to `True`, which makes the program go into the `if` statement and print out the value of `big_value`. If we had set it to `False`, `big_value` would not print at all.
 </div>
 
-
+<a class="anchor-offset" id="arithmetic-operators" href="#arithmetic-operators"></a>
 ### Arithmetic Operators
 
 As you may have noticed throughout the notes, we also use what are called arithmetic operators. These operators change the values of floats and integers. Most of them are the operators you know and love. They come from math, and follow basically all of the rules you have already learned in school. They even follow the same order of operations, which we cover more in-depth in the bottom of this section, _Order of Operations_. Here is a complete list of the arithmetic operators, in order of decreasing priority:
@@ -260,10 +262,7 @@ degrees_celsius = (degrees_fahrenheit - 32) * 5 / 9
 ```
 Above, we are using arithmetic operators in order to do the temperature conversion between Fahrenheit and Celsius. Notice that we can use the variable `degrees_fahrenheit` in order to represent the value 98.6 in the calculation of `degrees_celsius`.
 
-Check out the exercise to get some practice with arithmetic operators and variables!
-
-<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/1331661/1f2eb1b9a37097e934724d359615d160"></iframe>
-
+<a class="anchor-offset" id="variable-casting" href="#variable-casting"></a>
 ### Variable Casting
 
 In the last set of exercises, we saw that the different classes sometimes interact in unexpected ways. Programmers avoid this through what is called **casting**.
@@ -408,6 +407,7 @@ This casting function is not used as much; nonetheless, it is important to know 
 
 Notice that only `0`, `0.0`, and `""` count as `False` values. Be careful with this; even `"False"` counts as `True` with this casting function!
 
+<a class="anchor-offset" id="order-of-operations" href="#order-of-operations"></a>
 ### Order of Operations
 
 Remember in math, when you learned that you multiplied numbers before adding them together? This is known as the _ordem de operações_, or _order of operations_. As it turns out, Python has an order of operations too! Do not worry about memorizing the order, you can always reference this section when you need to. Here is the complete list, in order of decreasing priority, of the priority of the operators we have learned about.
