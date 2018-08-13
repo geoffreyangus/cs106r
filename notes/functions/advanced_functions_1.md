@@ -44,7 +44,7 @@ Do you remember the functions `has_fruit`, `is_front_blocked`, and `front_is_blo
 
 </div>
 
-Some functions are capable of giving us values that we need. These functions sometimes take parameters, sometimes they don't. Examples of each type include the `random_bool` function, and the `read_int`, `read_float`, and `read_string` functions.
+Some functions are capable of giving us values that we need. These functions sometimes take parameters, sometimes they don't. Examples of each type include the `random_bool` function, and the `input_int`, `input_float`, and `input_string` functions.
 
 The `random_bool` function works just like the `random_int` function. It will _return_ to the programmer `True` or `False` randomly. However, it does not take any parameters. It doesn't have to, because there are only two values to choose from! The returned value takes the place of the function call when the program is executed. Let's take a look at an example:
 
@@ -87,28 +87,28 @@ for i in range(10):
 ```
 </div>
 
-Finally, to put all these ideas together, we have the `read_string`, `read_int`, and `read_float` functions. These functions both take parameters _and_ return values. All of the functions do basically the same thing -- they take one `message` parameter (a `string`), which acts as a prompt to the user. When the program is run, the value given by the user is returned. The value class depends on the function used. Here is an example of each one, starting with `read_string`:
+Finally, to put all these ideas together, we have the `input_string`, `input_int`, and `input_float` functions. These functions both take parameters _and_ return values. All of the functions do basically the same thing -- they take one `message` parameter (a `string`), which acts as a prompt to the user. When the program is run, the value given by the user is returned. The value class depends on the function used. Here is an example of each one, starting with `input_string`:
 
 ```python
-response = read_string("Do you like Beyoncé?")
+response = input_string("Do you like Beyoncé?")
 if response == "Yes":
     print("Great, me too!")
 else:
     print("You should listen to her album, titled `"4`".")
 ```
 
-Here is an example with `read_int`:
+Here is an example with `input_int`:
 
 ```python
-num_exponent = read_int("Enter the value you want to multiply with itself:")
+num_exponent = input_int("Enter the value you want to multiply with itself:")
 print("Here is your result:")
 print(num_exponent * num_exponent)
 ```
 
-Finally, here is an example with `read_float`:
+Finally, here is an example with `input_float`:
 
 ```python
-temp_celsius = read_float("Enter the temperature you want to convert to Fahrenheit:")
+temp_celsius = input_float("Enter the temperature you want to convert to Fahrenheit:")
 temp_fahrenheit = temp_celsius * 1.8 + 32
 print("Here is your result:")
 print(temp_fahrenheit)
