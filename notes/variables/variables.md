@@ -1,22 +1,29 @@
 ---
-title: Variables
+title: Objects and Variables
 ---
 
 So far, you have designed programs capable of making decisions on their own based on observations of the world around them. But what about a program capable of remembering?
 
-This week, we are going to be learning about another foundational concept in Computer Science. We are going to learn about how computers store memory: **variables**.
+This week, we are going to be learning about another foundational concept in Computer Science. We are going to learn about how computers store memory: **Objects**.
 
-<a class="anchor-offset" id="what-is-a-variable" href="#what-is-a-variable"></a>
-### What Is a Variable?
+<a class="anchor-offset" id="introduction-to-objects-and-variables" href="#introduction-to-objects-and-variables"></a>
+### An Introduction to Objects and Variables
 
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**Variable** - In Python, a name for a value. The value associated with the name can be updated at any time.
-
+**Object** - In Python, a piece of information.
 </div>
 
-Variables can be associated with information about populations...
+You can think of objects as parts of computer memory dedicated to holding information for a program. Sometimes we can use objects independent of names; however, the majority of the time we will assign objects labels. These labels are called **Variables**.
+
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Variable** - A label for an object. The object associated with a variable can be changed by the programmer at any time.
+</div>
+
+Variables can be associated with objects holding information about populations...
 
 ```python
 number_of_curitibanos = 1765000
@@ -39,7 +46,7 @@ count = 0
 count = count + 1 # Here, count will update to equal 1.
 ```
 
-Variables are related, but different than the ones you may have seen in _Opreções_. Here, you (or the computer) will be **assigning** variables their values. This allows the computer to as information for use later on.
+Variables are related, but different than the ones you may have seen in _Opreções_. Here, you (or the computer) will be **assigning** variables their objects. This allows the computer to as information for use later on.
 
 <div class="definition-section" markdown="1">
 
@@ -48,7 +55,7 @@ Variables are related, but different than the ones you may have seen in _Opreç�
 
 </div>
 
-Creating variables and assigning them values are easy. We simply use what is called an **assignment operator** to put together a variable name and its value, like so:
+Creating variables and assigning them objects are easy. We simply use what is called an **assignment operator** to put together a variable name and its object, like so:
 
 ```python
 name = 'Geoffrey'
@@ -63,13 +70,13 @@ iphone_memory_free = 60.5
 iphone_memory_total = iphone_memory_used + iphone_memory_free
 ```
 
-Here, we _assigned_ `iphone_memory_used` to 67.5, `iphone_memory_free` to 60.5, and `iphone_memory_total` to the sum of these two variables.
+Here, we _assigned_ `iphone_memory_used` to 67.5, `iphone_memory_free` to 60.5, and `iphone_memory_total` to the sum of these two objects.
 
-Variables can be almost anything. In a rocket, it can be the altitude, the temperature, or its angle relative to Earth. In your phone, it could be your apps, your photos, or your contact list. Anytime a computer stores _any_ information, it is using variables.
+Remember, objects can be almost anything. In a rocket, it can be the altitude, the temperature, or its angle relative to Earth. In your phone, it could be your apps, your photos, or your contact list. Anytime a computer stores _any_ information, it is using objects.
 
 ### The Basics
 
-There are four basic **classes** of variables: `integer` (or `int`), `float`, `string`, and `boolean`.
+There are four basic **classes** of objects: `integer` (or `int`), `float`, `string`, and `bool`.
 
 <div class="definition-section" markdown="1">
 
@@ -78,7 +85,7 @@ There are four basic **classes** of variables: `integer` (or `int`), `float`, `s
 
 </div>
 
-Each of these classes define the behavior of variables when interacting with the rest of the program. Let's go through each one of these variable classes and learn some more about what we can do.
+Each of these classes define the behavior of objects when interacting with the rest of the program. Let's go through each one of these variable classes and learn some more about what we can do.
 
 <a class="anchor-offset" id="integers" href="#integers"></a>
 ### Integers
@@ -131,8 +138,8 @@ jersey_number = '9'
 
 Here, `cs106r_sentence`, `email_domain`, and `jersey_number` are all examples of strings. Notice that we can store a number as a string.
 
-<a class="anchor-offset" id="booleans" href="#booleans"></a>
-### Booleans
+<a class="anchor-offset" id="bools" href="#bools"></a>
+### Bools
 
 <div class="definition-section" markdown="1">
 
@@ -141,17 +148,17 @@ Here, `cs106r_sentence`, `email_domain`, and `jersey_number` are all examples of
 
 </div>
 
-You have seen booleans before. Remember `has_fruit()` and `front_is_blocked()`? Those were both functions that were either `True` or `False` - booleans!
+You have seen bools before. Remember `has_fruit()` and `front_is_blocked()`? Those were both functions that were either `True` or `False` - bools!
 
-Here is an example of a boolean variable in action:
+Here is an example of a bool variable in action:
 
 ```python
 is_girl = True
 ```
 
-Booleans are what make `if` statements and `while` loops work in the way that they do. 
+Bools are what make `if` statements and `while` loops work in the way that they do. 
 
-Variables allow us to store boolean values, so something that looks like this...
+Variables allow us to store bool values, so something that looks like this...
 
 ```python
 if front_is_blocked() and has_fruit():
@@ -170,7 +177,7 @@ if corner_fruit:
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-A word of warning, however; be careful using boolean variables when working with `if` statements and `while` loops. Let's take a look at a potential danger in the following example.
+A word of warning, however; be careful using bool variables when working with `if` statements and `while` loops. Let's take a look at a potential danger in the following example.
 
 Let's imagine that we want to store the result of `not front_is_blocked` in a variable and we write the following:
 
@@ -188,12 +195,12 @@ The value of `front_is_blocked` is stored once at the _beginning_ of the program
 
 <div class="aside" markdown="1">
 
-Now that you have learned about both booleans and strings, you may be wondering to yourself:
+Now that you have learned about both bools and strings, you may be wondering to yourself:
 
 > Why not just use strings that say "True" or "False" instead?
 
-Booleans are little guys that can only express two possibilities. Strings can store almost anything. Therefore, booleans take up much less space in the computer. Instead of storing a string of characters, the computer actually stores a 0 for a False value, and a 1 for a True value.
+Bools are little guys that can only express two possibilities. Strings can store almost anything. Therefore, bools take up much less space in the computer. Instead of storing a string of characters, the computer actually stores a 0 for a False value, and a 1 for a True value.
 
 </div>
 
-With booleans and the other variable classes in mind, you can begin to write programs capable of making decisions based on both present and past information. In the next section, we will go over how variables interact with each other.
+With bools and the other variable classes in mind, you can begin to write programs capable of making decisions based on both present and past information. In the next section, we will go over how variables interact with each other.
