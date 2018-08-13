@@ -265,7 +265,7 @@ Above, we are using arithmetic operators in order to do the temperature conversi
 <a class="anchor-offset" id="variable-casting" href="#variable-casting"></a>
 ### Variable Casting
 
-In the last set of exercises, we saw that the different classes sometimes interact in unexpected ways. Programmers avoid this through what is called **casting**.
+Different classes sometimes interact in unexpected ways. Programmers avoid this through what is called **casting**.
 
 <div class="definition-section" markdown="1">
 
