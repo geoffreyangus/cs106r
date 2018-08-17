@@ -14,7 +14,7 @@ We sometimes pass (or give) **parameters**, to functions.
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**Parameter** - A variable given to a function for it to use when executing the code inside of it.
+**Parameter** - An object given to a function for it to use when executing the code inside of it.
 
 </div>
 
@@ -34,20 +34,32 @@ Parameter passing allow us to write functions that adapt to our needs. Above, we
 ### Returning Values
 
 
-Do you remember the functions `has_fruit`, `is_front_blocked`, and `front_is_blocked`? We taught in class that these functions could ask PyBot questions. We said that these functions could give us `True` or `False` responses to questions. In actuality, these functions **returned** values in order to communicate results.
+Do you remember the functions `has_fruit`, `is_front_blocked`, and `front_is_blocked`? We taught in class that these functions could ask PyBot questions. We said that these functions could give us `True` or `False` responses to questions. In actuality, these functions **returned** objects in order to communicate results.
 
 
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**Return** - To give the programmer back a result. The result can be any variable class (Integers, Floats, Strings, Booleans, etc.). We can store these results in variables.
+**Return** - To create an object and give it back to the user. The object can be any variable class (Integers, Floats, Strings, Booleans, etc.). We can store this object in a variable.
 
 </div>
 
-Some functions are capable of giving us values that we need. These functions sometimes take parameters, sometimes they don't. Examples of each type include the `random_bool` function, and the `input_int`, `input_float`, and `input_string` functions.
+Some functions are capable of _creating_ the objects that we need. These functions sometimes take parameters, sometimes they don't. Examples of each type include the `capitalize_string` function, `random_bool` function, and the `input_int`, `input_float`, and `input_string` functions.
 
-The `random_bool` function works just like the `random_int` function. It will _return_ to the programmer `True` or `False` randomly. However, it does not take any parameters. It doesn't have to, because there are only two values to choose from! The returned value takes the place of the function call when the program is executed. Let's take a look at an example:
+The `capitalize_string` function is a function that requires a single `string` object (parameter). If we call this function, it will _create_ a new `string` object that is based on the parameter we gave the function. Here is an example of `capitalize_string` in action:
 
+```python
+message = "cs106r"
+capitalized_message = capitalize_string(message)
+print(message)             # prints "cs106r"
+print(capitalized_message) # prints "CS106R"
+```
+
+The object created by `capitalize_string` is completely separate from the `message`  variable. Because it is a new object, we have _label_ the object with a variable. That is why we have the variable `capitalized_message`. 
+
+In summary,`capitalize_string` executes code that creates a new object. We catch and label this new object with the variable `capitalized_message`. We can then print out both `message` and `capitalized_message`, because they are two _separate_ objects.
+
+The `random_bool` function works just like the `random_int` function. It will _return_ to the programmer `True` or `False` randomly. However, it does not take any parameters. It doesn't have to, because there are only two values to choose from, `True` and `False`! The returned value takes the place of the function call when the program is executed. Let's take a look at an example:
 
 <div class="example-section" markdown="1">
 
