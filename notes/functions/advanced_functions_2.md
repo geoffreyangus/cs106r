@@ -100,7 +100,7 @@ Let's break down the syntax required to write these new functions.
 
 This is the complete syntax involved with defining new functions:
 
-<img id="advanced_function_breakdown" class="code_block" src="figures/syntax_breakdown.png">
+<img id="advanced_function_breakdown" class="code_block" src="figures/syntax_breakdown_2.png">
 
 1. The same thing you had before. The `def` keyword followed by the function name.
 2. The parameters (objects) your function needs! You can put as many parameters as you want between the parentheses.
