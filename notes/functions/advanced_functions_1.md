@@ -2,7 +2,9 @@
 title: Advanced Functions Part 1
 ---
 
-In the last two weeks, we have used and created many functions. Here we are going to cover new types of functions. These functions are capable of taking in information, and give back information. We will be introducing some new functions -- functions that will allow us to work with variables and operators in interesting ways.
+In the last two weeks, we have used and created many functions.
+
+Here we are going to cover new types of functions. These functions are capable of taking in information, and give back information. We will be introducing some new functions -- functions that will allow us to work with variables and operators in interesting ways.
 
 <a class="anchor-offset" id="passing-parameters" href="#passing-parameters"></a>
 ### Passing Parameters

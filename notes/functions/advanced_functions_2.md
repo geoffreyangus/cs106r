@@ -49,8 +49,8 @@ import input_float, square_root
 def main():
     a = input_float("Enter a value for side a:")
     b = input_float("Enter a value for side b:")
-    temp = a * a + b * b
-    c = square_root(temp)
+    c_squared = a * a + b * b
+    c = square_root(c_squared)
     print(c)
 ```
 
@@ -86,9 +86,9 @@ def solve_pythagorean_theorem(a, b):
     return c
 
 def main():
-    a = input_float("Enter a value for side a:")
-    b = input_float("Enter a value for side b:")
-    c = solve_pythagorean_theorem(a, b)
+    side_a = input_float("Enter a value for side a:")
+    side_b = input_float("Enter a value for side b:")
+    c = solve_pythagorean_theorem(side_a, side_b)
     print(c)
 ```
 
