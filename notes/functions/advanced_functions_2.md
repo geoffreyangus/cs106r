@@ -4,6 +4,7 @@ title: Advanced Functions Part 2
 
 Welcome to Part 2 of Advanced Functions! The last section of notes described how objects relate to functions. As quick review:
 
+<a class="anchor-offset" id="review" href="#review"></a>
 ### Review: Parameter Passing
 
 Some functions require more information in order to do what they are supposed to do. We can _pass_ this information into functions using objects. 
@@ -39,6 +40,7 @@ The function called `capitalize_string` looked at this `string` object, then exe
 
 Using objects to communicate back and forth between functions is incredibly powerful. This week you will learn how to define functions that can do this. By the end of this week, you will be writing functions capable of interacting with objects.
 
+<a class="anchor-offset" id="defining-functions" href="#defining-functions"></a>
 ### Defining Functions
 
 Here, we will be revisiting an old exercise: Theorem of Pythagoras. One way to write this program is by writing a program that looks like this:
@@ -96,6 +98,7 @@ Notice what we have done here. We have _defined_ a function capable of receiving
 
 Let's break down the syntax required to write these new functions.
 
+<a class="anchor-offset" id="syntax" href="#syntax"></a>
 ### Syntax: Defining Functions
 
 This is the complete syntax involved with defining new functions:
@@ -129,6 +132,7 @@ When we called `create_email` function the first time, the `username` variable w
 
 Finally, we want to make sure that we are receiving the objects _returned_ by the functions we have defined. Like before, we can receive these objects by creating variables and setting them equal to the function itself. Remember that these are new objects, created from within the function body of the function you have defined.
 
+<a class="anchor-offset" id="examples" href="#examples"></a>
 ### More Examples
 
 Of course, as we have said in lecture, this is the kind of stuff that is best learned through the analysis of many, many examples. Below we have included more examples of little programs that use functions! Feel free to copy and paste them into Repl.it to try them out for yourself!
