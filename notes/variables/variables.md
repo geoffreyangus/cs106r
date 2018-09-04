@@ -1,22 +1,40 @@
 ---
 title: Objects and Variables
 ---
-
-So far, you have designed programs capable of making decisions on their own based on observations of the world around them. But what about a program capable of remembering?
-
-This week, we are going to be learning about another foundational concept in Computer Science. We are going to learn about how computers store memory: **Objects**.
-
 <a class="anchor-offset" id="introduction-to-objects-and-variables" href="#introduction-to-objects-and-variables"></a>
-### An Introduction to Objects and Variables
+# Objects
+We've been instructing PyBot to move around using `move()`, to collect oranges with `pick_fruit()` and change directions with `turn_right()`. These instructions (`move()`, `pick_fruit()` and `turn_right()`) are called **functions**, and we've even combined them together to create new **functions** like `safe_pick()`and `turn_left()`. Functions are like the **verbs** of computer programming – each function tells the computer to take an action. If functions are the verbs of programs, **objects** are the **nouns**.
+
+
+Computer programs give us access to all sorts information stored inside the computer. Each piece of information is an **object**. A message on WhatsApp is an object, it is a piece of information stored in the computer. Every song on Spotify is an object, as are all the photos on Instagram.  In a word, objects are the "things" of computer programming. 
+<div class="definition-section" markdown="1">
+
+<span class="definition-title">Definition</span>
+**Object** - A piece of information stored in the memory of the computer.
+</div>
+
+You've actually already used objects in your code! Consider the first Python program that we wrote:
+```python
+print("Hello, World!")
+```
+Here, the simple message `"Hello, World!"` is an object. 
+
+
+## Object Classes
+In the physical world, every object has a type. I'm sitting on an object of type "chair" and writing these notes on an object of type "computer". Similarly, every object inside the computer has a type – for example, song, image, and number are all types of objects in the computy. An object's **class** is it's type. 
 
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>
-**Object** - In Python, a piece of information.
+**Class** - A type of object
 </div>
 
-You can think of objects as parts of computer memory dedicated to holding information for a program. Sometimes we can use objects independent of names; however, the majority of the time we will assign objects labels. These labels are called **Variables**.
+### Four Basic Classes
+In the physical world, there are 118 elemental classes, the elements of the periodic table! From these elements are built all other objects. There is a similar thing going on in computer programming except, thankfully, there are only four basic object classes: `string`, `int`, `float`, `bool`.
 
+<img class="fig_not" src="figures/basic_objects.png" width="75%">
+
+# Variables
 <div class="definition-section" markdown="1">
 
 <span class="definition-title">Definition</span>

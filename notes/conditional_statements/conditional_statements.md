@@ -3,7 +3,7 @@ title: Conditional Statements
 ---
 We've learned how to instruct PyBot to take actions using functions like `move()`, `turn_right()`, and `pick_fruit()`. We've also learned how to combine these functions together to create our own functions – for example, we combined three `turn_right()` calls into one function called `turn_left()`. 
 
-But up until now, we've only been giving PyBot a list of actions to take. Everytime we run a particular program, PyBot does the exact same thing. Things get interesting when PyBot can start making decisions on her own!
+But up until now, we've only been giving PyBot a list of actions to take. Everytime we run our programs, PyBot does the exact same thing! Things get interesting when PyBot can start making decisions on her own!
 
 --- 
 
@@ -228,7 +228,7 @@ if condition_function_1() and condition_function_2():
 <div class="example-section" markdown="1">
 
 <span class="example-title">Example</span>
-The northern side of PyBot's field is colder, so she doesn't like to spend much time up there. Let's program PyBot to move down from Imagine that PyBot Let's program PyBot with the following conditional instruction: if PyBot is on the top row and she's facing north, turnaround and move down one row. 
+The northern side of PyBot's field is colder, so she doesn't like to spend much time up there. Let's program PyBot to move down from the top row. Let's program PyBot with the following conditional instruction: if PyBot is on the top row and she's facing north, turnaround and move down one row. 
 
 ``` python
 if front_is_blocked() and is_facing_north():
@@ -245,7 +245,7 @@ Let's consider the grocery store example one last time: You are going to the gro
 Here your friend used a compound conditional instruction with the word **or**. Like `and` above, Python has the keyword `or` for programming compound conditional instructions. 
 
 ``` python 
-    condition_function_1() and condition_function_2()
+    condition_function_1() or condition_function_2()
 ```
 
 The compound condition is `True`, when either of the conditions are `True`.
@@ -257,3 +257,4 @@ if condition_function_1() or condition_function_2():
     action_function()
     action_function()
     ...
+```
