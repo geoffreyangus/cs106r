@@ -129,11 +129,11 @@ class ClassData:
 
 
 def main():
-    completion_filename = './student_data/week6.csv'
+    completion_filename = './student_data/week6_2.csv'
     contact_filename = './student_data/contact.csv'
     data = ClassData(completion_filename, contact_filename)
-    data.output_student_data('./student_data/week6_students.csv')
-    data.output_class_data('./student_data/week6_classes.csv')
+    data.output_student_data('./student_data/week6_2students.csv')
+    data.output_class_data('./student_data/week6_2classes.csv')
 
 if __name__ == "__main__":
     main()
