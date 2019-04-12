@@ -1,5 +1,7 @@
-<!-- ## Introduction 
-CS 106R is a pioneer, 7-week course meant to introduce high-school students to the world of Computer Science. The course is based on Stanford's wildly popular introductory Computer Science course, CS 106A. Students will be introduced to the core principles of software engineering through hands-on exercises and projects in the Python programming language. We'll also cover fundamental ideas in Computer Science theory and study exciting applications of Computer Science in fields from medicine to music.
+## Introduction 
+Computação no Ensino Medio is a pioneer, 7-week course meant to introduce high-school students to the world of Computer Science. The course is based on Stanford's wildly popular introductory Computer Science course, CS 106A. Students will be introduced to the core principles of software engineering through hands-on exercises and projects in the Python programming language. We'll also cover fundamental ideas in Computer Science theory and study exciting applications of Computer Science in fields from medicine to music.
+
+Check out the course website here! [CS106R](http://cs106r.com/)
 
 ---
 
@@ -27,4 +29,3 @@ Nope! The curriculum is inspired by CS 106A, the Stanford undergraduate course b
 
 ### How long is the course?
 The course will be 7 weeks, from Monday July 30th to Friday, September 30th. The class will be taught one day a week during the student work period, from 1:00pm to 4:00pm. The day that you are assigned will be based on student preference and availability. 
- -->
