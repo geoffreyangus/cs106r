@@ -1,7 +1,7 @@
 ## Introduction 
 Computação no Ensino Medio is a pioneer, 7-week course meant to introduce high-school students to the world of Computer Science. The course is based on Stanford's wildly popular introductory Computer Science course, CS 106A. Students will be introduced to the core principles of software engineering through hands-on exercises and projects in the Python programming language. We'll also cover fundamental ideas in Computer Science theory and study exciting applications of Computer Science in fields from medicine to music.
 
-Check out the course website here! [CS106R](http://cs106r.com/)
+Check out the course website here! [cs106r](http://cs106r.com/)
 
 ---
 

@@ -53,7 +53,7 @@ totalScore = 100.0
 Strings are _strings_ of characters of any kind. Look at the following examples:
 
 ```python
-sentence1 = 'CS106R is awesome!'
+sentence1 = 'cs106r is awesome!'
 emailDomain = '@gmail.com'
 jerseyNumber = '9'
 ```

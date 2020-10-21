@@ -149,7 +149,7 @@ degrees_fahrenheit = 98.6
  Use strings whenever you want to store text information in a variable. Because of this, strings are almost never used in math; however, there are many other tasks for which strings are useful.
 
 ```python
-cs106r_sentence = 'CS106R is awesome!'
+cs106r_sentence = 'cs106r is awesome!'
 email_domain = '@gmail.com'
 jersey_number = '9'
 ```

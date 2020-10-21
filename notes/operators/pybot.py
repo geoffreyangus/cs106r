@@ -1,4 +1,4 @@
-# PyBot implementation for CS106R
+# PyBot implementation for cs106r
 # By: Sabri Eyuboglu and Geoffrey Angus 
 
 from termcolor import colored

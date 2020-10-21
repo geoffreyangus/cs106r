@@ -2,15 +2,15 @@
 title: Syllabus
 ---
 
-Hello! Welcome to the syllabus page. If you have any questions about class logistics, please check out the [GitHub Wiki](https://github.com/geoffreyangus/CS106R/wiki). For example, for instructions on how to submit an assignment, check out [this section](https://github.com/geoffreyangus/CS106R/wiki/Assignment-Submission) of the wiki.
+Hello! Welcome to the syllabus page. If you have any questions about class logistics, please check out the [GitHub Wiki](https://github.com/geoffreyangus/cs106r/wiki). For example, for instructions on how to submit an assignment, check out [this section](https://github.com/geoffreyangus/cs106r/wiki/Assignment-Submission) of the wiki.
 
-If you have any questions regarding the assignments themselves, open up a [GitHub Issue](https://github.com/geoffreyangus/CS106R/issues). Instructions on how to open up an Issue can be found in [this section](https://github.com/geoffreyangus/CS106R/wiki/Asking-a-Question) of the wiki.
+If you have any questions regarding the assignments themselves, open up a [GitHub Issue](https://github.com/geoffreyangus/cs106r/issues). Instructions on how to open up an Issue can be found in [this section](https://github.com/geoffreyangus/cs106r/wiki/Asking-a-Question) of the wiki.
 
 ---
 
 | Week | Date    | Topics   | Assignment | Helpful Links  |
 | ---- | ------- | -------  | ---------- | ------- |
-| 1    | July 30 - August 3 |  - [Introduction to Python](https://github.com/geoffreyangus/CS106R/blob/master/notes.md#introduction-to-python) <br> - [Variables and Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/notes/week1.md)| - [Python Setup](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment0) <br> - [Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment1) |
+| 1    | July 30 - August 3 |  - [Introduction to Python](https://github.com/geoffreyangus/cs106r/blob/master/notes.md#introduction-to-python) <br> - [Variables and Operators](https://github.com/geoffreyangus/cs106r/tree/master/docs/notes/week1.md)| - [Python Setup](https://github.com/geoffreyangus/cs106r/tree/master/docs/assignments/assignment0) <br> - [Operators](https://github.com/geoffreyangus/cs106r/tree/master/docs/assignments/assignment1) |
 | 2    | August 6 - August 10 |- [If/Else]() <br> - [Loops]() | – | – |
 | 3    | August 13 - August 17|  –    |   –  |   –  |
 | 4    | August 20 - August 24|  –    |   –  |   –  |
@@ -21,12 +21,12 @@ If you have any questions regarding the assignments themselves, open up a [GitHu
 
 
 ### Week 1:
-- [Introduction to Python](https://github.com/geoffreyangus/CS106R/blob/master/notes.md#introduction-to-python)
-- [Variables and operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/notes/week1.md)
+- [Introduction to Python](https://github.com/geoffreyangus/cs106r/blob/master/notes.md#introduction-to-python)
+- [Variables and operators](https://github.com/geoffreyangus/cs106r/tree/master/docs/notes/week1.md)
 
 HW:
-- [Python Setup](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment0)
-- [Operators](https://github.com/geoffreyangus/CS106R/tree/master/docs/assignments/assignment1)
+- [Python Setup](https://github.com/geoffreyangus/cs106r/tree/master/docs/assignments/assignment0)
+- [Operators](https://github.com/geoffreyangus/cs106r/tree/master/docs/assignments/assignment1)
 
 ### Week 2:
 - Program flow

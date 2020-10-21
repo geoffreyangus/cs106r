@@ -54,7 +54,7 @@ The `capitalize_string` function is a function that requires a single `string` o
 message = "cs106r"
 capitalized_message = capitalize_string(message)
 print(message)             # prints "cs106r"
-print(capitalized_message) # prints "CS106R"
+print(capitalized_message) # prints "cs106r"
 ```
 
 The object created by `capitalize_string` is completely separate from the `message`  variable. Because it is a new object, we have _label_ the object with a variable. That is why we have the variable `capitalized_message`. 
